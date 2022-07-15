@@ -36,7 +36,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=$EMSCRIPTEN/cmake/Modules/Platform/Emscripten.cmake
   -G Ninja ..
 ninja
 popd
-pushd ~/github.com/josd/eye/eyejs
+pushd ~/github.com/josd/eyebrow
 mkdir -p swipl-wasm
 mkdir -p swipl-wasm/home
 rsync -azv ~/github.com/SWI-Prolog/swipl-devel/build.wasm/swipl.home ./swipl-wasm
