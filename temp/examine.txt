@@ -1,0 +1,134 @@
+#!/bin/bash -v
+curl -sNL http://eulersharp.sourceforge.net/2009/12dtb/test-dl-1000000.n3 > dl.n3
+eye --nope --turtle dl.n3 --pcode dl.n3p
+eye --nope --turtle dl.n3 --pcode dl.n3p
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 34 [msec cputime] 32 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope --turtle dl.n3 --pcode dl.n3p
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3 SC=3000002
+networking 16452 [msec cputime] 23134 [msec walltime]
+/usr/bin/time -f "sec=%e0 kB=%M cpu=%P" eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 45 [msec cputime] 43 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3p SC=3000002
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/subclass-rules.n3 SC=1
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
+networking 19245 [msec cputime] 19249 [msec walltime]
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+:ind a :A2.
+
+reasoning 484 [msec cputime] 489 [msec walltime]
+#2022-07-18T21:13:49.554Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020531 sec=19.774 inf/sec=6170756
+#ENDS
+
+2022-07-18T21:13:49.554Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020531 sec=19.774 inf/sec=6170756
+
+sec=19.800 kB=1192284 cpu=99%
+/usr/bin/time -f "sec=%e0 kB=%M cpu=%P" eyebrow --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 908 [msec cputime] 908 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3p SC=3000002
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/subclass-rules.n3 SC=1
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
+networking 53240 [msec cputime] 53240 [msec walltime]
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+:ind a :A2.
+
+reasoning 1046 [msec cputime] 1050 [msec walltime]
+#2022-07-18T21:14:44.875Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122930009 sec=55.194 inf/sec=2227235
+#ENDS
+
+2022-07-18T21:14:44.875Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122930009 sec=55.194 inf/sec=2227235
+
+sec=55.310 kB=844352 cpu=104%
+
+eye --nope --turtle dl.n3 --query parteval-subclass.n3 > dt.n3
+eye --nope --turtle dl.n3 --query parteval-subclass.n3
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 34 [msec cputime] 33 [msec walltime]
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3 SC=3000002
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/parteval-subclass.n3 SC=1
+networking 7821 [msec cputime] 14959 [msec walltime]
+reasoning 40729 [msec cputime] 138489 [msec walltime]
+2022-07-18T21:17:18.376Z in=3000003 out=3000001 ent=0 step=0 brake=1 inf=975017772 sec=48.584 inf/sec=20068701
+
+swipl --stack-limit=8G -g main /opt/eye/src/eye.pl -- --nope dt.n3 --pcode dt.n3p
+eye --nope dt.n3 --pcode dt.n3p
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 285 [msec cputime] 307 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope dt.n3 --pcode dt.n3p
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3 SC=3000001
+networking 167844 [msec cputime] 556911 [msec walltime]
+/usr/bin/time -f "sec=%e0 kB=%M cpu=%P" eye --nope facts.n3 --n3p dt.n3p --query query.n3
+eye --nope facts.n3 --n3p dt.n3p --query query.n3
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 55 [msec cputime] 90 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope facts.n3 --n3p dt.n3p --query query.n3
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=2
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3p SC=3000001
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
+networking 33815 [msec cputime] 33835 [msec walltime]
+@prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+:TestVariable a :A2.
+
+reasoning 1231 [msec cputime] 1238 [msec walltime]
+#2022-07-18T21:27:11.353Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133020899 sec=35.101 inf/sec=3789661
+#ENDS
+
+2022-07-18T21:27:11.353Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133020899 sec=35.101 inf/sec=3789661
+
+sec=35.240 kB=1374788 cpu=99%
+/usr/bin/time -f "sec=%e0 kB=%M cpu=%P" eyebrow --nope facts.n3 --n3p dt.n3p --query query.n3
+eye --nope facts.n3 --n3p dt.n3p --query query.n3
+EYE v22.0718.0935 josd
+SWI-Prolog version 8.5.14-11-gb91bcb590
+starting 862 [msec cputime] 862 [msec walltime]
+#Processed by EYE v22.0718.0935 josd
+#eye --nope facts.n3 --n3p dt.n3p --query query.n3
+
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=2
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3p SC=3000001
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
+networking 75344 [msec cputime] 75343 [msec walltime]
+@prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+:TestVariable a :A2.
+
+reasoning 1224 [msec cputime] 1223 [msec walltime]
+#2022-07-18T21:28:29.131Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133930855 sec=77.430 inf/sec=1729702
+#ENDS
+
+2022-07-18T21:28:29.131Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133930855 sec=77.430 inf/sec=1729702
+
+sec=77.760 kB=981796 cpu=103%
