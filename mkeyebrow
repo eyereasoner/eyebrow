@@ -1,0 +1,10 @@
+#!/bin/bash
+((!$#)) && echo Missing release message! && exit 1
+pushd ~/github.com/josd/eyebrow
+cp -a ../eye/eye.pl .
+swipl -q -f eye.pl -g main -- --version 2>&1 | grep josd > VERSION
+./test
+git diff
+git commit -a -m "$1"
+git push
+popd
