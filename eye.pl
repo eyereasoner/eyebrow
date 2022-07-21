@@ -20,7 +20,7 @@
 :- catch(use_module(library(http/http_open)), _, true).
 :- catch(use_module(library(semweb/rdf_turtle)), _, true).
 
-version_info('EYE v22.0720.2135 josd').
+version_info('EYE v22.0721.2121 josd').
 
 license_info('MIT License
 
@@ -57,6 +57,7 @@ eye
     --hmac-key <key>                HMAC key used in e:hmac-sha built-in
     --ignore-inference-fuse         do not halt in case of inference fuse
     --image <pvm-file>              output all <data> and all code to <pvm-file>
+    --intermediate <n3p-file>       output all <data> to <n3p-file>
     --license                       show license info
     --multi-query                   go into query answer loop
     --no-distinct-input             no distinct triples in the input
@@ -66,7 +67,6 @@ eye
     --no-qvars                      no qvars in the output
     --no-ucall                      no extended unifier for forward rules
     --nope                          no proof explanation
-    --pcode <n3p-file>              output all <data> to <n3p-file>
     --profile                       output profile info on stderr
     --quantify <prefix>             quantify uris with <prefix> in the output
     --quiet                         quiet mode
@@ -88,7 +88,7 @@ eye
 <data>
     [--n3] <uri>                    N3 triples and rules
     --blogic <uri>                  RDF surfaces
-    --n3p <uri>                     N3P pcode
+    --n3p <uri>                     N3P intermediate
     --proof <uri>                   N3 proof lemmas
     --turtle <uri>                  Turtle triples
 <query>
@@ -133,6 +133,7 @@ eye
 :- dynamic(keep_skolem/1).
 :- dynamic(lemma/6).                % lemma(Count, Source, Premise, Conclusion, Premise-Conclusion_index, Rule)
 :- dynamic(mtime/2).
+:- dynamic(n3s/2).
 :- dynamic(ncllit/0).
 :- dynamic(ns/2).
 :- dynamic(pass_only_new/1).
@@ -345,7 +346,7 @@ gre(Argus) :-
         assertz(pfx('var:', '<http://josd.github.io/var#>'))
     ;   true
     ),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  format(Out, 'flag(\'quantify\', \'~w\').~n', [Sns])
     ;   true
     ),
@@ -387,7 +388,7 @@ gre(Argus) :-
         throw(halt)
     ;   true
     ),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  (   SC =\= 0
         ->  write(Out, scount(SC)),
             writeln(Out, '.')
@@ -719,11 +720,11 @@ opts(['--pass-only-new'|Argus], Args) :-
     retractall(flag('pass-only-new')),
     assertz(flag('pass-only-new')),
     opts(Argus, Args).
-opts(['--pcode',File|Argus], Args) :-
+opts(['--intermediate',File|Argus], Args) :-
     !,
-    retractall(flag('pcode', _)),
+    retractall(flag('intermediate', _)),
     open(File, write, Out, [encoding(utf8)]),
-    assertz(flag('pcode', Out)),
+    assertz(flag('intermediate', Out)),
     opts(Argus, Args).
 opts(['--profile'|Argus], Args) :-
     !,
@@ -868,7 +869,7 @@ args(['--blogic',Arg|Args]) :-
     absolute_uri(Arg, A),
     atomic_list_concat(['<', A, '>'], R),
     assertz(scope(R)),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  portray_clause(Out, scope(R))
     ;   true
     ),
@@ -916,7 +917,7 @@ args(['--n3',Arg|Args]) :-
     absolute_uri(Arg, A),
     atomic_list_concat(['<', A, '>'], R),
     assertz(scope(R)),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  portray_clause(Out, scope(R))
     ;   true
     ),
@@ -997,7 +998,7 @@ args(['--pass'|Args]) :-
     ->  assertz(query(exopred(P, S, O), exopred(P, S, O)))
     ;   assertz(implies(exopred(P, S, O), answer(P, S, O), '<http://eulersharp.sourceforge.net/2003/03swap/pass>'))
     ),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  portray_clause(Out, implies(exopred(P, S, O), answer(P, S, O), '<http://eulersharp.sourceforge.net/2003/03swap/pass>'))
     ;   true
     ),
@@ -1010,7 +1011,7 @@ args(['--pass-all'|Args]) :-
             answer('<http://www.w3.org/2000/10/swap/log#implies>', A, C), '<http://eulersharp.sourceforge.net/2003/03swap/pass-all>')),
     assertz(implies(':-'(C, A),
             answer(':-', C, A), '<http://eulersharp.sourceforge.net/2003/03swap/pass-all>')),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  portray_clause(Out, implies((exopred(P, S, O), '<http://www.w3.org/2000/10/swap/log#notEqualTo>'(P, '<http://www.w3.org/2000/10/swap/log#implies>')),
             answer(P, S, O), '<http://eulersharp.sourceforge.net/2003/03swap/pass-all>')),
         portray_clause(user_error, implies(('<http://www.w3.org/2000/10/swap/log#implies>'(A, C), '<http://www.w3.org/2000/10/swap/log#notEqualTo>'(A, true)),
@@ -1025,7 +1026,7 @@ args(['--proof',Arg|Args]) :-
     absolute_uri(Arg, A),
     atomic_list_concat(['<', A, '>'], R),
     assertz(scope(R)),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  portray_clause(Out, scope(R))
     ;   true
     ),
@@ -1097,7 +1098,7 @@ args(['--turtle',Argument|Args]) :-
             ttl_n3p(O, Object),
             Triple =.. [Predicate, Subject, Object],
             djiti_assertz(Triple),
-            (   flag('pcode', Out)
+            (   flag('intermediate', Out)
             ->  format(Out, '~q.~n', [Triple])
             ;   true
             )
@@ -1119,7 +1120,7 @@ n3pin(Rt, In, File, Mode) :-
         ->  true
         ;   call(Rg)
         ),
-        (   flag('pcode', Out)
+        (   flag('intermediate', Out)
         ->  format(Out, '~q.~n', [Rt])
         ;   true
         )
@@ -1173,7 +1174,7 @@ n3pin(Rt, In, File, Mode) :-
                 ;   Pj = Ph
                 ),
                 functor(Ci, CPi, _),
-                (   flag('pcode', Out)
+                (   flag('intermediate', Out)
                 ->  (   \+cpred(CPi)
                     ->  portray_clause(Out, cpred(CPi))
                     ;   true
@@ -1195,7 +1196,7 @@ n3pin(Rt, In, File, Mode) :-
             ;   (   Rt \= pred('<http://eulersharp.sourceforge.net/2003/03swap/log-rules#relabel>'),
                     \+ (Rt = scope(_), Mode = query)
                 ->  djiti_assertz(Rt),
-                    (   flag('pcode', Out),
+                    (   flag('intermediate', Out),
                         Rt \= scount(_)
                     ->  format(Out, '~q.~n', [Rt])
                     ;   true
@@ -1333,7 +1334,7 @@ n3_n3p(Argument, Mode) :-
     ->  delete_file(Tmp)
     ;   true
     ),
-    (   flag('pcode', Out)
+    (   flag('intermediate', Out)
     ->  forall(
             (   pfx(Pp, Pu),
                 \+wpfx(Pp)
@@ -1381,7 +1382,7 @@ n3_n3p(Argument, Mode) :-
                 ->  true
                 ;   djiti_assertz(Rt),
                     cnt(sc),
-                    (   flag('pcode', Out)
+                    (   flag('intermediate', Out)
                     ->  portray_clause(Out, Rt)
                     ;   true
                     )
@@ -1408,7 +1409,7 @@ n3_n3p(Argument, Mode) :-
                         ),
                         conjify(Px, Pi)
                     ->  (   Ci = true
-                        ->  (   flag('pcode', Out)
+                        ->  (   flag('intermediate', Out)
                             ->  portray_clause(Out, ':-'(Pi))
                             ;   true
                             ),
@@ -1436,7 +1437,7 @@ n3_n3p(Argument, Mode) :-
                             ),
                             cnt(sc),
                             functor(Ci, CPi, _),
-                            (   flag('pcode', Out)
+                            (   flag('intermediate', Out)
                             ->  (   \+cpred(CPi)
                                 ->  portray_clause(Out, cpred(CPi))
                                 ;   true
@@ -1452,7 +1453,7 @@ n3_n3p(Argument, Mode) :-
                         )
                     ;   djiti_assertz(Rt),
                         cnt(sc),
-                        (   flag('pcode', Out)
+                        (   flag('intermediate', Out)
                         ->  portray_clause(Out, Rt)
                         ;   true
                         )
@@ -6005,12 +6006,17 @@ djiti_assertz(A) :-
     '<http://eulersharp.sourceforge.net/2003/03swap/log-rules#becomes>'(A, B).
 
 '<http://www.w3.org/2000/10/swap/log#n3String>'(A, literal(B, type('<http://www.w3.org/2001/XMLSchema#string>'))) :-
-    with_output_to_chars(wh, C1),
-    \+ (C1 = [], \+flag('no-qnames')),
-    with_output_to_chars(wt(A), C2),
-    append(C1, C2, C),
-    escape_string(C, D),
-    atom_codes(B, D).
+    (   n3s(A, literal(B, type('<http://www.w3.org/2001/XMLSchema#string>')))
+    ->  true
+    ;   retractall(wpfx(_)),
+        with_output_to_chars(wh, C1),
+        \+ (C1 = [], \+flag('no-qnames')),
+        with_output_to_chars(wt(A), C2),
+        append(C1, C2, C),
+        escape_string(C, D),
+        atom_codes(B, D),
+        assertz(n3s(A, literal(B, type('<http://www.w3.org/2001/XMLSchema#string>'))))
+    ).
 
 '<http://www.w3.org/2000/10/swap/log#rawType>'(A, B) :-
     nonvar(A),

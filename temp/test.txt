@@ -1,124 +1,124 @@
-eye --nope --turtle dl.n3 --pcode dl.n3p
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 34 [msec cputime] 32 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
-#eye --nope --turtle dl.n3 --pcode dl.n3p
+eye --nope --turtle dl.n3 --intermediate dl.n3p
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 43 [msec cputime] 42 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
+#eye --nope --turtle dl.n3 --intermediate dl.n3p
 
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3 SC=3000002
-networking 17185 [msec cputime] 24038 [msec walltime]
+networking 17167 [msec cputime] 25481 [msec walltime]
 eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 30 [msec cputime] 29 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 41 [msec cputime] 40 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
 #eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
 
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3p SC=3000002
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/subclass-rules.n3 SC=1
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
-networking 19599 [msec cputime] 19598 [msec walltime]
+networking 20038 [msec cputime] 20038 [msec walltime]
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 :ind a :A2.
 
-reasoning 515 [msec cputime] 520 [msec walltime]
-#2022-07-19T08:53:23.461Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020529 sec=20.144 inf/sec=6057413
+reasoning 522 [msec cputime] 526 [msec walltime]
+#2022-07-21T22:09:40.655Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020532 sec=20.601 inf/sec=5923039
 #ENDS
 
-2022-07-19T08:53:23.461Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020529 sec=20.144 inf/sec=6057413
+2022-07-21T22:09:40.655Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122020532 sec=20.601 inf/sec=5923039
 
-sec=20.170 kB=1192276 cpu=100%
+sec=20.630 kB=1192484 cpu=100%
 eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 1112 [msec cputime] 1115 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 927 [msec cputime] 928 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
 #eye --nope --n3p dl.n3p subclass-rules.n3 --query query.n3
 
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3p SC=3000002
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/subclass-rules.n3 SC=1
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
-networking 55092 [msec cputime] 55092 [msec walltime]
+networking 54721 [msec cputime] 54720 [msec walltime]
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 :ind a :A2.
 
-reasoning 1089 [msec cputime] 1090 [msec walltime]
-#2022-07-19T08:54:20.865Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122930008 sec=57.293 inf/sec=2145637
+reasoning 1078 [msec cputime] 1078 [msec walltime]
+#2022-07-21T22:10:37.493Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122929625 sec=56.726 inf/sec=2167077
 #ENDS
 
-2022-07-19T08:54:20.865Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122930008 sec=57.293 inf/sec=2145637
+2022-07-21T22:10:37.493Z in=3000004 out=1 ent=0 step=0 brake=1 inf=122929625 sec=56.726 inf/sec=2167077
 
-sec=57.390 kB=902280 cpu=105%
+sec=56.820 kB=908064 cpu=105%
 eye --nope --turtle dl.n3 --query parteval-subclass.n3
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 37 [msec cputime] 37 [msec walltime]
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 35 [msec cputime] 33 [msec walltime]
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dl.n3 SC=3000002
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/parteval-subclass.n3 SC=1
-networking 8095 [msec cputime] 15139 [msec walltime]
-reasoning 40257 [msec cputime] 138494 [msec walltime]
-2022-07-19T08:56:54.547Z in=3000003 out=3000001 ent=0 step=0 brake=1 inf=975017771 sec=48.389 inf/sec=20149575
+networking 8253 [msec cputime] 15144 [msec walltime]
+reasoning 45680 [msec cputime] 145435 [msec walltime]
+2022-07-21T22:13:18.141Z in=3000003 out=3000001 ent=0 step=0 brake=1 inf=975017774 sec=53.968 inf/sec=18066591
 
-eye --nope dt.n3 --pcode dt.n3p
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 263 [msec cputime] 271 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
-#eye --nope dt.n3 --pcode dt.n3p
+eye --nope dt.n3 --intermediate dt.n3p
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 286 [msec cputime] 290 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
+#eye --nope dt.n3 --intermediate dt.n3p
 
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3 SC=3000001
-networking 481047 [msec cputime] 895082 [msec walltime]
+networking 304592 [msec cputime] 709614 [msec walltime]
 eye --nope facts.n3 --n3p dt.n3p --query query.n3
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 53 [msec cputime] 76 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 58 [msec cputime] 91 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
 #eye --nope facts.n3 --n3p dt.n3p --query query.n3
 
-GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=2
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=1
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3p SC=3000001
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
-networking 32279 [msec cputime] 32299 [msec walltime]
+networking 25670 [msec cputime] 25674 [msec walltime]
 @prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 :ind a :A2.
 
-reasoning 1324 [msec cputime] 1331 [msec walltime]
-#2022-07-19T09:12:24.894Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133020898 sec=33.656 inf/sec=3952368
+reasoning 1849 [msec cputime] 1850 [msec walltime]
+#2022-07-21T22:25:36.186Z in=3000003 out=1 ent=0 step=0 brake=1 inf=82019794 sec=27.577 inf/sec=2974210
 #ENDS
 
-2022-07-19T09:12:24.894Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133020898 sec=33.656 inf/sec=3952368
+2022-07-21T22:25:36.186Z in=3000003 out=1 ent=0 step=0 brake=1 inf=82019794 sec=27.577 inf/sec=2974210
 
-sec=33.760 kB=1374924 cpu=99%
+sec=27.690 kB=1375172 cpu=99%
 eye --nope facts.n3 --n3p dt.n3p --query query.n3
-EYE v22.0718.0935 josd
-SWI-Prolog version 8.5.14-11-gb91bcb590
-starting 871 [msec cputime] 871 [msec walltime]
-#Processed by EYE v22.0718.0935 josd
+EYE v22.0721.2121 josd
+SWI-Prolog version 8.5.14-17-g851d08ab6
+starting 1055 [msec cputime] 1055 [msec walltime]
+#Processed by EYE v22.0721.2121 josd
 #eye --nope facts.n3 --n3p dt.n3p --query query.n3
 
-GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=2
+GET file:///home/jdroo/github.com/josd/eyebrow/temp/facts.n3 SC=1
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/dt.n3p SC=3000001
 GET file:///home/jdroo/github.com/josd/eyebrow/temp/query.n3 SC=1
-networking 72267 [msec cputime] 72266 [msec walltime]
+networking 50780 [msec cputime] 50779 [msec walltime]
 @prefix : <http://eulersharp.sourceforge.net/2009/12dtb/test#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 :ind a :A2.
 
-reasoning 1246 [msec cputime] 1245 [msec walltime]
-#2022-07-19T09:13:39.640Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133930854 sec=74.384 inf/sec=1800533
+reasoning 1238 [msec cputime] 1238 [msec walltime]
+#2022-07-21T22:26:29.642Z in=3000003 out=1 ent=0 step=0 brake=1 inf=82928887 sec=53.075 inf/sec=1562485
 #ENDS
 
-2022-07-19T09:13:39.640Z in=3000004 out=1 ent=0 step=0 brake=1 inf=133930854 sec=74.384 inf/sec=1800533
+2022-07-21T22:26:29.642Z in=3000003 out=1 ent=0 step=0 brake=1 inf=82928887 sec=53.075 inf/sec=1562485
 
-sec=74.730 kB=1012184 cpu=103%
+sec=53.440 kB=978748 cpu=105%
