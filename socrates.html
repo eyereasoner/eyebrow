@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Eyebrow</title>
+    <meta charset="UTF-8">
+    <title>Eyebrow</title>
 </head>
 <body>
 <style>
 :root {
-  --margin: 10px;
+    --margin: 10px;
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  width: 100%; height: 100%; margin: var(--margin);
-  overflow: hidden;
-}
-
-.header {
-  padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; height: 100%; margin: var(--margin);
+    overflow: hidden;
 }
 
 .content {
-  position: relative;
-  flex-grow: 1;
+    position: relative;
+    flex-grow: 1;
 }
 
 .scroll-wrapper {
-  box-sizing: border-box;
-  position: absolute;
-  height: calc(100% - 2*var(--margin)); width: calc(100% - 2*var(--margin)); border: 1px solid black;
-  overflow: auto; display: flex; flex-direction: column-reverse;
-  padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    height: calc(100% - 2*var(--margin)); width: calc(100% - 2*var(--margin)); border: 1px solid black;
+    overflow: auto; display: flex; flex-direction: column-reverse;
+    padding: 5px;
 }
 .scroll-start-at-top { flex: 1 1 0%; }
 
 #file {
-   box-sizing: border-box;
-   border: 0px;
-   resize: none;
-   width: 100%; height: 100%;
+    box-sizing: border-box;
+    border: 0px;
+    resize: none;
+    width: 100%; height: 100%;
 }
 
 #input {
-  margin-top: var(--margin);
-  box-sizing: border-box;
-  display: flex;
-  width: 100%;
+    margin-top: var(--margin);
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
 }
 
 #query { flex-grow: 1; margin: 0px 10px;}
@@ -62,50 +58,44 @@ body {
 
 </style>
 
-<div class="header">
-<div><a href="https://www.swi-prolog.org" target="_blank">SWI-Prolog</a> using
-<a href="https://webassembly.org/" target="_blank">WASM</a> running in your browser</div>
-<div>Pre-alpha version.  See <a href="https://swi-prolog.discourse.group/t/swi-prolog-in-the-browser-using-wasm" target="_blank">Wiki on Discourse</a> for status and usage</div>
-</div>
 <div class="content">
-  <div class="scroll-wrapper">
-    <span class="scroll-start-at-top"></span>
-    <div class="console">
-      <div id="output"></div>
-      <form class="input" id="input">
-    <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/socrates', '.', 'http://josd.github.io/eye/reasoning/socrates/socrates.n3', '--query', 'http://josd.github.io/eye/reasoning/socrates/socrates-query.n3']).">
-      </form>
+    <div class="scroll-wrapper">
+        <span class="scroll-start-at-top"></span>
+        <div class="console">
+            <div id="output"></div>
+            <form class="input" id="input">
+        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/socrates', '.', 'http://josd.github.io/eye/reasoning/socrates/socrates.n3', '--query', 'http://josd.github.io/eye/reasoning/socrates/socrates-query.n3']).">
+            </form>
+        </div>
     </div>
-  </div>
 
 </div>
 
 <script src="./swipl-web.js"></script>
 
 <script>
-let output  = document.getElementById('output');
-let input   = document.getElementById('input');
-let editor  = document.getElementById('editor');
+let output = document.getElementById('output');
+let input = document.getElementById('input');
+let editor = document.getElementById('editor');
 let stdin = '';
 let stdinPosition = 0;
 
-// We use this to provide data into
-// the SWI stdin.
+// We use this to provide data into the SWI stdin.
 const setStdin = (string) => {
-  stdin = string;
-  stdinPosition = 0;
+    stdin = string;
+    stdinPosition = 0;
 };
 const readStdin = () => {
-  if (stdinPosition >= stdin.length) {
-    console.log(Module.prolog.ttymode());
-    if ( Module.prolog.ttymode() == "raw" )
-      console.log("It raw mode");
-    return null;
-  } else {
-    const code = stdin.charCodeAt(stdinPosition);
-    stdinPosition++;
-    return code;
-  }
+    if (stdinPosition >= stdin.length) {
+        console.log(Module.prolog.ttymode());
+        if ( Module.prolog.ttymode() == "raw" )
+            console.log("It raw mode");
+        return null;
+    } else {
+        const code = stdin.charCodeAt(stdinPosition);
+        stdinPosition++;
+        return code;
+    }
 };
 
 function print_line(line, cls) {
@@ -116,7 +106,7 @@ function print_line(line, cls) {
 };
 
 function pl(s) {
-   Module.prolog.call_string(s);
+    Module.prolog.call_string(s);
 }
 
 function query(query) {
@@ -144,9 +134,9 @@ var Module = {
     locateFile: function(file) {
     return './' + file;
     },
-    print:    (line) => print_line(line, 'stdout'),
+    print: (line) => print_line(line, 'stdout'),
     printErr: (line) => print_line(line, 'stderr'),
-    preRun:   [() => bindStdin(Module)]
+    preRun: [() => bindStdin(Module)]
 };
 
 SWIPL(Module).then((module) => {
