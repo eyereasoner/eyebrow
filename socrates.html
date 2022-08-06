@@ -83,12 +83,6 @@ body {
 <script src="./swipl-web.js"></script>
 
 <script>
-let output  = document.getElementById('output');
-let input   = document.getElementById('input');
-let editor  = document.getElementById('editor');
-let stdin = '';
-let stdinPosition = 0;
-
 fetch('https://josd.github.io/eye/eye.pl')
     .then(response => response.text())
     .then(data => (Module.FS.writeFile('/eye.pl', data)));
@@ -98,6 +92,14 @@ fetch('https://josd.github.io/eye/reasoning/socrates/socrates.n3')
 fetch('https://josd.github.io/eye/reasoning/socrates/socrates-query.n3')
     .then(response => response.text())
     .then(data => (Module.FS.writeFile('socrates-query.n3', data)));
+</script>
+
+<script>
+let output  = document.getElementById('output');
+let input   = document.getElementById('input');
+let editor  = document.getElementById('editor');
+let stdin = '';
+let stdinPosition = 0;
 
 // We use this to provide data into
 // the SWI stdin.
