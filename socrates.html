@@ -185,10 +185,10 @@ input.addEventListener('submit', (e) => {
 editor.addEventListener('submit', (e) => {
   e.preventDefault();
   console.log("writing");
-  Module.FS.writeFile('/file.pl', e.target.elements.file.value);
-  query("consult('./file.pl').");
   Module.FS.writeFile('/eye.pl', eye);
   query("consult('./eye.pl').");
+  Module.FS.writeFile('/file.pl', e.target.elements.file.value);
+  query("consult('./file.pl').");
 }, false);
 
 function bindStdin(module) {
