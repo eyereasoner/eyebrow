@@ -33,41 +33,17 @@ body {
 .scroll-wrapper {
   box-sizing: border-box;
   position: absolute;
-  height: calc(100% - 2*var(--margin)); width: calc(50% - 2*var(--margin)); border: 1px solid black;
+  height: calc(100% - 2*var(--margin)); width: calc(100% - 2*var(--margin)); border: 1px solid black;
   overflow: auto; display: flex; flex-direction: column-reverse;
   padding: 5px;
 }
 .scroll-start-at-top { flex: 1 1 0%; }
-
-.editor-container {
-  position: absolute;
-  left: calc(50% - var(--margin));
-  height: calc(100% - 2*var(--margin)); width: calc(50% - var(--margin));
-}
-
-#editor {
-  position: relative;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.editor-wrapper {
-  border: 1px solid black;
-  padding: 1px;
-  position: relative;
-  flex-grow: 1;
-}
 
 #file {
    box-sizing: border-box;
    border: 0px;
    resize: none;
    width: 100%; height: 100%;
-}
-
-.editor-buttons {
-  margin-top: var(--margin);
 }
 
 #input {
@@ -97,32 +73,11 @@ body {
     <div class="console">
       <div id="output"></div>
       <form class="input" id="input">
-	<span class="prompt">?- </span><input type="text" name="query" id="query" value="main.">
+    <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/socrates', '.', 'http://josd.github.io/eye/reasoning/socrates/socrates.n3', '--query', 'http://josd.github.io/eye/reasoning/socrates/socrates-query.n3']).">
       </form>
     </div>
   </div>
 
-  <div class="editor-container">
-    <form id="editor">
-      <div class="editor-wrapper">
-	<textarea id="file" placeholder="Program">
-flag('quantify', 'http://josd.github.io/.well-known/genid/4584838182713693097#').
-scope('<http://josd.github.io/eye/reasoning/socrates/socrates.n3>').
-pfx('rdfs:', '<http://www.w3.org/2000/01/rdf-schema#>').
-pfx(:, '<http://example.org/socrates#>').
-'<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'('<http://example.org/socrates#Socrates>', '<http://example.org/socrates#Human>').
-'<http://www.w3.org/2000/01/rdf-schema#subClassOf>'('<http://example.org/socrates#Human>', '<http://example.org/socrates#Mortal>').
-implies(('<http://www.w3.org/2000/01/rdf-schema#subClassOf>'(A, B), '<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'(C, A)), '<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'(C, B), '<http://josd.github.io/eye/reasoning/socrates/socrates.n3>').
-implies('<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>'('<http://example.org/socrates#Socrates>', A), answer('<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>', '<http://example.org/socrates#Socrates>', A), '<http://josd.github.io/eye/reasoning/socrates/socrates-query.n3>').
-scount(4).
-end_of_file.
-	</textarea>
-      </div>
-      <div class="editor-buttons">
-	<button>(Re)consult</button>
-      </div>
-    </form>
-  </div>
 </div>
 
 <script src="./swipl-web.js"></script>
@@ -133,10 +88,16 @@ let input   = document.getElementById('input');
 let editor  = document.getElementById('editor');
 let stdin = '';
 let stdinPosition = 0;
-let eye = '';
-fetch('./eye.pl')
+
+fetch('https://josd.github.io/eye/eye.pl')
     .then(response => response.text())
-    .then(data => eye = data);
+    .then(data => (Module.FS.writeFile('/eye.pl', data)));
+fetch('https://josd.github.io/eye/reasoning/socrates/socrates.n3')
+    .then(response => response.text())
+    .then(data => (Module.FS.writeFile('socrates.n3', data)));
+fetch('https://josd.github.io/eye/reasoning/socrates/socrates-query.n3')
+    .then(response => response.text())
+    .then(data => (Module.FS.writeFile('socrates-query.n3', data)));
 
 // We use this to provide data into
 // the SWI stdin.
@@ -170,25 +131,17 @@ function pl(s) {
 
 function query(query) {
     if ( ! /\.\s*/.test(query) )
-	query += ".\n";
+    query += ".\n";
     print_line(`?- ${query}`, 'query');
     setStdin(query);
     pl('break');
 }
 
 input.addEventListener('submit', (e) => {
+    query("consult('./eye.pl').");
     e.preventDefault();
     query(e.target.elements.query.value);
     e.target.elements.query.value = '';
-}, false);
-
-editor.addEventListener('submit', (e) => {
-  e.preventDefault();
-  console.log("writing");
-  Module.FS.writeFile('/eye.pl', eye);
-  query("consult('./eye.pl').");
-  Module.FS.writeFile('/file.pl', e.target.elements.file.value);
-  query("consult('./file.pl').");
 }, false);
 
 function bindStdin(module) {
@@ -199,7 +152,7 @@ var Module = {
     noInitialRun: true,
     arguments: [],
     locateFile: function(file) {
-	return './' + file;
+    return './' + file;
     },
     print:    (line) => print_line(line, 'stdout'),
     printErr: (line) => print_line(line, 'stderr'),
