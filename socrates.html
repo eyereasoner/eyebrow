@@ -83,18 +83,6 @@ body {
 <script src="./swipl-web.js"></script>
 
 <script>
-fetch('https://josd.github.io/eye/eye.pl')
-    .then(response => response.text())
-    .then(data => (Module.FS.writeFile('/eye.pl', data)));
-fetch('https://josd.github.io/eye/reasoning/socrates/socrates.n3')
-    .then(response => response.text())
-    .then(data => (Module.FS.writeFile('socrates.n3', data)));
-fetch('https://josd.github.io/eye/reasoning/socrates/socrates-query.n3')
-    .then(response => response.text())
-    .then(data => (Module.FS.writeFile('socrates-query.n3', data)));
-</script>
-
-<script>
 let output  = document.getElementById('output');
 let input   = document.getElementById('input');
 let editor  = document.getElementById('editor');
@@ -165,6 +153,16 @@ SWIPL(Module).then((module) => {
     pl("format('SWI-Prolog WebAssembly ready!~n')");
     pl("set_prolog_flag(tty_control, true)");
 });
+
+fetch('https://josd.github.io/eye/eye.pl')
+    .then(response => response.text())
+    .then(data => (Module.FS.writeFile('/eye.pl', data)));
+fetch('https://josd.github.io/eye/reasoning/socrates/socrates.n3')
+    .then(response => response.text())
+    .then(data => (Module.FS.writeFile('socrates.n3', data)));
+fetch('https://josd.github.io/eye/reasoning/socrates/socrates-query.n3')
+    .then(response => response.text())
+    .then(data => (Module.FS.writeFile('socrates-query.n3', data)));
 </script>
 </body>
 </html>
