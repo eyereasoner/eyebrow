@@ -1,7 +1,6 @@
 # Eye reasoning in the browser
 
 To test it
-- start a local http-server
-- browse to http://localhost:8080/socrates.html
+- browse to https://josd.github.io/eyebrow/socrates.html or a start local http-server and browse to http://localhost:8080/socrates.html
 - push the `(Re)consult` button
 - run the `main.` query
