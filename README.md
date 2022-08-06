@@ -1,10 +1,7 @@
 # Eye reasoning in the browser
 
-To make it run
-```
-./mkswipl-wasm
-```
-To test it run
-```
-./test
-```
+To test it
+- start a local http-server
+- browse to http://localhost:8080/socrates.html
+- push the `(Re)consult` button
+- run the `main.` query

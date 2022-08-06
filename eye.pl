@@ -20,7 +20,7 @@
 :- catch(use_module(library(http/http_open)), _, true).
 :- catch(use_module(library(semweb/rdf_turtle)), _, true).
 
-version_info('EYE v22.0725.1110 josd').
+version_info('EYE v22.0806.0946 josd').
 
 license_info('MIT License
 
@@ -179,6 +179,10 @@ eye
 % Main goal
 %
 
+main(Argv) :-
+    set_prolog_flag(argv, Argv),
+    main.
+
 main :-
     current_prolog_flag(version_data, swi(SV, _, _, _)),
     (   SV < 8
@@ -306,11 +310,11 @@ gre(Argus) :-
     nb_setval(current_scope, '<>'),
     nb_setval(wn, 0),
     opts(Argus, Args),
-    (   \+flag('multi-query'),
-        Args = []
-    ->  opts(['--help'], _)
-    ;   true
-    ),
+    %(   \+flag('multi-query'),
+    %    Args = []
+    %->  opts(['--help'], _)
+    %;   true
+    %),
     (   flag('skolem-genid', Genid)
     ->  true
     ;   A is random(2^62),
@@ -5320,9 +5324,7 @@ djiti_assertz(A) :-
     (   got_labelvars(C, D, B)
     ->  true
     ;   copy_term_nat(A, B),
-        nb_getval(wn, W),
-        labelvars(B, W, N),
-        nb_setval(wn, N),
+        labelvars(B, 0, _, avar),
         assertz(got_labelvars(C, D, B))
     ).
 
@@ -6540,6 +6542,14 @@ djiti_assertz(A) :-
         (   getstring(X, U),
             getstring(Y, V),
             U @< V
+        )
+    ).
+
+'<http://www.w3.org/2000/10/swap/string#length>'(literal(A, _), B) :-
+    when(
+        (   ground(A)
+        ),
+        (   sub_atom(A, 0, B, 0, _)
         )
     ).
 
@@ -10042,7 +10052,8 @@ labelvars(A, B, C, D) :-
 labelvars(A, B, B, _) :-
     atomic(A),
     !.
-labelvars('<http://www.w3.org/2000/10/swap/log#implies>'(A, B), C, C, _) :-
+labelvars('<http://www.w3.org/2000/10/swap/log#implies>'(A, B), C, C, D) :-
+    D \= avar,
     nonvar(A),
     nonvar(B),
     !.
@@ -10275,6 +10286,7 @@ raw_type(A, '<http://www.w3.org/2000/10/swap/log#Literal>') :-
 raw_type(A, '<http://www.w3.org/2000/10/swap/log#Literal>') :-
     atom(A),
     \+ sub_atom(A, 0, _, _, some),
+    \+ sub_atom(A, 0, _, _, avar),
     \+ (sub_atom(A, 0, 1, _, '<'), sub_atom(A, _, 1, 0, '>')),
     !.
 raw_type(literal(_, _), '<http://www.w3.org/2000/10/swap/log#Literal>') :-
