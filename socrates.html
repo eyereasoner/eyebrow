@@ -134,7 +134,7 @@ let editor  = document.getElementById('editor');
 let stdin = '';
 let stdinPosition = 0;
 let eye = '';
-fetch('/eye.pl')
+fetch('./eye.pl')
     .then(response => response.text())
     .then(data => eye = data);
 
