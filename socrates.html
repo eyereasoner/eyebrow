@@ -124,8 +124,7 @@ function query(query)
 }
 
 input.addEventListener('submit', (e) =>
-{ query("consult('./eye.pl').");
-  e.preventDefault();
+{ e.preventDefault();
 
   if ( yield && yield.yield == "goal" )
   { let query = e.target.elements.query.value;
@@ -207,6 +206,7 @@ SWIPL(Module).then(async (module) => {
     pl("set_prolog_flag(tty_control, true)");
     pl("set_prolog_flag(debug_on_error, false)");
     toplevel();
+    query("consult('./eye.pl')");
 });
 </script>
 </body>
