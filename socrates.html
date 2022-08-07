@@ -74,33 +74,33 @@ body {
 <script src="./swipl-web.js"></script>
 
 <script>
-const output  = document.getElementById('output');
-const input   = document.getElementById('input');
-const more    = document.getElementById('more');
-const editor  = document.getElementById('editor');
-let   yield   = null;
+const output = document.getElementById('output');
+const input = document.getElementById('input');
+const more = document.getElementById('more');
+const editor = document.getElementById('editor');
+let yield = null;
 
-let buffers =
-{ stdout: [],
-  stderr: []
+let buffers = {
+    stdout: [],
+    stderr: []
 }
 
-function write(to, c)
-{ if ( c )
-    buffers[to].push(c);
+function write(to, c) {
+    if (c)
+        buffers[to].push(c);
 
-  if ( c == 10 || c == null )
-    flush(to);
+    if (c == 10 || c == null)
+        flush(to);
 }
 
-function flush(to)
-{ const line = String.fromCharCode.apply(null, buffers[to]);
-  print_output(line, to);
-  buffers[to] = [];
+function flush(to) {
+    const line = String.fromCharCode.apply(null, buffers[to]);
+    print_output(line, to);
+    buffers[to] = [];
 }
 
-function bindStdStreams(module)
-{ module.FS.init(undefined, (c) => write("stdout", c), (c) => write("stderr", c));
+function bindStdStreams(module) {
+    module.FS.init(undefined, (c) => write("stdout", c), (c) => write("stderr", c));
 }
 
 function print_output(line, cls) {
@@ -111,86 +111,90 @@ function print_output(line, cls) {
 };
 
 function pl(s) {
-   Module.prolog.call(s);
+    Module.prolog.call(s);
 }
 
-function query(query)
-{ print_output(`?- ${query}.\n`, 'query');
+function query(query) {
+    print_output(`?- ${query}.\n`, 'query');
 
-  if ( yield && yield.yield == "goal" )
-    next(yield.resume(query));
-  else
-    alert("REPL is not waiting for a goal");
+    if (yield && yield.yield == "goal")
+        next(yield.resume(query));
+    else
+        alert("REPL is not waiting for a goal");
 }
 
-input.addEventListener('submit', (e) =>
-{ e.preventDefault();
+input.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-  if ( yield && yield.yield == "goal" )
-  { let query = e.target.elements.query.value;
-    e.target.elements.query.value = '';
-    e.target.style.display = "none";
+    if (yield && yield.yield == "goal") {
+        let query = e.target.elements.query.value;
+        e.target.elements.query.value = '';
+        e.target.style.display = "none";
 
-    if ( ! /\.\s*/.test(query) )
-      query += ".\n";
-    print_output(`?- ${query}\n`, 'query');
+        if (!/\.\s*/.test(query))
+            query += ".\n";
+        print_output(`?- ${query}\n`, 'query');
 
-    next(yield.resume(query));
-  } else
-  { alert("Not waiting for a query");
-  }
+        next(yield.resume(query));
+    } else {
+        alert("Not waiting for a query");
+    }
 }, false);
 
-function reply_more(action)
-{ more.style.display = "none";
-  if ( yield && yield.yield == "more" )
-  { switch(action)
-    { case "redo":     print_output(";", "stdout"); break;
-      case "continue": print_output(".", "stdout"); break;
+function reply_more(action) {
+    more.style.display = "none";
+    if (yield && yield.yield == "more") {
+        switch (action) {
+            case "redo":
+                print_output(";", "stdout");
+                break;
+            case "continue":
+                print_output(".", "stdout");
+                break;
+        }
+        next(yield.resume(action));
     }
-    next(yield.resume(action));
-  }
 }
 
-function next(rc)
-{ yield = null;
+function next(rc) {
+    yield = null;
 
-  if ( typeof(rc) === "object" )
-  { yield = rc;
+    if (typeof(rc) === "object") {
+        yield = rc;
 
-    flush("stderr");
-    flush("stdout");
+        flush("stderr");
+        flush("stdout");
 
-    switch(rc.yield)
-    { case "goal":
-        input.style.display = "flex";
-        break;
-      case "more":
-        more.style.display = "inline-block";
-        break;
+        switch (rc.yield) {
+            case "goal":
+                input.style.display = "flex";
+                break;
+            case "more":
+                more.style.display = "inline-block";
+                break;
+        }
+    } else if (rc == undefined) {
+        console.log("Unhandled exception; restarting");
+        toplevel();
     }
-  } else if ( rc == undefined )
-  { console.log("Unhandled exception; restarting");
-    toplevel();
-  }
 }
 
-function toplevel()
-{ let rc = Module.prolog.call("'$query_loop'",
-            { async:  true,
-              module: "$toplevel"
-            });
+function toplevel() {
+    let rc = Module.prolog.call("'$query_loop'", {
+        async: true,
+        module: "$toplevel"
+    });
 
-  next(rc);
+    next(rc);
 }
 
 var Module = {
     noInitialRun: true,
     arguments: [],
     locateFile: function(file) {
-    return './' + file;
+        return './' + file;
     },
-    preRun:   [() => bindStdStreams(Module)]
+    preRun: [() => bindStdStreams(Module)]
 };
 
 async function fetchWrite(link, file) {
@@ -205,6 +209,7 @@ SWIPL(Module).then(async (module) => {
 
     pl("set_prolog_flag(tty_control, true)");
     pl("set_prolog_flag(debug_on_error, false)");
+
     toplevel();
     query("consult('./eye.pl')");
 });
