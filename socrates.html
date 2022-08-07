@@ -74,69 +74,124 @@ body {
 <script src="./swipl-web.js"></script>
 
 <script>
-let output = document.getElementById('output');
-let input = document.getElementById('input');
-let editor = document.getElementById('editor');
-let stdin = '';
-let stdinPosition = 0;
+const output  = document.getElementById('output');
+const input   = document.getElementById('input');
+const more    = document.getElementById('more');
+const editor  = document.getElementById('editor');
+let   yield   = null;
 
-// We use this to provide data into the SWI stdin.
-const setStdin = (string) => {
-    stdin = string;
-    stdinPosition = 0;
-};
-const readStdin = () => {
-    if (stdinPosition >= stdin.length) {
-        console.log(Module.prolog.ttymode());
-        if ( Module.prolog.ttymode() == "raw" )
-            console.log("It raw mode");
-        return null;
-    } else {
-        const code = stdin.charCodeAt(stdinPosition);
-        stdinPosition++;
-        return code;
-    }
-};
+let buffers =
+{ stdout: [],
+  stderr: []
+}
 
-function print_line(line, cls) {
-    const node = document.createElement('div');
+function write(to, c)
+{ if ( c )
+    buffers[to].push(c);
+
+  if ( c == 10 || c == null )
+    flush(to);
+}
+
+function flush(to)
+{ const line = String.fromCharCode.apply(null, buffers[to]);
+  print_output(line, to);
+  buffers[to] = [];
+}
+
+function bindStdStreams(module)
+{ module.FS.init(undefined, (c) => write("stdout", c), (c) => write("stderr", c));
+}
+
+function print_output(line, cls) {
+    const node = document.createElement('span');
     node.className = cls;
     node.textContent = line;
-    output.appendChild(node);
+    output.insertBefore(node, more);
 };
 
 function pl(s) {
-    Module.prolog.call_string(s);
+   Module.prolog.call(s);
 }
 
-function query(query) {
-    if ( ! /\.\s*/.test(query) )
-    query += ".\n";
-    print_line(`?- ${query}`, 'query');
-    setStdin(query);
-    pl('break');
+function query(query)
+{ print_output(`?- ${query}.\n`, 'query');
+
+  if ( yield && yield.yield == "goal" )
+    next(yield.resume(query));
+  else
+    alert("REPL is not waiting for a goal");
 }
 
-input.addEventListener('submit', (e) => {
-    query("consult('./eye.pl').");
-    e.preventDefault();
-    query(e.target.elements.query.value);
+input.addEventListener('submit', (e) =>
+{ query("consult('./eye.pl').");
+  e.preventDefault();
+
+  if ( yield && yield.yield == "goal" )
+  { let query = e.target.elements.query.value;
     e.target.elements.query.value = '';
+    e.target.style.display = "none";
+
+    if ( ! /\.\s*/.test(query) )
+      query += ".\n";
+    print_output(`?- ${query}\n`, 'query');
+
+    next(yield.resume(query));
+  } else
+  { alert("Not waiting for a query");
+  }
 }, false);
 
-function bindStdin(module) {
-    module.FS.init(readStdin);
+function reply_more(action)
+{ more.style.display = "none";
+  if ( yield && yield.yield == "more" )
+  { switch(action)
+    { case "redo":     print_output(";", "stdout"); break;
+      case "continue": print_output(".", "stdout"); break;
+    }
+    next(yield.resume(action));
+  }
+}
+
+function next(rc)
+{ yield = null;
+
+  if ( typeof(rc) === "object" )
+  { yield = rc;
+
+    flush("stderr");
+    flush("stdout");
+
+    switch(rc.yield)
+    { case "goal":
+        input.style.display = "flex";
+        break;
+      case "more":
+        more.style.display = "inline-block";
+        break;
+    }
+  } else if ( rc == undefined )
+  { console.log("Unhandled exception; restarting");
+    toplevel();
+  }
+}
+
+function toplevel()
+{ let rc = Module.prolog.call("'$query_loop'",
+            { async:  true,
+              module: "$toplevel"
+            });
+
+  next(rc);
 }
 
 var Module = {
     noInitialRun: true,
     arguments: [],
     locateFile: function(file) {
-    return './' + file;
+    return '/' + file;
     },
-    print: (line) => print_line(line, 'stdout'),
-    printErr: (line) => print_line(line, 'stderr'),
-    preRun: [() => bindStdin(Module)]
+    preRun:   [() => bindStdStreams(Module)]
 };
 
 async function fetchWrite(link, file) {
@@ -145,12 +200,13 @@ async function fetchWrite(link, file) {
 }
 
 SWIPL(Module).then(async (module) => {
-    await fetchWrite('https://josd.github.io/eye/eye.pl', '/eye.pl');
+    await fetchWrite('https://josd.github.io/eye/eye.pl', 'eye.pl');
     await fetchWrite('https://josd.github.io/eye/reasoning/socrates/socrates.n3', 'socrates.n3');
     await fetchWrite('https://josd.github.io/eye/reasoning/socrates/socrates-query.n3', 'socrates-query.n3');
 
-    pl("format('SWI-Prolog WebAssembly ready!~n')");
     pl("set_prolog_flag(tty_control, true)");
+    pl("set_prolog_flag(debug_on_error, false)");
+    toplevel();
 });
 </script>
 </body>
