@@ -189,7 +189,7 @@ var Module = {
     noInitialRun: true,
     arguments: [],
     locateFile: function(file) {
-    return '/' + file;
+    return './' + file;
     },
     preRun:   [() => bindStdStreams(Module)]
 };
