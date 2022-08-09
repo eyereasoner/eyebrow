@@ -237,10 +237,6 @@ var SWIPL = (() => {
                         "start": 276607,
                         "end": 280996
                     }, {
-                        "filename": "/swipl/library/.prolog_xref.qlf.42",
-                        "start": 280996,
-                        "end": 280996
-                    }, {
                         "filename": "/swipl/library/varnumbers.pl",
                         "start": 280996,
                         "end": 288137
@@ -583,10 +579,6 @@ var SWIPL = (() => {
                     }, {
                         "filename": "/swipl/library/prolog_trace.pl",
                         "start": 1750513,
-                        "end": 1758172
-                    }, {
-                        "filename": "/swipl/library/.prolog_colour.qlf.42",
-                        "start": 1758172,
                         "end": 1758172
                     }, {
                         "filename": "/swipl/library/charsio.pl",

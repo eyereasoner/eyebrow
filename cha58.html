@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eyebrow cha58</title>
+</head>
+<body>
+<style>
+:root {
+    --margin: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%; height: 100%; margin: var(--margin);
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    flex-grow: 1;
+}
+
+.scroll-wrapper {
+    box-sizing: border-box;
+    position: absolute;
+    height: calc(100% - 2*var(--margin)); width: calc(100% - 2*var(--margin)); border: 1px solid black;
+    overflow: auto; display: flex; flex-direction: column-reverse;
+    padding: 5px;
+}
+.scroll-start-at-top { flex: 1 1 0%; }
+
+#file {
+    box-sizing: border-box;
+    border: 0px;
+    resize: none;
+    width: 100%; height: 100%;
+}
+
+#input {
+    margin-top: var(--margin);
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+}
+
+#query { flex-grow: 1; margin: 0px 10px;}
+
+.stderr { color: blue; }
+.stderr, .stdout, .query { white-space: pre; font-family: monospace;}
+.query, .prompt { font-weight: bold; }
+.query { margin-top: 5px; }
+
+</style>
+
+<div class="content">
+    <div class="scroll-wrapper">
+        <span class="scroll-start-at-top"></span>
+        <div class="console">
+            <div id="output"></div>
+            <form class="input" id="input">
+        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/cha58', '.', 'http://josd.github.io/eye/reasoning/cha58/cha58-data.n3', 'http://josd.github.io/eye/reasoning/cha58/cha58-rules.n3', '--query', 'http://josd.github.io/eye/reasoning/cha58/cha58-query.n3']).">
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<script src="./swipl-web.js"></script>
+
+<script>
+const output = document.getElementById('output');
+const input = document.getElementById('input');
+const more = document.getElementById('more');
+const editor = document.getElementById('editor');
+let yield = null;
+
+let buffers = {
+    stdout: [],
+    stderr: []
+}
+
+function write(to, c) {
+    if (c)
+        buffers[to].push(c);
+
+    if (c == 10 || c == null)
+        flush(to);
+}
+
+function flush(to) {
+    const line = String.fromCharCode.apply(null, buffers[to]);
+    print_output(line, to);
+    buffers[to] = [];
+}
+
+function bindStdStreams(module) {
+    module.FS.init(undefined, (c) => write("stdout", c), (c) => write("stderr", c));
+}
+
+function print_output(line, cls) {
+    const node = document.createElement('span');
+    node.className = cls;
+    node.textContent = line;
+    output.insertBefore(node, more);
+};
+
+function pl(s) {
+    Module.prolog.call(s);
+}
+
+function query(query) {
+    print_output(`?- ${query}.\n`, 'query');
+
+    if (yield && yield.yield == "goal")
+        next(yield.resume(query));
+    else
+        alert("REPL is not waiting for a goal");
+}
+
+input.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    if (yield && yield.yield == "goal") {
+        let query = e.target.elements.query.value;
+        e.target.elements.query.value = '';
+        e.target.style.display = "none";
+
+        if (!/\.\s*/.test(query))
+            query += ".\n";
+        print_output(`?- ${query}\n`, 'query');
+
+        next(yield.resume(query));
+    } else {
+        alert("Not waiting for a query");
+    }
+}, false);
+
+function reply_more(action) {
+    more.style.display = "none";
+    if (yield && yield.yield == "more") {
+        switch (action) {
+            case "redo":
+                print_output(";", "stdout");
+                break;
+            case "continue":
+                print_output(".", "stdout");
+                break;
+        }
+        next(yield.resume(action));
+    }
+}
+
+function next(rc) {
+    yield = null;
+
+    if (typeof(rc) === "object") {
+        yield = rc;
+
+        flush("stderr");
+        flush("stdout");
+
+        switch (rc.yield) {
+            case "goal":
+                input.style.display = "flex";
+                break;
+            case "more":
+                more.style.display = "inline-block";
+                break;
+        }
+    } else if (rc == undefined) {
+        console.log("Unhandled exception; restarting");
+        toplevel();
+    }
+}
+
+function toplevel() {
+    let rc = Module.prolog.call("'$query_loop'", {
+        async: true,
+        module: "$toplevel"
+    });
+
+    next(rc);
+}
+
+var Module = {
+    noInitialRun: true,
+    arguments: [],
+    locateFile: function(file) {
+        return './' + file;
+    },
+    preRun: [() => bindStdStreams(Module)]
+};
+
+async function fetchWrite(link, file) {
+    const response = await fetch(link);
+    await Module.FS.writeFile(file, await response.text());
+}
+
+SWIPL(Module).then(async (module) => {
+    await fetchWrite('https://josd.github.io/eye/eye.pl', 'eye.pl');
+    await fetchWrite('https://josd.github.io/eye/reasoning/cha58/cha58-data.n3', 'cha58-data.n3');
+    await fetchWrite('https://josd.github.io/eye/reasoning/cha58/cha58-rules.n3', 'cha58-rules.n3');
+    await fetchWrite('https://josd.github.io/eye/reasoning/cha58/cha58-query.n3', 'cha58-query.n3');
+
+    pl("set_prolog_flag(tty_control, true)");
+    pl("set_prolog_flag(debug_on_error, false)");
+
+    toplevel();
+    query("consult('./eye.pl')");
+});
+</script>
+</body>
+</html>
