@@ -315,757 +315,757 @@ var SWIPL = (() => {
                     }, {
                         "filename": "/swipl/library/wasm.pl",
                         "start": 543575,
-                        "end": 545993
+                        "end": 547346
                     }, {
                         "filename": "/swipl/library/yall.pl",
-                        "start": 545993,
-                        "end": 565503
+                        "start": 547346,
+                        "end": 566856
                     }, {
                         "filename": "/swipl/library/qsave.pl",
-                        "start": 565503,
-                        "end": 607460
+                        "start": 566856,
+                        "end": 608813
                     }, {
                         "filename": "/swipl/library/occurs.pl",
-                        "start": 607460,
-                        "end": 614291
+                        "start": 608813,
+                        "end": 615644
                     }, {
                         "filename": "/swipl/library/aggregate.pl",
-                        "start": 614291,
-                        "end": 638676
+                        "start": 615644,
+                        "end": 640029
                     }, {
                         "filename": "/swipl/library/hotfix.pl",
-                        "start": 638676,
-                        "end": 646558
+                        "start": 640029,
+                        "end": 647911
                     }, {
                         "filename": "/swipl/library/git.pl",
-                        "start": 646558,
-                        "end": 674562
+                        "start": 647911,
+                        "end": 675915
                     }, {
                         "filename": "/swipl/library/debug.pl",
-                        "start": 674562,
-                        "end": 687966
+                        "start": 675915,
+                        "end": 689319
                     }, {
                         "filename": "/swipl/library/nb_set.pl",
-                        "start": 687966,
-                        "end": 693632
+                        "start": 689319,
+                        "end": 694985
                     }, {
                         "filename": "/swipl/library/dicts.pl",
-                        "start": 693632,
-                        "end": 704288
+                        "start": 694985,
+                        "end": 705641
                     }, {
                         "filename": "/swipl/library/zip.pl",
-                        "start": 704288,
-                        "end": 711929
+                        "start": 705641,
+                        "end": 713282
                     }, {
                         "filename": "/swipl/library/prolog_clause.pl",
-                        "start": 711929,
-                        "end": 747901
+                        "start": 713282,
+                        "end": 749254
                     }, {
                         "filename": "/swipl/library/persistency.pl",
-                        "start": 747901,
-                        "end": 769820
+                        "start": 749254,
+                        "end": 771173
                     }, {
                         "filename": "/swipl/library/vm.pl",
-                        "start": 769820,
-                        "end": 777945
+                        "start": 771173,
+                        "end": 779298
                     }, {
                         "filename": "/swipl/library/prolog_pack.pl",
-                        "start": 777945,
-                        "end": 855248
+                        "start": 779298,
+                        "end": 856601
                     }, {
                         "filename": "/swipl/library/shlib.pl",
-                        "start": 855248,
-                        "end": 875817
+                        "start": 856601,
+                        "end": 877170
                     }, {
                         "filename": "/swipl/library/prolog_code.pl",
-                        "start": 875817,
-                        "end": 888078
+                        "start": 877170,
+                        "end": 889431
                     }, {
                         "filename": "/swipl/library/explain.pl",
-                        "start": 888078,
-                        "end": 902320
+                        "start": 889431,
+                        "end": 903673
                     }, {
                         "filename": "/swipl/library/solution_sequences.pl",
-                        "start": 902320,
-                        "end": 914572
+                        "start": 903673,
+                        "end": 915925
                     }, {
                         "filename": "/swipl/library/checkselect.pl",
-                        "start": 914572,
-                        "end": 917767
+                        "start": 915925,
+                        "end": 919120
                     }, {
                         "filename": "/swipl/library/operators.pl",
-                        "start": 917767,
-                        "end": 923011
+                        "start": 919120,
+                        "end": 924364
                     }, {
                         "filename": "/swipl/library/nb_rbtrees.pl",
-                        "start": 923011,
-                        "end": 930949
+                        "start": 924364,
+                        "end": 932302
                     }, {
                         "filename": "/swipl/library/prolog_xref.qlf",
-                        "start": 930949,
-                        "end": 967068
+                        "start": 932302,
+                        "end": 968421
                     }, {
                         "filename": "/swipl/library/pprint.pl",
-                        "start": 967068,
-                        "end": 995292
+                        "start": 968421,
+                        "end": 996645
                     }, {
                         "filename": "/swipl/library/arithmetic.pl",
-                        "start": 995292,
-                        "end": 1004378
+                        "start": 996645,
+                        "end": 1005731
                     }, {
                         "filename": "/swipl/library/www_browser.pl",
-                        "start": 1004378,
-                        "end": 1012678
+                        "start": 1005731,
+                        "end": 1014031
                     }, {
                         "filename": "/swipl/library/ansi_term.pl",
-                        "start": 1012678,
-                        "end": 1031371
+                        "start": 1014031,
+                        "end": 1032724
                     }, {
                         "filename": "/swipl/library/edit.pl",
-                        "start": 1031371,
-                        "end": 1050484
+                        "start": 1032724,
+                        "end": 1051837
                     }, {
                         "filename": "/swipl/library/iostream.pl",
-                        "start": 1050484,
-                        "end": 1059261
+                        "start": 1051837,
+                        "end": 1060614
                     }, {
                         "filename": "/swipl/library/shell.pl",
-                        "start": 1059261,
-                        "end": 1069966
+                        "start": 1060614,
+                        "end": 1071319
                     }, {
                         "filename": "/swipl/library/when.pl",
-                        "start": 1069966,
-                        "end": 1077723
+                        "start": 1071319,
+                        "end": 1079076
                     }, {
                         "filename": "/swipl/library/pio.pl",
-                        "start": 1077723,
-                        "end": 1079650
+                        "start": 1079076,
+                        "end": 1081003
                     }, {
                         "filename": "/swipl/library/quasi_quotations.pl",
-                        "start": 1079650,
-                        "end": 1091036
+                        "start": 1081003,
+                        "end": 1092389
                     }, {
                         "filename": "/swipl/library/prolog_xref.pl",
-                        "start": 1091036,
-                        "end": 1183233
+                        "start": 1092389,
+                        "end": 1184586
                     }, {
                         "filename": "/swipl/library/check_installation.pl",
-                        "start": 1183233,
-                        "end": 1208492
+                        "start": 1184586,
+                        "end": 1209845
                     }, {
                         "filename": "/swipl/library/base64.pl",
-                        "start": 1208492,
-                        "end": 1221137
+                        "start": 1209845,
+                        "end": 1222490
                     }, {
                         "filename": "/swipl/library/error.pl",
-                        "start": 1221137,
-                        "end": 1237013
+                        "start": 1222490,
+                        "end": 1238366
                     }, {
                         "filename": "/swipl/library/date.pl",
-                        "start": 1237013,
-                        "end": 1246465
+                        "start": 1238366,
+                        "end": 1247818
                     }, {
                         "filename": "/swipl/library/prolog_colour.qlf",
-                        "start": 1246465,
-                        "end": 1291620
+                        "start": 1247818,
+                        "end": 1292973
                     }, {
                         "filename": "/swipl/library/prolog_config.pl",
-                        "start": 1291620,
-                        "end": 1296428
+                        "start": 1292973,
+                        "end": 1297781
                     }, {
                         "filename": "/swipl/library/increval.pl",
-                        "start": 1296428,
-                        "end": 1303732
+                        "start": 1297781,
+                        "end": 1305085
                     }, {
                         "filename": "/swipl/library/codesio.pl",
-                        "start": 1303732,
-                        "end": 1310181
+                        "start": 1305085,
+                        "end": 1311534
                     }, {
                         "filename": "/swipl/library/rbtrees.pl",
-                        "start": 1310181,
-                        "end": 1347578
+                        "start": 1311534,
+                        "end": 1348931
                     }, {
                         "filename": "/swipl/library/prolog_versions.pl",
-                        "start": 1347578,
-                        "end": 1354503
+                        "start": 1348931,
+                        "end": 1355856
                     }, {
                         "filename": "/swipl/library/wfs.pl",
-                        "start": 1354503,
-                        "end": 1361424
+                        "start": 1355856,
+                        "end": 1362777
                     }, {
                         "filename": "/swipl/library/listing.pl",
-                        "start": 1361424,
-                        "end": 1399221
+                        "start": 1362777,
+                        "end": 1400574
                     }, {
                         "filename": "/swipl/library/broadcast.pl",
-                        "start": 1399221,
-                        "end": 1404576
+                        "start": 1400574,
+                        "end": 1405929
                     }, {
                         "filename": "/swipl/library/random.pl",
-                        "start": 1404576,
-                        "end": 1418025
+                        "start": 1405929,
+                        "end": 1419378
                     }, {
                         "filename": "/swipl/library/sandbox.pl",
-                        "start": 1418025,
-                        "end": 1460711
+                        "start": 1419378,
+                        "end": 1462064
                     }, {
                         "filename": "/swipl/library/make.pl",
-                        "start": 1460711,
-                        "end": 1467331
+                        "start": 1462064,
+                        "end": 1468684
                     }, {
                         "filename": "/swipl/library/oset.pl",
-                        "start": 1467331,
-                        "end": 1472024
+                        "start": 1468684,
+                        "end": 1473377
                     }, {
                         "filename": "/swipl/library/modules.pl",
-                        "start": 1472024,
-                        "end": 1476873
+                        "start": 1473377,
+                        "end": 1478226
                     }, {
                         "filename": "/swipl/library/intercept.pl",
-                        "start": 1476873,
-                        "end": 1485495
+                        "start": 1478226,
+                        "end": 1486848
                     }, {
                         "filename": "/swipl/library/prolog_colour.pl",
-                        "start": 1485495,
-                        "end": 1588283
+                        "start": 1486848,
+                        "end": 1589636
                     }, {
                         "filename": "/swipl/library/strings.pl",
-                        "start": 1588283,
-                        "end": 1603831
+                        "start": 1589636,
+                        "end": 1605184
                     }, {
                         "filename": "/swipl/library/hashtable.pl",
-                        "start": 1603831,
-                        "end": 1614155
+                        "start": 1605184,
+                        "end": 1615508
                     }, {
                         "filename": "/swipl/library/url.pl",
-                        "start": 1614155,
-                        "end": 1642308
+                        "start": 1615508,
+                        "end": 1643661
                     }, {
                         "filename": "/swipl/library/record.pl",
-                        "start": 1642308,
-                        "end": 1658916
+                        "start": 1643661,
+                        "end": 1660269
                     }, {
                         "filename": "/swipl/library/prolog_format.pl",
-                        "start": 1658916,
-                        "end": 1665779
+                        "start": 1660269,
+                        "end": 1667132
                     }, {
                         "filename": "/swipl/library/qpforeign.pl",
-                        "start": 1665779,
-                        "end": 1688084
+                        "start": 1667132,
+                        "end": 1689437
                     }, {
                         "filename": "/swipl/library/tabling.pl",
-                        "start": 1688084,
-                        "end": 1689884
+                        "start": 1689437,
+                        "end": 1691237
                     }, {
                         "filename": "/swipl/library/prolog_debug.pl",
-                        "start": 1689884,
-                        "end": 1698837
+                        "start": 1691237,
+                        "end": 1700190
                     }, {
                         "filename": "/swipl/library/dif.pl",
-                        "start": 1698837,
-                        "end": 1711479
+                        "start": 1700190,
+                        "end": 1712832
                     }, {
                         "filename": "/swipl/library/threadutil.pl",
-                        "start": 1711479,
-                        "end": 1726782
+                        "start": 1712832,
+                        "end": 1728135
                     }, {
                         "filename": "/swipl/library/assoc.pl",
-                        "start": 1726782,
-                        "end": 1745109
+                        "start": 1728135,
+                        "end": 1746462
                     }, {
                         "filename": "/swipl/library/prolog_wrap.pl",
-                        "start": 1745109,
-                        "end": 1750513
+                        "start": 1746462,
+                        "end": 1751866
                     }, {
                         "filename": "/swipl/library/prolog_trace.pl",
-                        "start": 1750513,
-                        "end": 1758172
+                        "start": 1751866,
+                        "end": 1759525
                     }, {
                         "filename": "/swipl/library/charsio.pl",
-                        "start": 1758172,
-                        "end": 1764808
+                        "start": 1759525,
+                        "end": 1766161
                     }, {
                         "filename": "/swipl/library/pure_input.pl",
-                        "start": 1764808,
-                        "end": 1774680
+                        "start": 1766161,
+                        "end": 1776033
                     }, {
                         "filename": "/swipl/library/base32.pl",
-                        "start": 1774680,
-                        "end": 1782973
+                        "start": 1776033,
+                        "end": 1784326
                     }, {
                         "filename": "/swipl/library/apply_macros.pl",
-                        "start": 1782973,
-                        "end": 1797856
+                        "start": 1784326,
+                        "end": 1799209
                     }, {
                         "filename": "/swipl/library/prolog_jiti.pl",
-                        "start": 1797856,
-                        "end": 1803041
+                        "start": 1799209,
+                        "end": 1804394
                     }, {
                         "filename": "/swipl/library/system.pl",
-                        "start": 1803041,
-                        "end": 1806349
+                        "start": 1804394,
+                        "end": 1807702
                     }, {
                         "filename": "/swipl/library/thread.pl",
-                        "start": 1806349,
-                        "end": 1833879
+                        "start": 1807702,
+                        "end": 1835232
                     }, {
                         "filename": "/swipl/library/csv.pl",
-                        "start": 1833879,
-                        "end": 1852796
+                        "start": 1835232,
+                        "end": 1854149
                     }, {
                         "filename": "/swipl/library/prolog_metainference.pl",
-                        "start": 1852796,
-                        "end": 1862610
+                        "start": 1854149,
+                        "end": 1863963
                     }, {
                         "filename": "/swipl/library/dialect.pl",
-                        "start": 1862610,
-                        "end": 1866703
+                        "start": 1863963,
+                        "end": 1868056
                     }, {
                         "filename": "/swipl/library/backcomp.pl",
-                        "start": 1866703,
-                        "end": 1886600
+                        "start": 1868056,
+                        "end": 1887953
                     }, {
                         "filename": "/swipl/library/terms.pl",
-                        "start": 1886600,
-                        "end": 1901293
+                        "start": 1887953,
+                        "end": 1902646
                     }, {
                         "filename": "/swipl/library/edinburgh.pl",
-                        "start": 1901293,
-                        "end": 1905798
+                        "start": 1902646,
+                        "end": 1907151
                     }, {
                         "filename": "/swipl/library/INDEX.pl",
-                        "start": 1905798,
-                        "end": 1950389
+                        "start": 1907151,
+                        "end": 1951815
                     }, {
                         "filename": "/swipl/library/readln.pl",
-                        "start": 1950389,
-                        "end": 1959316
+                        "start": 1951815,
+                        "end": 1960742
                     }, {
                         "filename": "/swipl/library/prolog_stack.pl",
-                        "start": 1959316,
-                        "end": 1985091
+                        "start": 1960742,
+                        "end": 1986517
                     }, {
                         "filename": "/swipl/library/tables.pl",
-                        "start": 1985091,
-                        "end": 1997702
+                        "start": 1986517,
+                        "end": 1999128
                     }, {
                         "filename": "/swipl/library/statistics.pl",
-                        "start": 1997702,
-                        "end": 2022272
+                        "start": 1999128,
+                        "end": 2023698
                     }, {
                         "filename": "/swipl/library/pairs.pl",
-                        "start": 2022272,
-                        "end": 2028136
+                        "start": 2023698,
+                        "end": 2029562
                     }, {
                         "filename": "/swipl/library/.created",
-                        "start": 2028136,
-                        "end": 2028136
+                        "start": 2029562,
+                        "end": 2029562
                     }, {
                         "filename": "/swipl/library/prolog_history.pl",
-                        "start": 2028136,
-                        "end": 2034001
+                        "start": 2029562,
+                        "end": 2035427
                     }, {
                         "filename": "/swipl/library/lazy_lists.pl",
-                        "start": 2034001,
-                        "end": 2050501
+                        "start": 2035427,
+                        "end": 2051927
                     }, {
                         "filename": "/swipl/library/checklast.pl",
-                        "start": 2050501,
-                        "end": 2053757
+                        "start": 2051927,
+                        "end": 2055183
                     }, {
                         "filename": "/swipl/library/lists.pl",
-                        "start": 2053757,
-                        "end": 2078035
+                        "start": 2055183,
+                        "end": 2079461
                     }, {
                         "filename": "/swipl/library/console_input.pl",
-                        "start": 2078035,
-                        "end": 2081722
+                        "start": 2079461,
+                        "end": 2083148
                     }, {
                         "filename": "/swipl/library/thread_pool.pl",
-                        "start": 2081722,
-                        "end": 2098603
+                        "start": 2083148,
+                        "end": 2100029
                     }, {
                         "filename": "/swipl/library/option.pl",
-                        "start": 2098603,
-                        "end": 2111217
+                        "start": 2100029,
+                        "end": 2112643
                     }, {
                         "filename": "/swipl/library/iri_scheme/file.pl",
-                        "start": 2111217,
-                        "end": 2114042
+                        "start": 2112643,
+                        "end": 2115468
                     }, {
                         "filename": "/swipl/library/iri_scheme/.created",
-                        "start": 2114042,
-                        "end": 2114042
+                        "start": 2115468,
+                        "end": 2115468
                     }, {
                         "filename": "/swipl/library/theme/auto.pl",
-                        "start": 2114042,
-                        "end": 2116267
+                        "start": 2115468,
+                        "end": 2117693
                     }, {
                         "filename": "/swipl/library/theme/dark.pl",
-                        "start": 2116267,
-                        "end": 2128171
+                        "start": 2117693,
+                        "end": 2129597
                     }, {
                         "filename": "/swipl/library/theme/.created",
-                        "start": 2128171,
-                        "end": 2128171
+                        "start": 2129597,
+                        "end": 2129597
                     }, {
                         "filename": "/swipl/library/lynx/html_text.pl",
-                        "start": 2128171,
-                        "end": 2152909
+                        "start": 2129597,
+                        "end": 2154335
                     }, {
                         "filename": "/swipl/library/lynx/format.pl",
-                        "start": 2152909,
-                        "end": 2163700
+                        "start": 2154335,
+                        "end": 2165126
                     }, {
                         "filename": "/swipl/library/lynx/html_style.pl",
-                        "start": 2163700,
-                        "end": 2168181
+                        "start": 2165126,
+                        "end": 2169607
                     }, {
                         "filename": "/swipl/library/lynx/pldoc_style.pl",
-                        "start": 2168181,
-                        "end": 2171426
+                        "start": 2169607,
+                        "end": 2172852
                     }, {
                         "filename": "/swipl/library/lynx/INDEX.pl",
-                        "start": 2171426,
-                        "end": 2171950
+                        "start": 2172852,
+                        "end": 2173376
                     }, {
                         "filename": "/swipl/library/lynx/.created",
-                        "start": 2171950,
-                        "end": 2171950
+                        "start": 2173376,
+                        "end": 2173376
                     }, {
                         "filename": "/swipl/library/clp/clp_distinct.pl",
-                        "start": 2171950,
-                        "end": 2178548
+                        "start": 2173376,
+                        "end": 2179974
                     }, {
                         "filename": "/swipl/library/clp/bounds.pl",
-                        "start": 2178548,
-                        "end": 2217857
+                        "start": 2179974,
+                        "end": 2219283
                     }, {
                         "filename": "/swipl/library/clp/clpb.pl",
-                        "start": 2217857,
-                        "end": 2283909
+                        "start": 2219283,
+                        "end": 2285335
                     }, {
                         "filename": "/swipl/library/clp/clp_events.pl",
-                        "start": 2283909,
-                        "end": 2286621
+                        "start": 2285335,
+                        "end": 2288047
                     }, {
                         "filename": "/swipl/library/clp/INDEX.pl",
-                        "start": 2286621,
-                        "end": 2290571
+                        "start": 2288047,
+                        "end": 2291997
                     }, {
                         "filename": "/swipl/library/clp/.created",
-                        "start": 2290571,
-                        "end": 2290571
+                        "start": 2291997,
+                        "end": 2291997
                     }, {
                         "filename": "/swipl/library/clp/clpfd.pl",
-                        "start": 2290571,
-                        "end": 2567425
+                        "start": 2291997,
+                        "end": 2568851
                     }, {
                         "filename": "/swipl/library/dcg/high_order.pl",
-                        "start": 2567425,
-                        "end": 2574901
+                        "start": 2568851,
+                        "end": 2576327
                     }, {
                         "filename": "/swipl/library/dcg/basics.pl",
-                        "start": 2574901,
-                        "end": 2585782
+                        "start": 2576327,
+                        "end": 2587208
                     }, {
                         "filename": "/swipl/library/dcg/INDEX.pl",
-                        "start": 2585782,
-                        "end": 2587096
+                        "start": 2587208,
+                        "end": 2588522
                     }, {
                         "filename": "/swipl/library/dcg/.created",
-                        "start": 2587096,
-                        "end": 2587096
+                        "start": 2588522,
+                        "end": 2588522
                     }, {
                         "filename": "/swipl/library/unicode/blocks.pl",
-                        "start": 2587096,
-                        "end": 2597337
+                        "start": 2588522,
+                        "end": 2598763
                     }, {
                         "filename": "/swipl/library/unicode/INDEX.pl",
-                        "start": 2597337,
-                        "end": 2597511
+                        "start": 2598763,
+                        "end": 2598937
                     }, {
                         "filename": "/swipl/library/unicode/.created",
-                        "start": 2597511,
-                        "end": 2597511
+                        "start": 2598937,
+                        "end": 2598937
                     }, {
                         "filename": "/swipl/library/unicode/unicode_data.pl",
-                        "start": 2597511,
-                        "end": 2603005
+                        "start": 2598937,
+                        "end": 2604431
                     }, {
                         "filename": "/swipl/library/build/conan.pl",
-                        "start": 2603005,
-                        "end": 261e4
+                        "start": 2604431,
+                        "end": 2611426
                     }, {
                         "filename": "/swipl/library/build/tools.pl",
-                        "start": 261e4,
-                        "end": 2636274
+                        "start": 2611426,
+                        "end": 2637700
                     }, {
                         "filename": "/swipl/library/build/cmake.pl",
-                        "start": 2636274,
-                        "end": 2641131
+                        "start": 2637700,
+                        "end": 2642557
                     }, {
                         "filename": "/swipl/library/build/make.pl",
-                        "start": 2641131,
-                        "end": 2647133
+                        "start": 2642557,
+                        "end": 2648559
                     }, {
                         "filename": "/swipl/library/build/.created",
-                        "start": 2647133,
-                        "end": 2647133
+                        "start": 2648559,
+                        "end": 2648559
                     }, {
                         "filename": "/swipl/library/dialect/yap.pl",
-                        "start": 2647133,
-                        "end": 2654267
+                        "start": 2648559,
+                        "end": 2655693
                     }, {
                         "filename": "/swipl/library/dialect/bim.pl",
-                        "start": 2654267,
-                        "end": 2658548
+                        "start": 2655693,
+                        "end": 2659974
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4.pl",
-                        "start": 2658548,
-                        "end": 2665935
+                        "start": 2659974,
+                        "end": 2667361
                     }, {
                         "filename": "/swipl/library/dialect/xsb.pl",
-                        "start": 2665935,
-                        "end": 2687178
+                        "start": 2667361,
+                        "end": 2688604
                     }, {
                         "filename": "/swipl/library/dialect/hprolog.pl",
-                        "start": 2687178,
-                        "end": 2695570
+                        "start": 2688604,
+                        "end": 2696996
                     }, {
                         "filename": "/swipl/library/dialect/ifprolog.pl",
-                        "start": 2695570,
-                        "end": 2732027
+                        "start": 2696996,
+                        "end": 2733453
                     }, {
                         "filename": "/swipl/library/dialect/commons.pl",
-                        "start": 2732027,
-                        "end": 2734587
+                        "start": 2733453,
+                        "end": 2736013
                     }, {
                         "filename": "/swipl/library/dialect/sicstus.pl",
-                        "start": 2734587,
-                        "end": 2751409
+                        "start": 2736013,
+                        "end": 2752835
                     }, {
                         "filename": "/swipl/library/dialect/.created",
-                        "start": 2751409,
-                        "end": 2751409
+                        "start": 2752835,
+                        "end": 2752835
                     }, {
                         "filename": "/swipl/library/dialect/swi/syspred_options.pl",
-                        "start": 2751409,
-                        "end": 2759276
+                        "start": 2752835,
+                        "end": 2760702
                     }, {
                         "filename": "/swipl/library/dialect/swi/.created",
-                        "start": 2759276,
-                        "end": 2759276
+                        "start": 2760702,
+                        "end": 2760702
                     }, {
                         "filename": "/swipl/library/dialect/xsb/source.pl",
-                        "start": 2759276,
-                        "end": 2769072
+                        "start": 2760702,
+                        "end": 2770498
                     }, {
                         "filename": "/swipl/library/dialect/xsb/curr_sym.pl",
-                        "start": 2769072,
-                        "end": 2771335
+                        "start": 2770498,
+                        "end": 2772761
                     }, {
                         "filename": "/swipl/library/dialect/xsb/storage.pl",
-                        "start": 2771335,
-                        "end": 2773905
+                        "start": 2772761,
+                        "end": 2775331
                     }, {
                         "filename": "/swipl/library/dialect/xsb/consult.pl",
-                        "start": 2773905,
-                        "end": 2775747
+                        "start": 2775331,
+                        "end": 2777173
                     }, {
                         "filename": "/swipl/library/dialect/xsb/ordsets.pl",
-                        "start": 2775747,
-                        "end": 2777969
+                        "start": 2777173,
+                        "end": 2779395
                     }, {
                         "filename": "/swipl/library/dialect/xsb/README.md",
-                        "start": 2777969,
-                        "end": 2778620
+                        "start": 2779395,
+                        "end": 2780046
                     }, {
                         "filename": "/swipl/library/dialect/xsb/gensym.pl",
-                        "start": 2778620,
-                        "end": 2780662
+                        "start": 2780046,
+                        "end": 2782088
                     }, {
                         "filename": "/swipl/library/dialect/xsb/gpp.pl",
-                        "start": 2780662,
-                        "end": 2785726
+                        "start": 2782088,
+                        "end": 2787152
                     }, {
                         "filename": "/swipl/library/dialect/xsb/machine.pl",
-                        "start": 2785726,
-                        "end": 2792768
+                        "start": 2787152,
+                        "end": 2794194
                     }, {
                         "filename": "/swipl/library/dialect/xsb/timed_call.pl",
-                        "start": 2792768,
-                        "end": 2798507
+                        "start": 2794194,
+                        "end": 2799933
                     }, {
                         "filename": "/swipl/library/dialect/xsb/string.pl",
-                        "start": 2798507,
-                        "end": 2801061
+                        "start": 2799933,
+                        "end": 2802487
                     }, {
                         "filename": "/swipl/library/dialect/xsb/standard.pl",
-                        "start": 2801061,
-                        "end": 2805866
+                        "start": 2802487,
+                        "end": 2807292
                     }, {
                         "filename": "/swipl/library/dialect/xsb/basics.pl",
-                        "start": 2805866,
-                        "end": 2813233
+                        "start": 2807292,
+                        "end": 2814659
                     }, {
                         "filename": "/swipl/library/dialect/xsb/intern.pl",
-                        "start": 2813233,
-                        "end": 2815155
+                        "start": 2814659,
+                        "end": 2816581
                     }, {
                         "filename": "/swipl/library/dialect/xsb/thread.pl",
-                        "start": 2815155,
-                        "end": 2817340
+                        "start": 2816581,
+                        "end": 2818766
                     }, {
                         "filename": "/swipl/library/dialect/xsb/.created",
-                        "start": 2817340,
-                        "end": 2817340
+                        "start": 2818766,
+                        "end": 2818766
                     }, {
                         "filename": "/swipl/library/dialect/xsb/error_handler.pl",
-                        "start": 2817340,
-                        "end": 2821537
+                        "start": 2818766,
+                        "end": 2822963
                     }, {
                         "filename": "/swipl/library/dialect/xsb/lists.pl",
-                        "start": 2821537,
-                        "end": 2823435
+                        "start": 2822963,
+                        "end": 2824861
                     }, {
                         "filename": "/swipl/library/dialect/xsb/setof.pl",
-                        "start": 2823435,
-                        "end": 2825974
+                        "start": 2824861,
+                        "end": 2827400
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/ordsets.pl",
-                        "start": 2825974,
-                        "end": 2827996
+                        "start": 2827400,
+                        "end": 2829422
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/timeout.pl",
-                        "start": 2827996,
-                        "end": 2829776
+                        "start": 2829422,
+                        "end": 2831202
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/file_systems.pl",
-                        "start": 2829776,
-                        "end": 2847259
+                        "start": 2831202,
+                        "end": 2848685
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/sets.pl",
-                        "start": 2847259,
-                        "end": 2850805
+                        "start": 2848685,
+                        "end": 2852231
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/aggregate.pl",
-                        "start": 2850805,
-                        "end": 2853225
+                        "start": 2852231,
+                        "end": 2854651
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/types.pl",
-                        "start": 2853225,
-                        "end": 2857518
+                        "start": 2854651,
+                        "end": 2858944
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/between.pl",
-                        "start": 2857518,
-                        "end": 2859647
+                        "start": 2858944,
+                        "end": 2861073
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/system.pl",
-                        "start": 2859647,
-                        "end": 2862560
+                        "start": 2861073,
+                        "end": 2863986
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/samsort.pl",
-                        "start": 2862560,
-                        "end": 2865522
+                        "start": 2863986,
+                        "end": 2866948
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/terms.pl",
-                        "start": 2865522,
-                        "end": 2868414
+                        "start": 2866948,
+                        "end": 2869840
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/.created",
-                        "start": 2868414,
-                        "end": 2868414
+                        "start": 2869840,
+                        "end": 2869840
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/lists.pl",
-                        "start": 2868414,
-                        "end": 2876406
+                        "start": 2869840,
+                        "end": 2877832
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/clpfd.pl",
-                        "start": 2876406,
-                        "end": 2878946
+                        "start": 2877832,
+                        "end": 2880372
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/sockets.pl",
-                        "start": 2878946,
-                        "end": 2885143
+                        "start": 2880372,
+                        "end": 2886569
                     }, {
                         "filename": "/swipl/library/dialect/eclipse/test_util_iso.pl",
-                        "start": 2885143,
-                        "end": 2894995
+                        "start": 2886569,
+                        "end": 2896421
                     }, {
                         "filename": "/swipl/library/dialect/eclipse/.created",
-                        "start": 2894995,
-                        "end": 2894995
+                        "start": 2896421,
+                        "end": 2896421
                     }, {
                         "filename": "/swipl/library/dialect/yap/README.TXT",
-                        "start": 2894995,
-                        "end": 2895346
+                        "start": 2896421,
+                        "end": 2896772
                     }, {
                         "filename": "/swipl/library/dialect/yap/.created",
-                        "start": 2895346,
-                        "end": 2895346
+                        "start": 2896772,
+                        "end": 2896772
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/ordsets.pl",
-                        "start": 2895346,
-                        "end": 2897300
+                        "start": 2896772,
+                        "end": 2898726
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/timeout.pl",
-                        "start": 2897300,
-                        "end": 2901051
+                        "start": 2898726,
+                        "end": 2902477
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/README.TXT",
-                        "start": 2901051,
-                        "end": 2901082
+                        "start": 2902477,
+                        "end": 2902508
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/swipl-lfr.pl",
-                        "start": 2901082,
-                        "end": 2905082
+                        "start": 2902508,
+                        "end": 2906508
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/block.pl",
-                        "start": 2905082,
-                        "end": 2915525
+                        "start": 2906508,
+                        "end": 2916951
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/arrays.pl",
-                        "start": 2915525,
-                        "end": 2919229
+                        "start": 2916951,
+                        "end": 2920655
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/system.pl",
-                        "start": 2919229,
-                        "end": 2925804
+                        "start": 2920655,
+                        "end": 2927230
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/terms.pl",
-                        "start": 2925804,
-                        "end": 2928043
+                        "start": 2927230,
+                        "end": 2929469
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/.created",
-                        "start": 2928043,
-                        "end": 2928043
+                        "start": 2929469,
+                        "end": 2929469
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/lists.pl",
-                        "start": 2928043,
-                        "end": 2932700
+                        "start": 2929469,
+                        "end": 2934126
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/sockets.pl",
-                        "start": 2932700,
-                        "end": 2938919
+                        "start": 2934126,
+                        "end": 2940345
                     }, {
                         "filename": "/swipl/library/dialect/hprolog/format.pl",
-                        "start": 2938919,
-                        "end": 2940756
+                        "start": 2940345,
+                        "end": 2942182
                     }, {
                         "filename": "/swipl/library/dialect/hprolog/.created",
-                        "start": 2940756,
-                        "end": 2940756
+                        "start": 2942182,
+                        "end": 2942182
                     }, {
                         "filename": "/swipl/library/dialect/iso/iso_predicates.pl",
-                        "start": 2940756,
-                        "end": 2950446
+                        "start": 2942182,
+                        "end": 2951872
                     }, {
                         "filename": "/swipl/library/dialect/iso/.created",
-                        "start": 2950446,
-                        "end": 2950446
+                        "start": 2951872,
+                        "end": 2951872
                     }],
-                    "remote_package_size": 2950446
+                    "remote_package_size": 2951872
                 })
             })();
             var moduleOverrides = Object.assign({}, Module);
@@ -5694,98 +5694,104 @@ var SWIPL = (() => {
             var _PL_put_blob = Module["_PL_put_blob"] = function() {
                 return (_PL_put_blob = Module["_PL_put_blob"] = Module["asm"]["Md"]).apply(null, arguments)
             };
+            var _PL_put_dict = Module["_PL_put_dict"] = function() {
+                return (_PL_put_dict = Module["_PL_put_dict"] = Module["asm"]["Nd"]).apply(null, arguments)
+            };
             var _PL_term_type = Module["_PL_term_type"] = function() {
-                return (_PL_term_type = Module["_PL_term_type"] = Module["asm"]["Nd"]).apply(null, arguments)
+                return (_PL_term_type = Module["_PL_term_type"] = Module["asm"]["Od"]).apply(null, arguments)
             };
             var _PL_context = Module["_PL_context"] = function() {
-                return (_PL_context = Module["_PL_context"] = Module["asm"]["Od"]).apply(null, arguments)
+                return (_PL_context = Module["_PL_context"] = Module["asm"]["Pd"]).apply(null, arguments)
             };
             var _PL_module_name = Module["_PL_module_name"] = function() {
-                return (_PL_module_name = Module["_PL_module_name"] = Module["asm"]["Pd"]).apply(null, arguments)
+                return (_PL_module_name = Module["_PL_module_name"] = Module["asm"]["Qd"]).apply(null, arguments)
             };
             var _PL_predicate_info = Module["_PL_predicate_info"] = function() {
-                return (_PL_predicate_info = Module["_PL_predicate_info"] = Module["asm"]["Qd"]).apply(null, arguments)
+                return (_PL_predicate_info = Module["_PL_predicate_info"] = Module["asm"]["Rd"]).apply(null, arguments)
             };
             var _PL_call = Module["_PL_call"] = function() {
-                return (_PL_call = Module["_PL_call"] = Module["asm"]["Rd"]).apply(null, arguments)
+                return (_PL_call = Module["_PL_call"] = Module["asm"]["Sd"]).apply(null, arguments)
             };
             var _PL_foreign_context = Module["_PL_foreign_context"] = function() {
-                return (_PL_foreign_context = Module["_PL_foreign_context"] = Module["asm"]["Sd"]).apply(null, arguments)
+                return (_PL_foreign_context = Module["_PL_foreign_context"] = Module["asm"]["Td"]).apply(null, arguments)
             };
             var _PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = function() {
-                return (_PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = Module["asm"]["Td"]).apply(null, arguments)
+                return (_PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = Module["asm"]["Ud"]).apply(null, arguments)
             };
             var _PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = function() {
-                return (_PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = Module["asm"]["Ud"]).apply(null, arguments)
+                return (_PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = Module["asm"]["Vd"]).apply(null, arguments)
             };
             var _PL_register_extensions = Module["_PL_register_extensions"] = function() {
-                return (_PL_register_extensions = Module["_PL_register_extensions"] = Module["asm"]["Vd"]).apply(null, arguments)
+                return (_PL_register_extensions = Module["_PL_register_extensions"] = Module["asm"]["Wd"]).apply(null, arguments)
             };
             var _PL_register_foreign = Module["_PL_register_foreign"] = function() {
-                return (_PL_register_foreign = Module["_PL_register_foreign"] = Module["asm"]["Wd"]).apply(null, arguments)
+                return (_PL_register_foreign = Module["_PL_register_foreign"] = Module["asm"]["Xd"]).apply(null, arguments)
             };
             var _PL_abort_hook = Module["_PL_abort_hook"] = function() {
-                return (_PL_abort_hook = Module["_PL_abort_hook"] = Module["asm"]["Xd"]).apply(null, arguments)
+                return (_PL_abort_hook = Module["_PL_abort_hook"] = Module["asm"]["Yd"]).apply(null, arguments)
             };
             var _PL_abort_unhook = Module["_PL_abort_unhook"] = function() {
-                return (_PL_abort_unhook = Module["_PL_abort_unhook"] = Module["asm"]["Yd"]).apply(null, arguments)
+                return (_PL_abort_unhook = Module["_PL_abort_unhook"] = Module["asm"]["Zd"]).apply(null, arguments)
             };
             var _PL_dispatch_hook = Module["_PL_dispatch_hook"] = function() {
-                return (_PL_dispatch_hook = Module["_PL_dispatch_hook"] = Module["asm"]["Zd"]).apply(null, arguments)
+                return (_PL_dispatch_hook = Module["_PL_dispatch_hook"] = Module["asm"]["_d"]).apply(null, arguments)
             };
             var _PL_duplicate_record = Module["_PL_duplicate_record"] = function() {
-                return (_PL_duplicate_record = Module["_PL_duplicate_record"] = Module["asm"]["_d"]).apply(null, arguments)
+                return (_PL_duplicate_record = Module["_PL_duplicate_record"] = Module["asm"]["$d"]).apply(null, arguments)
             };
             var _PL_action = Module["_PL_action"] = function() {
-                return (_PL_action = Module["_PL_action"] = Module["asm"]["$d"]).apply(null, arguments)
+                return (_PL_action = Module["_PL_action"] = Module["asm"]["ae"]).apply(null, arguments)
             };
             var _PL_query = Module["_PL_query"] = function() {
-                return (_PL_query = Module["_PL_query"] = Module["asm"]["ae"]).apply(null, arguments)
+                return (_PL_query = Module["_PL_query"] = Module["asm"]["be"]).apply(null, arguments)
             };
             var __PL_streams = Module["__PL_streams"] = function() {
-                return (__PL_streams = Module["__PL_streams"] = Module["asm"]["be"]).apply(null, arguments)
+                return (__PL_streams = Module["__PL_streams"] = Module["asm"]["ce"]).apply(null, arguments)
             };
             var _PL_get_file_nameW = Module["_PL_get_file_nameW"] = function() {
-                return (_PL_get_file_nameW = Module["_PL_get_file_nameW"] = Module["asm"]["ce"]).apply(null, arguments)
+                return (_PL_get_file_nameW = Module["_PL_get_file_nameW"] = Module["asm"]["de"]).apply(null, arguments)
             };
             var _WASM_ttymode = Module["_WASM_ttymode"] = function() {
-                return (_WASM_ttymode = Module["_WASM_ttymode"] = Module["asm"]["de"]).apply(null, arguments)
+                return (_WASM_ttymode = Module["_WASM_ttymode"] = Module["asm"]["ee"]).apply(null, arguments)
+            };
+            var _WASM_variable_id = Module["_WASM_variable_id"] = function() {
+                return (_WASM_variable_id = Module["_WASM_variable_id"] = Module["asm"]["fe"]).apply(null, arguments)
             };
             var _WASM_yield_request = Module["_WASM_yield_request"] = function() {
-                return (_WASM_yield_request = Module["_WASM_yield_request"] = Module["asm"]["ee"]).apply(null, arguments)
+                return (_WASM_yield_request = Module["_WASM_yield_request"] = Module["asm"]["ge"]).apply(null, arguments)
             };
             var _WASM_set_yield_result = Module["_WASM_set_yield_result"] = function() {
-                return (_WASM_set_yield_result = Module["_WASM_set_yield_result"] = Module["asm"]["fe"]).apply(null, arguments)
+                return (_WASM_set_yield_result = Module["_WASM_set_yield_result"] = Module["asm"]["he"]).apply(null, arguments)
             };
             var ___funcs_on_exit = Module["___funcs_on_exit"] = function() {
-                return (___funcs_on_exit = Module["___funcs_on_exit"] = Module["asm"]["ge"]).apply(null, arguments)
+                return (___funcs_on_exit = Module["___funcs_on_exit"] = Module["asm"]["ie"]).apply(null, arguments)
             };
             var _fflush = Module["_fflush"] = function() {
-                return (_fflush = Module["_fflush"] = Module["asm"]["he"]).apply(null, arguments)
+                return (_fflush = Module["_fflush"] = Module["asm"]["je"]).apply(null, arguments)
             };
             var _emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = function() {
-                return (_emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = Module["asm"]["ie"]).apply(null, arguments)
+                return (_emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = Module["asm"]["ke"]).apply(null, arguments)
             };
             var _setThrew = Module["_setThrew"] = function() {
-                return (_setThrew = Module["_setThrew"] = Module["asm"]["je"]).apply(null, arguments)
+                return (_setThrew = Module["_setThrew"] = Module["asm"]["le"]).apply(null, arguments)
             };
             var stackSave = Module["stackSave"] = function() {
-                return (stackSave = Module["stackSave"] = Module["asm"]["ke"]).apply(null, arguments)
+                return (stackSave = Module["stackSave"] = Module["asm"]["me"]).apply(null, arguments)
             };
             var stackRestore = Module["stackRestore"] = function() {
-                return (stackRestore = Module["stackRestore"] = Module["asm"]["le"]).apply(null, arguments)
+                return (stackRestore = Module["stackRestore"] = Module["asm"]["ne"]).apply(null, arguments)
             };
             var stackAlloc = Module["stackAlloc"] = function() {
-                return (stackAlloc = Module["stackAlloc"] = Module["asm"]["me"]).apply(null, arguments)
+                return (stackAlloc = Module["stackAlloc"] = Module["asm"]["oe"]).apply(null, arguments)
             };
             var dynCall_iiji = Module["dynCall_iiji"] = function() {
-                return (dynCall_iiji = Module["dynCall_iiji"] = Module["asm"]["ne"]).apply(null, arguments)
+                return (dynCall_iiji = Module["dynCall_iiji"] = Module["asm"]["pe"]).apply(null, arguments)
             };
             var dynCall_iij = Module["dynCall_iij"] = function() {
-                return (dynCall_iij = Module["dynCall_iij"] = Module["asm"]["oe"]).apply(null, arguments)
+                return (dynCall_iij = Module["dynCall_iij"] = Module["asm"]["qe"]).apply(null, arguments)
             };
             var dynCall_ij = Module["dynCall_ij"] = function() {
-                return (dynCall_ij = Module["dynCall_ij"] = Module["asm"]["pe"]).apply(null, arguments)
+                return (dynCall_ij = Module["dynCall_ij"] = Module["asm"]["re"]).apply(null, arguments)
             };
 
             function invoke_iii(index, a1, a2) {
@@ -6065,28 +6071,89 @@ var SWIPL = (() => {
                 this.args = args;
                 this.bindings = {};
                 this._bind();
-                this._initialise()
+                this._initialise();
+                this.PL_VARIABLE = 1;
+                this.PL_ATOM = 2;
+                this.PL_INTEGER = 3;
+                this.PL_RATIONAL = 4;
+                this.PL_FLOAT = 5;
+                this.PL_STRING = 6;
+                this.PL_TERM = 7;
+                this.PL_NIL = 8;
+                this.PL_BLOB = 9;
+                this.PL_LIST_PAIR = 10;
+                this.PL_FUNCTOR = 11;
+                this.PL_LIST = 12;
+                this.PL_CHARS = 13;
+                this.PL_POINTER = 14;
+                this.PL_CODE_LIST = 15;
+                this.PL_CHAR_LIST = 16;
+                this.PL_BOOL = 17;
+                this.PL_FUNCTOR_CHARS = 18;
+                this._PL_PREDICATE_INDICATOR = 19;
+                this.PL_SHORT = 20;
+                this.PL_INT = 21;
+                this.PL_LONG = 22;
+                this.PL_DOUBLE = 23;
+                this.PL_NCHARS = 24;
+                this.PL_UTF8_CHARS = 25;
+                this.PL_UTF8_STRING = 26;
+                this.PL_INT64 = 27;
+                this.PL_NUTF8_CHARS = 28;
+                this.PL_NUTF8_CODES = 29;
+                this.PL_NUTF8_STRING = 30;
+                this.PL_NWCHARS = 31;
+                this.PL_NWCODES = 32;
+                this.PL_NWSTRING = 33;
+                this.PL_MBCHARS = 34;
+                this.PL_MBCODES = 35;
+                this.PL_MBSTRING = 36;
+                this.PL_INTPTR = 37;
+                this.PL_CHAR = 38;
+                this.PL_CODE = 39;
+                this.PL_BYTE = 40;
+                this.PL_PARTIAL_LIST = 41;
+                this.PL_CYCLIC_TERM = 42;
+                this.PL_NOT_A_LIST = 43;
+                this.PL_DICT = 44;
+                this.REP_ISO_LATIN_1 = 0;
+                this.REP_UTF8 = 1048576;
+                this.REP_MB = 2097152;
+                this.REP_FN = this.REP_UTF8;
+                this.CVT_ATOM = 1;
+                this.CVT_STRING = 2;
+                this.CVT_LIST = 4;
+                this.CVT_INTEGER = 8;
+                this.CVT_RATIONAL = 16;
+                this.CVT_FLOAT = 32;
+                this.CVT_VARIABLE = 64;
+                this.CVT_NUMBER = this.CVT_INTEGER | this.CVT_RATIONAL | this.CVT_FLOAT;
+                this.CVT_ATOMIC = this.CVT_NUMBER | this.CVT_ATOM | this.CVT_STRING;
+                this.CVT_WRITE = 128;
+                this.CVT_WRITE_CANONICAL = 256;
+                this.CVT_WRITEQ = 512;
+                this.CVT_ALL = this.CVT_ATOMIC | this.CVT_LIST;
+                this.CVT_MASK = 4095;
+                this.CVT_EXCEPTION = 4096;
+                this.CVT_VARNOFAIL = 8192;
+                this.BUF_DISCARDABLE = 0;
+                this.BUF_STACK = 65536;
+                this.BUF_MALLOC = 131072;
+                this.BUF_ALLOW_STACK = 262144;
+                this.PL_Q_NORMAL = 2;
+                this.PL_Q_NODEBUG = 4;
+                this.PL_Q_CATCH_EXCEPTION = 8;
+                this.PL_Q_PASS_EXCEPTION = 16;
+                this.PL_Q_ALLOW_YIELD = 32;
+                this.PL_Q_EXT_STATUS = 64;
+                this.PL_S_EXCEPTION = -1;
+                this.PL_S_FALSE = 0;
+                this.PL_S_TRUE = 1;
+                this.PL_S_LAST = 2;
+                this.PL_S_YIELD = 255;
+                this.PL_WRT_QUOTED = 1;
+                this.PL_WRT_NEWLINE = 8192
             }
-            const PL_STRING = 6;
-            const REP_UTF8 = 1048576;
-            const CVT_ATOM = 1;
-            const CVT_STRING = 2;
-            const CVT_LIST = 4;
-            const CVT_INTEGER = 8;
-            const CVT_RATIONAL = 16;
-            const CVT_FLOAT = 32;
-            const CVT_NUMBER = CVT_INTEGER | CVT_RATIONAL | CVT_FLOAT;
-            const CVT_ATOMIC = CVT_NUMBER | CVT_ATOM | CVT_STRING;
-            const CVT_WRITEQ = 512;
-            const CVT_ALL = CVT_ATOMIC | CVT_LIST;
-            const PL_Q_NORMAL = 2;
-            const PL_Q_ALLOW_YIELD = 32;
-            const PL_Q_EXT_STATUS = 64;
-            const PL_S_EXCEPTION = -1;
-            const PL_S_FALSE = 0;
-            const PL_S_YIELD = 255;
-            const PL_WRT_QUOTED = 1;
-            const PL_WRT_NEWLINE = 8192;
             Prolog.prototype._bind = function() {
                 this.bindings._PL_streams = this.module.cwrap("_PL_streams", "number", []);
                 this.bindings.PL_atom_chars = this.module.cwrap("PL_atom_chars", "number", ["number"]);
@@ -6096,9 +6163,18 @@ var SWIPL = (() => {
                 this.bindings.PL_get_chars = this.module.cwrap("PL_get_chars", "number", ["number", "number", "number"]);
                 this.bindings.PL_get_arg = this.module.cwrap("PL_get_arg", "number", ["number", "number", "number"]);
                 this.bindings.PL_get_integer = this.module.cwrap("PL_get_integer", "number", ["number", "number"]);
+                this.bindings.PL_get_int64 = this.module.cwrap("PL_get_int64", "number", ["number", "number"]);
+                this.bindings.PL_get_float = this.module.cwrap("PL_get_float", "number", ["number", "number"]);
                 this.bindings.PL_put_chars = this.module.cwrap("PL_put_chars", "number", ["number", "number", "number", "number"]);
+                this.bindings.PL_put_atom = this.module.cwrap("PL_put_atom", "number", ["number"]);
+                this.bindings.PL_put_variable = this.module.cwrap("PL_put_variable", "number", ["number"]);
                 this.bindings.PL_unify = this.module.cwrap("PL_unify", "number", ["number", "number"]);
                 this.bindings.PL_is_string = this.module.cwrap("PL_is_string", "number", ["number"]);
+                this.bindings.PL_is_variable = this.module.cwrap("PL_is_variable", "number", ["number"]);
+                this.bindings.PL_term_type = this.module.cwrap("PL_term_type", "number", ["number"]);
+                this.bindings.PL_get_list = this.module.cwrap("PL_get_list", "number", ["number", "number", "number"]);
+                this.bindings.PL_get_nil = this.module.cwrap("PL_get_nil", "number", ["number"]);
+                this.bindings.PL_get_name_arity = this.module.cwrap("PL_get_name_arity", "number", ["number", "number", "number"]);
                 this.bindings.PL_initialise = this.module.cwrap("PL_initialise", "number", ["number", "number"]);
                 this.bindings.PL_new_atom = this.module.cwrap("PL_new_atom", "number", ["string"]);
                 this.bindings.PL_register_atom = this.module.cwrap("PL_register_atom", null, ["number"]);
@@ -6106,7 +6182,16 @@ var SWIPL = (() => {
                 this.bindings.PL_new_module = this.module.cwrap("PL_new_module", "number", ["number"]);
                 this.bindings.PL_new_functor = this.module.cwrap("PL_new_functor", "number", ["number", "number"]);
                 this.bindings.PL_new_term_ref = this.module.cwrap("PL_new_term_ref", "number", []);
+                this.bindings.PL_new_term_refs = this.module.cwrap("PL_new_term_refs", "number", ["number"]);
+                this.bindings.PL_copy_term_ref = this.module.cwrap("PL_copy_term_ref", "number", ["number"]);
+                this.bindings.PL_reset_term_refs = this.module.cwrap("PL_reset_term_refs", null, ["number"]);
                 this.bindings.PL_put_functor = this.module.cwrap("PL_put_functor", "number", ["number", "number"]);
+                this.bindings.PL_put_integer = this.module.cwrap("PL_put_integer", "number", ["number", "number"]);
+                this.bindings.PL_put_float = this.module.cwrap("PL_put_float", "number", ["number", "number"]);
+                this.bindings.PL_put_nil = this.module.cwrap("PL_put_nil", "number", []);
+                this.bindings.PL_cons_functor_v = this.module.cwrap("PL_cons_functor_v", "number", ["number", "number", "number"]);
+                this.bindings.PL_cons_list = this.module.cwrap("PL_cons_list", "number", ["number", "number", "number"]);
+                this.bindings.PL_put_dict = this.module.cwrap("PL_put_dict", "number", ["number", "number", "number", "number", "number"]);
                 this.bindings.PL_put_term_from_chars = this.module.cwrap("PL_put_term_from_chars", "number", ["number", "number", "number", "string"]);
                 this.bindings.PL_write_term = this.module.cwrap("PL_write_term", "number", ["number", "number", "number", "number"]);
                 this.bindings.PL_call = this.module.cwrap("PL_call", "number", ["number", "number"]);
@@ -6117,11 +6202,14 @@ var SWIPL = (() => {
                 this.bindings.PL_open_query = this.module.cwrap("PL_open_query", "number", ["number", "number", "number", "number"]);
                 this.bindings.PL_next_solution = this.module.cwrap("PL_next_solution", "number", ["number"]);
                 this.bindings.PL_close_query = this.module.cwrap("PL_close_query", "number", ["number"]);
+                this.bindings.PL_cut_query = this.module.cwrap("PL_cut_query", "number", ["number"]);
                 this.bindings.WASM_ttymode = this.module.cwrap("WASM_ttymode", "number", []);
                 this.bindings.WASM_yield_request = this.module.cwrap("WASM_yield_request", "number", []);
-                this.bindings.WASM_set_yield_result = this.module.cwrap("WASM_set_yield_result", "number", ["number"])
+                this.bindings.WASM_set_yield_result = this.module.cwrap("WASM_set_yield_result", "number", ["number"]);
+                this.bindings.WASM_variable_id = this.module.cwrap("WASM_variable_id", "number", ["number"])
             };
             Prolog.prototype._initialise = function() {
+                this.functor_arg_names_ = {};
                 let argv0 = this.args || [];
                 argv0.unshift("swipl");
                 let argv = argv0.map(function(arg) {
@@ -6163,14 +6251,30 @@ var SWIPL = (() => {
             Prolog.prototype.string_to_c = function(string) {
                 const len = this.module.lengthBytesUTF8(string);
                 const ptr = this.module._malloc(len + 1);
+                this.module.stringToUTF8(string, ptr, len + 1);
                 return {
-                    ptr: this.module.stringToUTF8(string, ptr, len),
+                    ptr: ptr,
                     length: len
                 }
             };
             Prolog.prototype.predicate = function(name, arity, module) {
+                if (arity === undefined) {
+                    let ar = /^([^:]+):(.*)\/([0-9]+)$/.exec(name);
+                    if (ar) {
+                        module = ar[1];
+                        name = ar[2];
+                        arity = parseInt(ar[3])
+                    } else {
+                        ar = /(.*)\/([0-9]+)$/.exec(name);
+                        if (ar) {
+                            name = ar[1];
+                            arity = parseInt(ar[2])
+                        }
+                    }
+                    if (arity === undefined) throw `Prolog.predicate: illegal specification: ${name}`
+                }
                 const c_name = allocateUTF8(name);
-                const c_module = allocateUTF8(module);
+                const c_module = allocateUTF8(module || "user");
                 const pred = this.bindings.PL_predicate(c_name, arity, c_module);
                 this.module._free(c_name);
                 this.module._free(c_module);
@@ -6182,15 +6286,94 @@ var SWIPL = (() => {
                 this.unregister_atom(c_atom);
                 return module
             };
-            Prolog.prototype.open_query = function(module, flags, pred, argv) {
-                const c_module = module ? this.new_module(module) : 0;
-                return this.bindings.PL_open_query(c_module, flags, pred, argv)
+            Prolog.prototype.consult = function(...args) {
+                const prolog = this;
+
+                function consult_one(url) {
+                    let file = "/tmp/" + url.replace(/\//, "+");
+                    return fetch(url).then(response => response.text()).then(text => {
+                        console.log(`Downloaded ${url} to ${file}`);
+                        Module.FS.writeFile(file, text);
+                        prolog.call(`consult('${file}')`)
+                    })
+                }
+                if (args.length == 1) return consult_one(args[0]);
+                else return Promise.all(args.map(url => consult_one(url)))
             };
-            Prolog.prototype.close_query = function(query) {
-                return this.bindings.PL_close_query(query)
-            };
-            Prolog.prototype.next_solution = function(query) {
-                return this.bindings.PL_next_solution(query)
+            class Query {
+                constructor(prolog, module, flags, pred, argv, map) {
+                    module = module ? prolog.new_module(module) : 0;
+                    if (typeof pred === "string") pred = prolog.predicate(pred);
+                    flags |= prolog.PL_Q_EXT_STATUS;
+                    this.prolog = prolog;
+                    this.map = map;
+                    this.qid = prolog.bindings.PL_open_query(module, flags, pred, argv);
+                    this.open = true;
+                    this.argv = argv
+                } [Symbol.iterator]() {
+                    return this
+                }
+                next() {
+                    if (!this.open) return {
+                        done: true
+                    };
+                    const prolog = this.prolog;
+                    const argv = this.argv;
+                    switch (prolog.bindings.PL_next_solution(this.qid)) {
+                        case prolog.PL_S_EXCEPTION:
+                            this.close();
+                            return {
+                                done: true, error: true
+                            };
+                        case prolog.PL_S_FALSE:
+                            this.close();
+                            return {
+                                done: true
+                            };
+                        case prolog.PL_S_LAST:
+                            this.close();
+                        case prolog.PL_S_TRUE:
+                            return {
+                                done: false, value: this.map ? this.map.call(this, argv) : argv
+                            };
+                        case prolog.PL_S_YIELD: {
+                            let request = prolog.yield_request();
+                            if (request.charAt(0) == "{") request = JSON.parse(request);
+                            return {
+                                done: false,
+                                value: null,
+                                yield: request,
+                                resume: value => {
+                                    prolog.set_yield_result(value);
+                                    return this.next()
+                                }
+                            }
+                        }
+                    }
+                }
+                once() {
+                    const rc = this.next();
+                    this.close();
+                    return rc.value ? rc.value : rc
+                }
+                close() {
+                    if (this.open) {
+                        this.prolog.bindings.PL_cut_query(this.qid);
+                        this.open = false
+                    }
+                }
+            }
+            Prolog.prototype.query = function(module, flags, pred, argv, map) {
+                if (typeof argv === "number") {
+                    return new Query(this, module, flags, pred, argv, map)
+                } else if (typeof module === "string" && pred === undefined) {
+                    const goal = module;
+                    const av = this.new_term_ref(3);
+                    const input = flags || {};
+                    this.put_chars(av + 0, goal);
+                    this.toProlog(input, av + 1);
+                    return new Query(this, 0, this.PL_Q_NORMAL, "wasm_call_string/3", av, a => this.toJSON(a + 2))
+                }
             };
             Prolog.prototype.stream = function(name) {
                 const iob = this.bindings._PL_streams();
@@ -6213,7 +6396,7 @@ var SWIPL = (() => {
             Prolog.prototype.write = function(term, opts) {
                 opts = opts || {};
                 const precedence = opts.precedence || 1200;
-                const flags = opts.flags == undefined ? PL_WRT_QUOTED | PL_WRT_NEWLINE : flags;
+                const flags = opts.flags == undefined ? this.PL_WRT_QUOTED | this.PL_WRT_NEWLINE : flags;
                 let s = undefined;
                 if (opts.stream) {
                     if (typeof stream === "string") s = this.stream(opts.stream)
@@ -6229,30 +6412,40 @@ var SWIPL = (() => {
                 return this.bindings.PL_functor_name(functor)
             };
             Prolog.prototype.get_functor = function(term) {
-                var ptr = this.module._malloc(4);
-                if (this.bindings.PL_get_functor(term, ptr)) {
-                    var functor = this.module.getValue(ptr, "i32");
-                    this.module._free(ptr);
-                    return functor
-                } else {
-                    this.module._free(ptr);
-                    return null
-                }
+                const ptr = this.module._malloc(4);
+                let result;
+                if (this.bindings.PL_get_functor(term, ptr)) result = this.module.getValue(ptr, "i32");
+                else result = null;
+                this.module._free(ptr);
+                return result
             };
             Prolog.prototype.get_integer = function(term) {
-                var ptr = this.module._malloc(4);
-                if (this.bindings.PL_get_integer(term, ptr)) {
-                    var number = this.module.getValue(ptr, "i32");
-                    this.module._free(ptr);
-                    return number
+                const ptr = this.module._malloc(8);
+                let rc;
+                if (this.bindings.PL_get_int64(term, ptr)) {
+                    rc = this.module.getValue(ptr, "i64")
                 } else {
-                    this.module._free(ptr);
-                    return null
+                    rc = null
                 }
+                this.module._free(ptr);
+                return rc
             };
-            Prolog.prototype.put_chars_string = function(term, string) {
-                var c = this.string_to_c(string);
-                var ret = !!this.bindings.PL_put_chars(term, PL_STRING | REP_UTF8, c.length, c.ptr);
+            Prolog.prototype.get_float = function(term) {
+                const ptr = this.module._malloc(8);
+                let rc;
+                if (this.bindings.PL_get_float(term, ptr)) {
+                    rc = this.module.getValue(ptr, "double")
+                } else {
+                    rc = null
+                }
+                this.module._free(ptr);
+                return rc
+            };
+            Prolog.prototype.put_chars = function(term, string, flags) {
+                flags = flags || this.PL_STRING;
+                flags |= this.REP_UTF8;
+                const c = this.string_to_c(string);
+                const ret = !!this.bindings.PL_put_chars(term, flags, c.length, c.ptr);
                 this.module._free(c.ptr);
                 return ret
             };
@@ -6262,13 +6455,15 @@ var SWIPL = (() => {
             Prolog.prototype.is_string = function(term) {
                 return !!this.bindings.PL_is_string(term)
             };
+            Prolog.prototype.is_variable = function(term) {
+                return !!this.bindings.PL_is_variable(term)
+            };
             Prolog.prototype.atom_chars = function(atom) {
-                var ptr = this.bindings.PL_atom_chars(atom);
-                if (ptr === 0) {
-                    return null
-                } else {
-                    return this.module.UTF8ToString(ptr)
-                }
+                const t = this.new_term_ref();
+                this.bindings.PL_put_atom(t, atom);
+                const str = this.get_chars(t, this.CVT_ATOM);
+                this.bindings.PL_reset_term_refs(t);
+                return str
             };
             Prolog.prototype.ttymode = function() {
                 return this.module.UTF8ToString(this.bindings.WASM_ttymode())
@@ -6284,14 +6479,15 @@ var SWIPL = (() => {
             let lastyieldat = 0;
             Prolog.prototype.call_yieldable = function(term, module) {
                 var pred_call1;
+                const flags = this.PL_Q_NORMAL | this.PL_Q_ALLOW_YIELD | this.PL_Q_EXT_STATUS;
                 if (!pred_call1) pred_call1 = this.predicate("call", 1, "system");
-                const q = this.open_query(module, PL_Q_NORMAL | PL_Q_ALLOW_YIELD | PL_Q_EXT_STATUS, pred_call1, term);
+                const q = this.query(module, flags, pred_call1, term);
 
                 function next(prolog) {
                     while (true) {
-                        let rc = prolog.next_solution(q);
-                        if (rc == PL_S_YIELD) {
-                            let request = prolog.yield_request();
+                        let rc = q.next();
+                        if (rc.yield !== undefined) {
+                            let request = rc.yield;
                             if (request == "beat") {
                                 const now = Date.now();
                                 if (now - lastyieldat < 20) {
@@ -6299,34 +6495,249 @@ var SWIPL = (() => {
                                     continue
                                 }
                                 lastyieldat = now
-                            }
-                            return {
-                                yield: request,
-                                query: q,
-                                resume: value => {
-                                    prolog.set_yield_result(value);
-                                    return next(prolog)
+                            } else {
+                                if (request.command == "sleep") {
+                                    let result = {
+                                        yield: "builtin",
+                                        request: request,
+                                        query: q,
+                                        resume: cont => {
+                                            if (typeof cont === "string") {
+                                                prolog.set_yield_result(cont);
+                                                return next(prolog)
+                                            } else {
+                                                result.cont = cont;
+                                                result.timer = setTimeout(() => {
+                                                    prolog.set_yield_result("true");
+                                                    cont.call(prolog, next(prolog))
+                                                }, request.time * 1e3)
+                                            }
+                                        },
+                                        abort: () => {
+                                            if (result.timer) {
+                                                clearTimeout(result.timer);
+                                                prolog.set_yield_result("wasm_abort");
+                                                result.cont.call(prolog, next(prolog))
+                                            }
+                                        }
+                                    };
+                                    return result
                                 }
                             }
-                        } else {
-                            prolog.close_query(q);
-                            return rc == PL_S_FALSE ? false : rc == PL_S_EXCEPTION ? undefined : true
                         }
+                        return rc
                     }
                 }
                 return next(this)
             };
-            Prolog.prototype.chars_to_term = function(string, t) {
-                return this.bindings.PL_put_term_from_chars(t, REP_UTF8, -1, string)
+            Prolog.prototype.set_arg_names = function(name, args) {
+                if (!this.functor_arg_names_[name]) this.functor_arg_names_[name] = {};
+                this.functor_arg_names_[name][args.length] = args
             };
-            Prolog.prototype.get_chars = function(term) {
-                var ptr = this.module._malloc(4);
-                var flags = CVT_ALL | CVT_WRITEQ | CVT_EXCEPTIONATOM;
-                if (this.bindings.PL_get_chars(term, ptr, flags)) {
-                    return this.module.UTF8ToString(this.module.getValue(ptr, "i32"))
-                } else {
-                    return null
+            Prolog.prototype.arg_names = function(name, arity) {
+                if (this.functor_arg_names_[name]) return this.functor_arg_names_[name][arity]
+            };
+
+            function toJSON(prolog, term) {
+                switch (prolog.bindings.PL_term_type(term)) {
+                    case prolog.PL_VARIABLE:
+                        return {
+                            $v: "v", v: prolog.bindings.WASM_variable_id(term)
+                        };
+                    case prolog.PL_ATOM:
+                        return prolog.get_chars(term);
+                    case prolog.PL_STRING:
+                        return {
+                            $t: "s", v: prolog.get_chars(term)
+                        };
+                    case prolog.PL_NIL:
+                        return [];
+                    case prolog.PL_BLOB:
+                        return {
+                            "$t": "b"
+                        };
+                    case prolog.PL_INTEGER:
+                        return prolog.get_integer(term);
+                    case prolog.PL_RATIONAL: {
+                        let s = prolog.get_chars(term, this.CVT_RATIONAL);
+                        let a = s.split("r");
+                        return {
+                            "$t": "r",
+                            v: {
+                                n: parseInt(a[0]),
+                                d: parseInt(a[1])
+                            },
+                            s: s
+                        }
+                    }
+                    case prolog.PL_FLOAT:
+                        return prolog.get_float(term);
+                    case prolog.PL_TERM: {
+                        const f = prolog.get_functor(term);
+                        const name = prolog.atom_chars(prolog.functor_name(f));
+                        const arity = prolog.functor_arity(f);
+                        const map = prolog.arg_names(name, arity);
+                        const a = prolog.new_term_ref();
+                        if (map) {
+                            let result = {
+                                $tag: name
+                            };
+                            for (var i = 0; i < arity; i++) {
+                                prolog.get_arg(i + 1, term, a);
+                                result[map[i]] = toJSON(prolog, a)
+                            }
+                            return result
+                        } else {
+                            const args = [];
+                            let result = {
+                                $t: "t"
+                            };
+                            for (var i = 1; i <= arity; i++) {
+                                prolog.get_arg(i, term, a);
+                                args.push(toJSON(prolog, a))
+                            }
+                            result[name] = args;
+                            return result
+                        }
+                    }
+                    case prolog.PL_LIST_PAIR: {
+                        let result = [];
+                        const h = prolog.bindings.PL_new_term_ref();
+                        const t = prolog.bindings.PL_copy_term_ref(term);
+                        while (prolog.bindings.PL_get_list(t, h, t)) {
+                            result.push(toJSON(prolog, h))
+                        }
+                        if (prolog.bindings.PL_get_nil(t)) return result;
+                        return {
+                            "$t": "partial",
+                            v: result,
+                            t: toJSON(prolog, t)
+                        }
+                    }
+                    case prolog.PL_DICT: {
+                        let result = {};
+                        let a = prolog.new_term_ref();
+                        prolog.get_arg(1, term, a);
+                        if (!prolog.is_variable(a)) result["$tag"] = toJSON(prolog, a);
+                        for (var i = 2;; i += 2) {
+                            if (prolog.get_arg(i + 1, term, a)) {
+                                let key = toJSON(prolog, a);
+                                prolog.get_arg(i, term, a);
+                                result[key] = toJSON(prolog, a)
+                            } else break
+                        }
+                        return result
+                    }
+                    default:
+                        return undefined
                 }
+            }
+            Prolog.prototype.toJSON = function(term) {
+                return toJSON(this, term)
+            };
+
+            function toProlog(prolog, data, term, ctx) {
+                term = term || prolog.new_term_ref();
+                let rc;
+                switch (typeof data) {
+                    case "number":
+                        if (Number.isInteger(data)) rc = prolog.bindings.PL_put_integer(term, data);
+                        else rc = prolog.bindings.PL_put_float(term, data);
+                        break;
+                    case "string":
+                        rc = prolog.put_chars(term, data, prolog.PL_ATOM);
+                        break;
+                    case "boolean":
+                        rc = prolog.put_chars(term, data ? "true" : "false", prolog.PL_ATOM);
+                        break;
+                    case "object":
+                        if (data === null) {
+                            rc = prolog.put_chars(term, "null", prolog.PL_ATOM)
+                        } else if (data === undefined) {
+                            rc = prolog.put_chars(term, "undefined", prolog.PL_ATOM)
+                        } else if (Array.isArray(data)) {
+                            let h = prolog.new_term_ref();
+                            prolog.bindings.PL_put_nil(term);
+                            for (var i = data.length - 1; i >= 0; i--) {
+                                toProlog(prolog, data[i], h, ctx);
+                                prolog.bindings.PL_cons_list(term, h, term)
+                            }
+                        } else if (data.$t) {
+                            switch (data.$t) {
+                                case "s":
+                                    rc = prolog.put_chars(term, data.v, prolog.PL_STRING);
+                                    break;
+                                case "t": {
+                                    const keys = Object.keys(data);
+                                    let args;
+                                    let name;
+                                    for (var i = 0; i < keys.length; i++) {
+                                        if (Array.isArray(data[keys[i]])) {
+                                            if (args === undefined) {
+                                                name = keys[i];
+                                                args = data[name]
+                                            } else console.log('Object with .$t:"t" is ambiguous', data)
+                                        }
+                                    }
+                                    if (args !== undefined) {
+                                        const av = prolog.new_term_ref(args.length);
+                                        const f = prolog.new_functor(prolog.new_atom(name), args.length);
+                                        for (var i = 0; i < args.length; i++) toProlog(prolog, args[i], av + i, ctx);
+                                        rc = prolog.bindings.PL_cons_functor_v(term, f, av)
+                                    }
+                                    break
+                                }
+                                case "v": {
+                                    rc = prolog.bindings.PL_put_variable(term);
+                                    if (data.v) {
+                                        if (!ctx.vars) ctx.vars = {};
+                                        if (ctx.vars[data.v]) {
+                                            rc = prolog.bindings.PL_put_variable(term) && prolog.unify(term, ctx.vars[data.v])
+                                        } else {
+                                            ctx.vars[data.v] = prolog.bindings.PL_copy_term_ref(term)
+                                        }
+                                    }
+                                    break
+                                }
+                            }
+                        } else {
+                            const keys = Object.keys(data);
+                            const len = keys.length;
+                            const av = prolog.new_term_ref(len);
+                            const atoms = prolog.module._malloc(4 * len);
+                            const tag = prolog.new_atom("js");
+                            for (var i = 0; i < len; i++) {
+                                toProlog(prolog, data[keys[i]], av + i, ctx);
+                                prolog.module.setValue(atoms + 4 * i, prolog.new_atom(keys[i]), "i32")
+                            }
+                            rc = prolog.bindings.PL_put_dict(term, tag, len, atoms, av);
+                            prolog.module._free(atoms)
+                        }
+                        break;
+                    default:
+                        return null
+                }
+                return rc ? term : null
+            }
+            Prolog.prototype.toProlog = function(data, term, ctx) {
+                ctx = ctx || {};
+                return toProlog(this, data, term, ctx)
+            };
+            Prolog.prototype.chars_to_term = function(string, t) {
+                return this.bindings.PL_put_term_from_chars(t, this.REP_UTF8, -1, string)
+            };
+            Prolog.prototype.get_chars = function(term, flags) {
+                const ptr = this.module._malloc(4);
+                let rc;
+                flags = flags || this.CVT_ALL | this.CVT_WRITEQ;
+                flags |= this.CVT_EXCEPTION | this.REP_UTF8;
+                if (this.bindings.PL_get_chars(term, ptr, flags)) {
+                    rc = this.module.UTF8ToString(this.module.getValue(ptr, "i32"))
+                } else {
+                    rc = null
+                }
+                this.module._free(ptr);
+                return rc
             };
             Prolog.prototype.get_arg = function(index, term, arg) {
                 return this.bindings.PL_get_arg(index, term, arg)
@@ -6344,8 +6755,8 @@ var SWIPL = (() => {
             Prolog.prototype.new_functor = function(atom, arity) {
                 return this.bindings.PL_new_functor(atom, arity)
             };
-            Prolog.prototype.new_term_ref = function() {
-                return this.bindings.PL_new_term_ref()
+            Prolog.prototype.new_term_ref = function(count) {
+                return count === undefined ? this.bindings.PL_new_term_ref() : this.bindings.PL_new_term_refs(count)
             };
             Prolog.prototype.put_functor = function(term, functor) {
                 return this.bindings.PL_put_functor(term, functor)
