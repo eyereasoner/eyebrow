@@ -191,881 +191,881 @@ var SWIPL = (() => {
                     "files": [{
                         "filename": "/swipl/boot.prc",
                         "start": 0,
-                        "end": 106071
+                        "end": 106078
                     }, {
                         "filename": "/swipl/library/predicate_options.pl",
-                        "start": 106071,
-                        "end": 137113
+                        "start": 106078,
+                        "end": 137120
                     }, {
                         "filename": "/swipl/library/coinduction.pl",
-                        "start": 137113,
-                        "end": 143173
+                        "start": 137120,
+                        "end": 143180
                     }, {
                         "filename": "/swipl/library/sort.pl",
-                        "start": 143173,
-                        "end": 146993
+                        "start": 143180,
+                        "end": 147e3
                     }, {
                         "filename": "/swipl/library/readutil.pl",
-                        "start": 146993,
-                        "end": 158082
+                        "start": 147e3,
+                        "end": 158089
                     }, {
                         "filename": "/swipl/library/portray_text.pl",
-                        "start": 158082,
-                        "end": 166824
+                        "start": 158089,
+                        "end": 166831
                     }, {
                         "filename": "/swipl/library/prolog_source.pl",
-                        "start": 166824,
-                        "end": 203588
+                        "start": 166831,
+                        "end": 203595
                     }, {
                         "filename": "/swipl/library/settings.pl",
-                        "start": 203588,
-                        "end": 227552
+                        "start": 203595,
+                        "end": 227559
                     }, {
                         "filename": "/swipl/library/obfuscate.pl",
-                        "start": 227552,
-                        "end": 231674
+                        "start": 227559,
+                        "end": 231681
                     }, {
                         "filename": "/swipl/library/prolog_breakpoints.pl",
-                        "start": 231674,
-                        "end": 246043
+                        "start": 231681,
+                        "end": 246050
                     }, {
                         "filename": "/swipl/library/main.pl",
-                        "start": 246043,
-                        "end": 276607
+                        "start": 246050,
+                        "end": 276614
                     }, {
                         "filename": "/swipl/library/fastrw.pl",
-                        "start": 276607,
-                        "end": 280996
+                        "start": 276614,
+                        "end": 281003
                     }, {
                         "filename": "/swipl/library/varnumbers.pl",
-                        "start": 280996,
-                        "end": 288137
+                        "start": 281003,
+                        "end": 288144
                     }, {
                         "filename": "/swipl/library/ctypes.pl",
-                        "start": 288137,
-                        "end": 293159
+                        "start": 288144,
+                        "end": 293166
                     }, {
                         "filename": "/swipl/library/prolog_codewalk.pl",
-                        "start": 293159,
-                        "end": 332621
+                        "start": 293166,
+                        "end": 332628
                     }, {
                         "filename": "/swipl/library/prolog_autoload.pl",
-                        "start": 332621,
-                        "end": 341170
+                        "start": 332628,
+                        "end": 341177
                     }, {
                         "filename": "/swipl/library/quintus.pl",
-                        "start": 341170,
-                        "end": 354263
+                        "start": 341177,
+                        "end": 354270
                     }, {
                         "filename": "/swipl/library/utf8.pl",
-                        "start": 354263,
-                        "end": 358868
+                        "start": 354270,
+                        "end": 358875
                     }, {
                         "filename": "/swipl/library/check.pl",
-                        "start": 358868,
-                        "end": 392365
+                        "start": 358875,
+                        "end": 392372
                     }, {
                         "filename": "/swipl/library/ordsets.pl",
-                        "start": 392365,
-                        "end": 408917
+                        "start": 392372,
+                        "end": 408924
                     }, {
                         "filename": "/swipl/library/writef.pl",
-                        "start": 408917,
-                        "end": 418838
+                        "start": 408924,
+                        "end": 418845
                     }, {
                         "filename": "/swipl/library/apply.pl",
-                        "start": 418838,
-                        "end": 432634
+                        "start": 418845,
+                        "end": 432641
                     }, {
                         "filename": "/swipl/library/heaps.pl",
-                        "start": 432634,
-                        "end": 440911
+                        "start": 432641,
+                        "end": 440918
                     }, {
                         "filename": "/swipl/library/ugraphs.pl",
-                        "start": 440911,
-                        "end": 461375
+                        "start": 440918,
+                        "end": 461382
                     }, {
                         "filename": "/swipl/library/tty.pl",
-                        "start": 461375,
-                        "end": 470650
+                        "start": 461382,
+                        "end": 470657
                     }, {
                         "filename": "/swipl/library/files.pl",
-                        "start": 470650,
-                        "end": 473407
+                        "start": 470657,
+                        "end": 473414
                     }, {
                         "filename": "/swipl/library/optparse.pl",
-                        "start": 473407,
-                        "end": 511174
+                        "start": 473414,
+                        "end": 511181
                     }, {
                         "filename": "/swipl/library/atom.pl",
-                        "start": 511174,
-                        "end": 516596
+                        "start": 511181,
+                        "end": 516603
                     }, {
                         "filename": "/swipl/library/prolog_deps.pl",
-                        "start": 516596,
-                        "end": 533779
+                        "start": 516603,
+                        "end": 533786
                     }, {
                         "filename": "/swipl/library/gensym.pl",
-                        "start": 533779,
-                        "end": 537793
+                        "start": 533786,
+                        "end": 537800
                     }, {
                         "filename": "/swipl/library/prolog_install.pl",
-                        "start": 537793,
-                        "end": 543575
+                        "start": 537800,
+                        "end": 543582
                     }, {
                         "filename": "/swipl/library/wasm.pl",
-                        "start": 543575,
-                        "end": 547346
+                        "start": 543582,
+                        "end": 550591
                     }, {
                         "filename": "/swipl/library/yall.pl",
-                        "start": 547346,
-                        "end": 566856
+                        "start": 550591,
+                        "end": 570101
                     }, {
                         "filename": "/swipl/library/qsave.pl",
-                        "start": 566856,
-                        "end": 608813
+                        "start": 570101,
+                        "end": 612058
                     }, {
                         "filename": "/swipl/library/occurs.pl",
-                        "start": 608813,
-                        "end": 615644
+                        "start": 612058,
+                        "end": 618889
                     }, {
                         "filename": "/swipl/library/aggregate.pl",
-                        "start": 615644,
-                        "end": 640029
+                        "start": 618889,
+                        "end": 643274
                     }, {
                         "filename": "/swipl/library/hotfix.pl",
-                        "start": 640029,
-                        "end": 647911
+                        "start": 643274,
+                        "end": 651156
                     }, {
                         "filename": "/swipl/library/git.pl",
-                        "start": 647911,
-                        "end": 675915
+                        "start": 651156,
+                        "end": 679160
                     }, {
                         "filename": "/swipl/library/debug.pl",
-                        "start": 675915,
-                        "end": 689319
+                        "start": 679160,
+                        "end": 692564
                     }, {
                         "filename": "/swipl/library/nb_set.pl",
-                        "start": 689319,
-                        "end": 694985
+                        "start": 692564,
+                        "end": 698230
                     }, {
                         "filename": "/swipl/library/dicts.pl",
-                        "start": 694985,
-                        "end": 705641
+                        "start": 698230,
+                        "end": 708886
                     }, {
                         "filename": "/swipl/library/zip.pl",
-                        "start": 705641,
-                        "end": 713282
+                        "start": 708886,
+                        "end": 716527
                     }, {
                         "filename": "/swipl/library/prolog_clause.pl",
-                        "start": 713282,
-                        "end": 749254
+                        "start": 716527,
+                        "end": 752499
                     }, {
                         "filename": "/swipl/library/persistency.pl",
-                        "start": 749254,
-                        "end": 771173
+                        "start": 752499,
+                        "end": 774418
                     }, {
                         "filename": "/swipl/library/vm.pl",
-                        "start": 771173,
-                        "end": 779298
+                        "start": 774418,
+                        "end": 782543
                     }, {
                         "filename": "/swipl/library/prolog_pack.pl",
-                        "start": 779298,
-                        "end": 856601
+                        "start": 782543,
+                        "end": 859846
                     }, {
                         "filename": "/swipl/library/shlib.pl",
-                        "start": 856601,
-                        "end": 877170
+                        "start": 859846,
+                        "end": 880415
                     }, {
                         "filename": "/swipl/library/prolog_code.pl",
-                        "start": 877170,
-                        "end": 889431
+                        "start": 880415,
+                        "end": 892676
                     }, {
                         "filename": "/swipl/library/explain.pl",
-                        "start": 889431,
-                        "end": 903673
+                        "start": 892676,
+                        "end": 906918
                     }, {
                         "filename": "/swipl/library/solution_sequences.pl",
-                        "start": 903673,
-                        "end": 915925
+                        "start": 906918,
+                        "end": 919170
                     }, {
                         "filename": "/swipl/library/checkselect.pl",
-                        "start": 915925,
-                        "end": 919120
+                        "start": 919170,
+                        "end": 922365
                     }, {
                         "filename": "/swipl/library/operators.pl",
-                        "start": 919120,
-                        "end": 924364
+                        "start": 922365,
+                        "end": 927609
                     }, {
                         "filename": "/swipl/library/nb_rbtrees.pl",
-                        "start": 924364,
-                        "end": 932302
+                        "start": 927609,
+                        "end": 935547
                     }, {
                         "filename": "/swipl/library/prolog_xref.qlf",
-                        "start": 932302,
-                        "end": 968421
+                        "start": 935547,
+                        "end": 971666
                     }, {
                         "filename": "/swipl/library/pprint.pl",
-                        "start": 968421,
-                        "end": 996645
+                        "start": 971666,
+                        "end": 999890
                     }, {
                         "filename": "/swipl/library/arithmetic.pl",
-                        "start": 996645,
-                        "end": 1005731
+                        "start": 999890,
+                        "end": 1008976
                     }, {
                         "filename": "/swipl/library/www_browser.pl",
-                        "start": 1005731,
-                        "end": 1014031
+                        "start": 1008976,
+                        "end": 1017276
                     }, {
                         "filename": "/swipl/library/ansi_term.pl",
-                        "start": 1014031,
-                        "end": 1032724
+                        "start": 1017276,
+                        "end": 1035969
                     }, {
                         "filename": "/swipl/library/edit.pl",
-                        "start": 1032724,
-                        "end": 1051837
+                        "start": 1035969,
+                        "end": 1055082
                     }, {
                         "filename": "/swipl/library/iostream.pl",
-                        "start": 1051837,
-                        "end": 1060614
+                        "start": 1055082,
+                        "end": 1063859
                     }, {
                         "filename": "/swipl/library/shell.pl",
-                        "start": 1060614,
-                        "end": 1071319
+                        "start": 1063859,
+                        "end": 1074564
                     }, {
                         "filename": "/swipl/library/when.pl",
-                        "start": 1071319,
-                        "end": 1079076
+                        "start": 1074564,
+                        "end": 1082321
                     }, {
                         "filename": "/swipl/library/pio.pl",
-                        "start": 1079076,
-                        "end": 1081003
+                        "start": 1082321,
+                        "end": 1084248
                     }, {
                         "filename": "/swipl/library/quasi_quotations.pl",
-                        "start": 1081003,
-                        "end": 1092389
+                        "start": 1084248,
+                        "end": 1095634
                     }, {
                         "filename": "/swipl/library/prolog_xref.pl",
-                        "start": 1092389,
-                        "end": 1184586
+                        "start": 1095634,
+                        "end": 1187831
                     }, {
                         "filename": "/swipl/library/check_installation.pl",
-                        "start": 1184586,
-                        "end": 1209845
+                        "start": 1187831,
+                        "end": 1213090
                     }, {
                         "filename": "/swipl/library/base64.pl",
-                        "start": 1209845,
-                        "end": 1222490
+                        "start": 1213090,
+                        "end": 1225735
                     }, {
                         "filename": "/swipl/library/error.pl",
-                        "start": 1222490,
-                        "end": 1238366
+                        "start": 1225735,
+                        "end": 1241611
                     }, {
                         "filename": "/swipl/library/date.pl",
-                        "start": 1238366,
-                        "end": 1247818
+                        "start": 1241611,
+                        "end": 1251063
                     }, {
                         "filename": "/swipl/library/prolog_colour.qlf",
-                        "start": 1247818,
-                        "end": 1292973
+                        "start": 1251063,
+                        "end": 1296218
                     }, {
                         "filename": "/swipl/library/prolog_config.pl",
-                        "start": 1292973,
-                        "end": 1297781
+                        "start": 1296218,
+                        "end": 1301026
                     }, {
                         "filename": "/swipl/library/increval.pl",
-                        "start": 1297781,
-                        "end": 1305085
+                        "start": 1301026,
+                        "end": 1308330
                     }, {
                         "filename": "/swipl/library/codesio.pl",
-                        "start": 1305085,
-                        "end": 1311534
+                        "start": 1308330,
+                        "end": 1314779
                     }, {
                         "filename": "/swipl/library/rbtrees.pl",
-                        "start": 1311534,
-                        "end": 1348931
+                        "start": 1314779,
+                        "end": 1352176
                     }, {
                         "filename": "/swipl/library/prolog_versions.pl",
-                        "start": 1348931,
-                        "end": 1355856
+                        "start": 1352176,
+                        "end": 1359101
                     }, {
                         "filename": "/swipl/library/wfs.pl",
-                        "start": 1355856,
-                        "end": 1362777
+                        "start": 1359101,
+                        "end": 1366022
                     }, {
                         "filename": "/swipl/library/listing.pl",
-                        "start": 1362777,
-                        "end": 1400574
+                        "start": 1366022,
+                        "end": 1403819
                     }, {
                         "filename": "/swipl/library/broadcast.pl",
-                        "start": 1400574,
-                        "end": 1405929
+                        "start": 1403819,
+                        "end": 1409174
                     }, {
                         "filename": "/swipl/library/random.pl",
-                        "start": 1405929,
-                        "end": 1419378
+                        "start": 1409174,
+                        "end": 1422623
                     }, {
                         "filename": "/swipl/library/sandbox.pl",
-                        "start": 1419378,
-                        "end": 1462064
+                        "start": 1422623,
+                        "end": 1465309
                     }, {
                         "filename": "/swipl/library/make.pl",
-                        "start": 1462064,
-                        "end": 1468684
+                        "start": 1465309,
+                        "end": 1471929
                     }, {
                         "filename": "/swipl/library/oset.pl",
-                        "start": 1468684,
-                        "end": 1473377
+                        "start": 1471929,
+                        "end": 1476622
                     }, {
                         "filename": "/swipl/library/modules.pl",
-                        "start": 1473377,
-                        "end": 1478226
+                        "start": 1476622,
+                        "end": 1481471
                     }, {
                         "filename": "/swipl/library/intercept.pl",
-                        "start": 1478226,
-                        "end": 1486848
+                        "start": 1481471,
+                        "end": 1490093
                     }, {
                         "filename": "/swipl/library/prolog_colour.pl",
-                        "start": 1486848,
-                        "end": 1589636
+                        "start": 1490093,
+                        "end": 1592881
                     }, {
                         "filename": "/swipl/library/strings.pl",
-                        "start": 1589636,
-                        "end": 1605184
+                        "start": 1592881,
+                        "end": 1608429
                     }, {
                         "filename": "/swipl/library/hashtable.pl",
-                        "start": 1605184,
-                        "end": 1615508
+                        "start": 1608429,
+                        "end": 1618753
                     }, {
                         "filename": "/swipl/library/url.pl",
-                        "start": 1615508,
-                        "end": 1643661
+                        "start": 1618753,
+                        "end": 1646906
                     }, {
                         "filename": "/swipl/library/record.pl",
-                        "start": 1643661,
-                        "end": 1660269
+                        "start": 1646906,
+                        "end": 1663514
                     }, {
                         "filename": "/swipl/library/prolog_format.pl",
-                        "start": 1660269,
-                        "end": 1667132
+                        "start": 1663514,
+                        "end": 1670377
                     }, {
                         "filename": "/swipl/library/qpforeign.pl",
-                        "start": 1667132,
-                        "end": 1689437
+                        "start": 1670377,
+                        "end": 1692682
                     }, {
                         "filename": "/swipl/library/tabling.pl",
-                        "start": 1689437,
-                        "end": 1691237
+                        "start": 1692682,
+                        "end": 1694482
                     }, {
                         "filename": "/swipl/library/prolog_debug.pl",
-                        "start": 1691237,
-                        "end": 1700190
+                        "start": 1694482,
+                        "end": 1703435
                     }, {
                         "filename": "/swipl/library/dif.pl",
-                        "start": 1700190,
-                        "end": 1712832
+                        "start": 1703435,
+                        "end": 1716077
                     }, {
                         "filename": "/swipl/library/threadutil.pl",
-                        "start": 1712832,
-                        "end": 1728135
+                        "start": 1716077,
+                        "end": 1731380
                     }, {
                         "filename": "/swipl/library/assoc.pl",
-                        "start": 1728135,
-                        "end": 1746462
+                        "start": 1731380,
+                        "end": 1749707
                     }, {
                         "filename": "/swipl/library/prolog_wrap.pl",
-                        "start": 1746462,
-                        "end": 1751866
+                        "start": 1749707,
+                        "end": 1755111
                     }, {
                         "filename": "/swipl/library/prolog_trace.pl",
-                        "start": 1751866,
-                        "end": 1759525
+                        "start": 1755111,
+                        "end": 1762770
                     }, {
                         "filename": "/swipl/library/charsio.pl",
-                        "start": 1759525,
-                        "end": 1766161
+                        "start": 1762770,
+                        "end": 1769406
                     }, {
                         "filename": "/swipl/library/pure_input.pl",
-                        "start": 1766161,
-                        "end": 1776033
+                        "start": 1769406,
+                        "end": 1779278
                     }, {
                         "filename": "/swipl/library/base32.pl",
-                        "start": 1776033,
-                        "end": 1784326
+                        "start": 1779278,
+                        "end": 1787571
                     }, {
                         "filename": "/swipl/library/apply_macros.pl",
-                        "start": 1784326,
-                        "end": 1799209
+                        "start": 1787571,
+                        "end": 1802454
                     }, {
                         "filename": "/swipl/library/prolog_jiti.pl",
-                        "start": 1799209,
-                        "end": 1804394
+                        "start": 1802454,
+                        "end": 1807639
                     }, {
                         "filename": "/swipl/library/system.pl",
-                        "start": 1804394,
-                        "end": 1807702
+                        "start": 1807639,
+                        "end": 1810947
                     }, {
                         "filename": "/swipl/library/thread.pl",
-                        "start": 1807702,
-                        "end": 1835232
+                        "start": 1810947,
+                        "end": 1838477
                     }, {
                         "filename": "/swipl/library/csv.pl",
-                        "start": 1835232,
-                        "end": 1854149
+                        "start": 1838477,
+                        "end": 1857394
                     }, {
                         "filename": "/swipl/library/prolog_metainference.pl",
-                        "start": 1854149,
-                        "end": 1863963
+                        "start": 1857394,
+                        "end": 1867208
                     }, {
                         "filename": "/swipl/library/dialect.pl",
-                        "start": 1863963,
-                        "end": 1868056
+                        "start": 1867208,
+                        "end": 1871301
                     }, {
                         "filename": "/swipl/library/backcomp.pl",
-                        "start": 1868056,
-                        "end": 1887953
+                        "start": 1871301,
+                        "end": 1891198
                     }, {
                         "filename": "/swipl/library/terms.pl",
-                        "start": 1887953,
-                        "end": 1902646
+                        "start": 1891198,
+                        "end": 1905891
                     }, {
                         "filename": "/swipl/library/edinburgh.pl",
-                        "start": 1902646,
-                        "end": 1907151
+                        "start": 1905891,
+                        "end": 1910396
                     }, {
                         "filename": "/swipl/library/INDEX.pl",
-                        "start": 1907151,
-                        "end": 1951815
+                        "start": 1910396,
+                        "end": 1955123
                     }, {
                         "filename": "/swipl/library/readln.pl",
-                        "start": 1951815,
-                        "end": 1960742
+                        "start": 1955123,
+                        "end": 1964050
                     }, {
                         "filename": "/swipl/library/prolog_stack.pl",
-                        "start": 1960742,
-                        "end": 1986517
+                        "start": 1964050,
+                        "end": 1989825
                     }, {
                         "filename": "/swipl/library/tables.pl",
-                        "start": 1986517,
-                        "end": 1999128
+                        "start": 1989825,
+                        "end": 2002436
                     }, {
                         "filename": "/swipl/library/statistics.pl",
-                        "start": 1999128,
-                        "end": 2023698
+                        "start": 2002436,
+                        "end": 2027006
                     }, {
                         "filename": "/swipl/library/pairs.pl",
-                        "start": 2023698,
-                        "end": 2029562
+                        "start": 2027006,
+                        "end": 2032870
                     }, {
                         "filename": "/swipl/library/.created",
-                        "start": 2029562,
-                        "end": 2029562
+                        "start": 2032870,
+                        "end": 2032870
                     }, {
                         "filename": "/swipl/library/prolog_history.pl",
-                        "start": 2029562,
-                        "end": 2035427
+                        "start": 2032870,
+                        "end": 2038735
                     }, {
                         "filename": "/swipl/library/lazy_lists.pl",
-                        "start": 2035427,
-                        "end": 2051927
+                        "start": 2038735,
+                        "end": 2055235
                     }, {
                         "filename": "/swipl/library/checklast.pl",
-                        "start": 2051927,
-                        "end": 2055183
+                        "start": 2055235,
+                        "end": 2058491
                     }, {
                         "filename": "/swipl/library/lists.pl",
-                        "start": 2055183,
-                        "end": 2079461
+                        "start": 2058491,
+                        "end": 2082769
                     }, {
                         "filename": "/swipl/library/console_input.pl",
-                        "start": 2079461,
-                        "end": 2083148
+                        "start": 2082769,
+                        "end": 2086456
                     }, {
                         "filename": "/swipl/library/thread_pool.pl",
-                        "start": 2083148,
-                        "end": 2100029
+                        "start": 2086456,
+                        "end": 2103337
                     }, {
                         "filename": "/swipl/library/option.pl",
-                        "start": 2100029,
-                        "end": 2112643
+                        "start": 2103337,
+                        "end": 2115951
                     }, {
                         "filename": "/swipl/library/iri_scheme/file.pl",
-                        "start": 2112643,
-                        "end": 2115468
+                        "start": 2115951,
+                        "end": 2118776
                     }, {
                         "filename": "/swipl/library/iri_scheme/.created",
-                        "start": 2115468,
-                        "end": 2115468
+                        "start": 2118776,
+                        "end": 2118776
                     }, {
                         "filename": "/swipl/library/theme/auto.pl",
-                        "start": 2115468,
-                        "end": 2117693
+                        "start": 2118776,
+                        "end": 2121001
                     }, {
                         "filename": "/swipl/library/theme/dark.pl",
-                        "start": 2117693,
-                        "end": 2129597
+                        "start": 2121001,
+                        "end": 2132905
                     }, {
                         "filename": "/swipl/library/theme/.created",
-                        "start": 2129597,
-                        "end": 2129597
+                        "start": 2132905,
+                        "end": 2132905
                     }, {
                         "filename": "/swipl/library/lynx/html_text.pl",
-                        "start": 2129597,
-                        "end": 2154335
+                        "start": 2132905,
+                        "end": 2157643
                     }, {
                         "filename": "/swipl/library/lynx/format.pl",
-                        "start": 2154335,
-                        "end": 2165126
+                        "start": 2157643,
+                        "end": 2168434
                     }, {
                         "filename": "/swipl/library/lynx/html_style.pl",
-                        "start": 2165126,
-                        "end": 2169607
+                        "start": 2168434,
+                        "end": 2172915
                     }, {
                         "filename": "/swipl/library/lynx/pldoc_style.pl",
-                        "start": 2169607,
-                        "end": 2172852
+                        "start": 2172915,
+                        "end": 2176160
                     }, {
                         "filename": "/swipl/library/lynx/INDEX.pl",
-                        "start": 2172852,
-                        "end": 2173376
+                        "start": 2176160,
+                        "end": 2176684
                     }, {
                         "filename": "/swipl/library/lynx/.created",
-                        "start": 2173376,
-                        "end": 2173376
+                        "start": 2176684,
+                        "end": 2176684
                     }, {
                         "filename": "/swipl/library/clp/clp_distinct.pl",
-                        "start": 2173376,
-                        "end": 2179974
+                        "start": 2176684,
+                        "end": 2183282
                     }, {
                         "filename": "/swipl/library/clp/bounds.pl",
-                        "start": 2179974,
-                        "end": 2219283
+                        "start": 2183282,
+                        "end": 2222591
                     }, {
                         "filename": "/swipl/library/clp/clpb.pl",
-                        "start": 2219283,
-                        "end": 2285335
+                        "start": 2222591,
+                        "end": 2288643
                     }, {
                         "filename": "/swipl/library/clp/clp_events.pl",
-                        "start": 2285335,
-                        "end": 2288047
+                        "start": 2288643,
+                        "end": 2291355
                     }, {
                         "filename": "/swipl/library/clp/INDEX.pl",
-                        "start": 2288047,
-                        "end": 2291997
+                        "start": 2291355,
+                        "end": 2295305
                     }, {
                         "filename": "/swipl/library/clp/.created",
-                        "start": 2291997,
-                        "end": 2291997
+                        "start": 2295305,
+                        "end": 2295305
                     }, {
                         "filename": "/swipl/library/clp/clpfd.pl",
-                        "start": 2291997,
-                        "end": 2568851
+                        "start": 2295305,
+                        "end": 2572159
                     }, {
                         "filename": "/swipl/library/dcg/high_order.pl",
-                        "start": 2568851,
-                        "end": 2576327
+                        "start": 2572159,
+                        "end": 2579635
                     }, {
                         "filename": "/swipl/library/dcg/basics.pl",
-                        "start": 2576327,
-                        "end": 2587208
+                        "start": 2579635,
+                        "end": 2590516
                     }, {
                         "filename": "/swipl/library/dcg/INDEX.pl",
-                        "start": 2587208,
-                        "end": 2588522
+                        "start": 2590516,
+                        "end": 2591830
                     }, {
                         "filename": "/swipl/library/dcg/.created",
-                        "start": 2588522,
-                        "end": 2588522
+                        "start": 2591830,
+                        "end": 2591830
                     }, {
                         "filename": "/swipl/library/unicode/blocks.pl",
-                        "start": 2588522,
-                        "end": 2598763
+                        "start": 2591830,
+                        "end": 2602071
                     }, {
                         "filename": "/swipl/library/unicode/INDEX.pl",
-                        "start": 2598763,
-                        "end": 2598937
+                        "start": 2602071,
+                        "end": 2602245
                     }, {
                         "filename": "/swipl/library/unicode/.created",
-                        "start": 2598937,
-                        "end": 2598937
+                        "start": 2602245,
+                        "end": 2602245
                     }, {
                         "filename": "/swipl/library/unicode/unicode_data.pl",
-                        "start": 2598937,
-                        "end": 2604431
+                        "start": 2602245,
+                        "end": 2607739
                     }, {
                         "filename": "/swipl/library/build/conan.pl",
-                        "start": 2604431,
-                        "end": 2611426
+                        "start": 2607739,
+                        "end": 2614734
                     }, {
                         "filename": "/swipl/library/build/tools.pl",
-                        "start": 2611426,
-                        "end": 2637700
+                        "start": 2614734,
+                        "end": 2641008
                     }, {
                         "filename": "/swipl/library/build/cmake.pl",
-                        "start": 2637700,
-                        "end": 2642557
+                        "start": 2641008,
+                        "end": 2645865
                     }, {
                         "filename": "/swipl/library/build/make.pl",
-                        "start": 2642557,
-                        "end": 2648559
+                        "start": 2645865,
+                        "end": 2651867
                     }, {
                         "filename": "/swipl/library/build/.created",
-                        "start": 2648559,
-                        "end": 2648559
+                        "start": 2651867,
+                        "end": 2651867
                     }, {
                         "filename": "/swipl/library/dialect/yap.pl",
-                        "start": 2648559,
-                        "end": 2655693
+                        "start": 2651867,
+                        "end": 2659001
                     }, {
                         "filename": "/swipl/library/dialect/bim.pl",
-                        "start": 2655693,
-                        "end": 2659974
+                        "start": 2659001,
+                        "end": 2663282
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4.pl",
-                        "start": 2659974,
-                        "end": 2667361
+                        "start": 2663282,
+                        "end": 2670669
                     }, {
                         "filename": "/swipl/library/dialect/xsb.pl",
-                        "start": 2667361,
-                        "end": 2688604
+                        "start": 2670669,
+                        "end": 2691912
                     }, {
                         "filename": "/swipl/library/dialect/hprolog.pl",
-                        "start": 2688604,
-                        "end": 2696996
+                        "start": 2691912,
+                        "end": 2700304
                     }, {
                         "filename": "/swipl/library/dialect/ifprolog.pl",
-                        "start": 2696996,
-                        "end": 2733453
+                        "start": 2700304,
+                        "end": 2736761
                     }, {
                         "filename": "/swipl/library/dialect/commons.pl",
-                        "start": 2733453,
-                        "end": 2736013
+                        "start": 2736761,
+                        "end": 2739321
                     }, {
                         "filename": "/swipl/library/dialect/sicstus.pl",
-                        "start": 2736013,
-                        "end": 2752835
+                        "start": 2739321,
+                        "end": 2756143
                     }, {
                         "filename": "/swipl/library/dialect/.created",
-                        "start": 2752835,
-                        "end": 2752835
+                        "start": 2756143,
+                        "end": 2756143
                     }, {
                         "filename": "/swipl/library/dialect/swi/syspred_options.pl",
-                        "start": 2752835,
-                        "end": 2760702
+                        "start": 2756143,
+                        "end": 2764010
                     }, {
                         "filename": "/swipl/library/dialect/swi/.created",
-                        "start": 2760702,
-                        "end": 2760702
+                        "start": 2764010,
+                        "end": 2764010
                     }, {
                         "filename": "/swipl/library/dialect/xsb/source.pl",
-                        "start": 2760702,
-                        "end": 2770498
+                        "start": 2764010,
+                        "end": 2773806
                     }, {
                         "filename": "/swipl/library/dialect/xsb/curr_sym.pl",
-                        "start": 2770498,
-                        "end": 2772761
+                        "start": 2773806,
+                        "end": 2776069
                     }, {
                         "filename": "/swipl/library/dialect/xsb/storage.pl",
-                        "start": 2772761,
-                        "end": 2775331
+                        "start": 2776069,
+                        "end": 2778639
                     }, {
                         "filename": "/swipl/library/dialect/xsb/consult.pl",
-                        "start": 2775331,
-                        "end": 2777173
+                        "start": 2778639,
+                        "end": 2780481
                     }, {
                         "filename": "/swipl/library/dialect/xsb/ordsets.pl",
-                        "start": 2777173,
-                        "end": 2779395
+                        "start": 2780481,
+                        "end": 2782703
                     }, {
                         "filename": "/swipl/library/dialect/xsb/README.md",
-                        "start": 2779395,
-                        "end": 2780046
+                        "start": 2782703,
+                        "end": 2783354
                     }, {
                         "filename": "/swipl/library/dialect/xsb/gensym.pl",
-                        "start": 2780046,
-                        "end": 2782088
+                        "start": 2783354,
+                        "end": 2785396
                     }, {
                         "filename": "/swipl/library/dialect/xsb/gpp.pl",
-                        "start": 2782088,
-                        "end": 2787152
+                        "start": 2785396,
+                        "end": 2790460
                     }, {
                         "filename": "/swipl/library/dialect/xsb/machine.pl",
-                        "start": 2787152,
-                        "end": 2794194
+                        "start": 2790460,
+                        "end": 2797502
                     }, {
                         "filename": "/swipl/library/dialect/xsb/timed_call.pl",
-                        "start": 2794194,
-                        "end": 2799933
+                        "start": 2797502,
+                        "end": 2803241
                     }, {
                         "filename": "/swipl/library/dialect/xsb/string.pl",
-                        "start": 2799933,
-                        "end": 2802487
+                        "start": 2803241,
+                        "end": 2805795
                     }, {
                         "filename": "/swipl/library/dialect/xsb/standard.pl",
-                        "start": 2802487,
-                        "end": 2807292
+                        "start": 2805795,
+                        "end": 2810600
                     }, {
                         "filename": "/swipl/library/dialect/xsb/basics.pl",
-                        "start": 2807292,
-                        "end": 2814659
+                        "start": 2810600,
+                        "end": 2817967
                     }, {
                         "filename": "/swipl/library/dialect/xsb/intern.pl",
-                        "start": 2814659,
-                        "end": 2816581
+                        "start": 2817967,
+                        "end": 2819889
                     }, {
                         "filename": "/swipl/library/dialect/xsb/thread.pl",
-                        "start": 2816581,
-                        "end": 2818766
+                        "start": 2819889,
+                        "end": 2822074
                     }, {
                         "filename": "/swipl/library/dialect/xsb/.created",
-                        "start": 2818766,
-                        "end": 2818766
+                        "start": 2822074,
+                        "end": 2822074
                     }, {
                         "filename": "/swipl/library/dialect/xsb/error_handler.pl",
-                        "start": 2818766,
-                        "end": 2822963
+                        "start": 2822074,
+                        "end": 2826271
                     }, {
                         "filename": "/swipl/library/dialect/xsb/lists.pl",
-                        "start": 2822963,
-                        "end": 2824861
+                        "start": 2826271,
+                        "end": 2828169
                     }, {
                         "filename": "/swipl/library/dialect/xsb/setof.pl",
-                        "start": 2824861,
-                        "end": 2827400
+                        "start": 2828169,
+                        "end": 2830708
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/ordsets.pl",
-                        "start": 2827400,
-                        "end": 2829422
+                        "start": 2830708,
+                        "end": 2832730
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/timeout.pl",
-                        "start": 2829422,
-                        "end": 2831202
+                        "start": 2832730,
+                        "end": 2834510
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/file_systems.pl",
-                        "start": 2831202,
-                        "end": 2848685
+                        "start": 2834510,
+                        "end": 2851993
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/sets.pl",
-                        "start": 2848685,
-                        "end": 2852231
+                        "start": 2851993,
+                        "end": 2855539
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/aggregate.pl",
-                        "start": 2852231,
-                        "end": 2854651
+                        "start": 2855539,
+                        "end": 2857959
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/types.pl",
-                        "start": 2854651,
-                        "end": 2858944
+                        "start": 2857959,
+                        "end": 2862252
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/between.pl",
-                        "start": 2858944,
-                        "end": 2861073
+                        "start": 2862252,
+                        "end": 2864381
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/system.pl",
-                        "start": 2861073,
-                        "end": 2863986
+                        "start": 2864381,
+                        "end": 2867294
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/samsort.pl",
-                        "start": 2863986,
-                        "end": 2866948
+                        "start": 2867294,
+                        "end": 2870256
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/terms.pl",
-                        "start": 2866948,
-                        "end": 2869840
+                        "start": 2870256,
+                        "end": 2873148
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/.created",
-                        "start": 2869840,
-                        "end": 2869840
+                        "start": 2873148,
+                        "end": 2873148
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/lists.pl",
-                        "start": 2869840,
-                        "end": 2877832
+                        "start": 2873148,
+                        "end": 2881140
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/clpfd.pl",
-                        "start": 2877832,
-                        "end": 2880372
+                        "start": 2881140,
+                        "end": 2883680
                     }, {
                         "filename": "/swipl/library/dialect/sicstus4/sockets.pl",
-                        "start": 2880372,
-                        "end": 2886569
+                        "start": 2883680,
+                        "end": 2889877
                     }, {
                         "filename": "/swipl/library/dialect/eclipse/test_util_iso.pl",
-                        "start": 2886569,
-                        "end": 2896421
+                        "start": 2889877,
+                        "end": 2899729
                     }, {
                         "filename": "/swipl/library/dialect/eclipse/.created",
-                        "start": 2896421,
-                        "end": 2896421
+                        "start": 2899729,
+                        "end": 2899729
                     }, {
                         "filename": "/swipl/library/dialect/yap/README.TXT",
-                        "start": 2896421,
-                        "end": 2896772
+                        "start": 2899729,
+                        "end": 2900080
                     }, {
                         "filename": "/swipl/library/dialect/yap/.created",
-                        "start": 2896772,
-                        "end": 2896772
+                        "start": 2900080,
+                        "end": 2900080
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/ordsets.pl",
-                        "start": 2896772,
-                        "end": 2898726
+                        "start": 2900080,
+                        "end": 2902034
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/timeout.pl",
-                        "start": 2898726,
-                        "end": 2902477
+                        "start": 2902034,
+                        "end": 2905785
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/README.TXT",
-                        "start": 2902477,
-                        "end": 2902508
+                        "start": 2905785,
+                        "end": 2905816
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/swipl-lfr.pl",
-                        "start": 2902508,
-                        "end": 2906508
+                        "start": 2905816,
+                        "end": 2909816
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/block.pl",
-                        "start": 2906508,
-                        "end": 2916951
+                        "start": 2909816,
+                        "end": 2920259
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/arrays.pl",
-                        "start": 2916951,
-                        "end": 2920655
+                        "start": 2920259,
+                        "end": 2923963
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/system.pl",
-                        "start": 2920655,
-                        "end": 2927230
+                        "start": 2923963,
+                        "end": 2930538
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/terms.pl",
-                        "start": 2927230,
-                        "end": 2929469
+                        "start": 2930538,
+                        "end": 2932777
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/.created",
-                        "start": 2929469,
-                        "end": 2929469
+                        "start": 2932777,
+                        "end": 2932777
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/lists.pl",
-                        "start": 2929469,
-                        "end": 2934126
+                        "start": 2932777,
+                        "end": 2937434
                     }, {
                         "filename": "/swipl/library/dialect/sicstus/sockets.pl",
-                        "start": 2934126,
-                        "end": 2940345
+                        "start": 2937434,
+                        "end": 2943653
                     }, {
                         "filename": "/swipl/library/dialect/hprolog/format.pl",
-                        "start": 2940345,
-                        "end": 2942182
+                        "start": 2943653,
+                        "end": 2945490
                     }, {
                         "filename": "/swipl/library/dialect/hprolog/.created",
-                        "start": 2942182,
-                        "end": 2942182
+                        "start": 2945490,
+                        "end": 2945490
                     }, {
                         "filename": "/swipl/library/dialect/iso/iso_predicates.pl",
-                        "start": 2942182,
-                        "end": 2951872
+                        "start": 2945490,
+                        "end": 2955180
                     }, {
                         "filename": "/swipl/library/dialect/iso/.created",
-                        "start": 2951872,
-                        "end": 2951872
+                        "start": 2955180,
+                        "end": 2955180
                     }],
-                    "remote_package_size": 2951872
+                    "remote_package_size": 2955180
                 })
             })();
             var moduleOverrides = Object.assign({}, Module);
@@ -1506,10 +1506,10 @@ var SWIPL = (() => {
                 function receiveInstance(instance, module) {
                     var exports = instance.exports;
                     Module["asm"] = exports;
-                    wasmMemory = Module["asm"]["ma"];
+                    wasmMemory = Module["asm"]["na"];
                     updateGlobalBufferAndViews(wasmMemory.buffer);
-                    wasmTable = Module["asm"]["Kb"];
-                    addOnInit(Module["asm"]["na"]);
+                    wasmTable = Module["asm"]["Lb"];
+                    addOnInit(Module["asm"]["oa"]);
                     removeRunDependency("wasm-instantiate")
                 }
                 addRunDependency("wasm-instantiate");
@@ -1559,6 +1559,14 @@ var SWIPL = (() => {
             }
             var tempDouble;
             var tempI64;
+            var ASM_CONSTS = {
+                170232: $0 => {
+                    release_registered_object($0)
+                },
+                170267: ($0, $1) => {
+                    return prolog_js_call($0, $1)
+                }
+            };
 
             function ExitStatus(status) {
                 this.name = "ExitStatus";
@@ -4422,6 +4430,24 @@ var SWIPL = (() => {
             function _abort() {
                 abort("")
             }
+            var readAsmConstArgsArray = [];
+
+            function readAsmConstArgs(sigPtr, buf) {
+                readAsmConstArgsArray.length = 0;
+                var ch;
+                buf >>= 2;
+                while (ch = HEAPU8[sigPtr++]) {
+                    buf += ch != 105 & buf;
+                    readAsmConstArgsArray.push(ch == 105 ? HEAP32[buf] : HEAPF64[buf++ >> 1]);
+                    ++buf
+                }
+                return readAsmConstArgsArray
+            }
+
+            function _emscripten_asm_const_int(code, sigPtr, argbuf) {
+                var args = readAsmConstArgs(sigPtr, argbuf);
+                return ASM_CONSTS[code].apply(null, args)
+            }
 
             function getHeapMax() {
                 return 2147483648
@@ -5065,49 +5091,50 @@ var SWIPL = (() => {
             Module["FS_createLazyFile"] = FS.createLazyFile;
             Module["FS_createDevice"] = FS.createDevice;
             var asmLibraryArg = {
-                "fa": ___syscall_chdir,
-                "ea": ___syscall_chmod,
-                "da": ___syscall_dup3,
-                "ga": ___syscall_faccessat,
+                "ga": ___syscall_chdir,
+                "fa": ___syscall_chmod,
+                "ea": ___syscall_dup3,
+                "ha": ___syscall_faccessat,
                 "k": ___syscall_fcntl64,
-                "W": ___syscall_fstat64,
-                "D": ___syscall_ftruncate64,
-                "S": ___syscall_getcwd,
-                "N": ___syscall_getdents64,
+                "X": ___syscall_fstat64,
+                "E": ___syscall_ftruncate64,
+                "T": ___syscall_getcwd,
+                "O": ___syscall_getdents64,
                 "v": ___syscall_ioctl,
-                "T": ___syscall_lstat64,
-                "Q": ___syscall_mkdirat,
-                "U": ___syscall_newfstatat,
+                "U": ___syscall_lstat64,
+                "R": ___syscall_mkdirat,
+                "V": ___syscall_newfstatat,
                 "w": ___syscall_openat,
-                "O": ___syscall_poll,
-                "M": ___syscall_readlinkat,
-                "K": ___syscall_renameat,
+                "P": ___syscall_poll,
+                "N": ___syscall_readlinkat,
+                "L": ___syscall_renameat,
                 "s": ___syscall_rmdir,
-                "V": ___syscall_stat64,
-                "L": ___syscall_unlinkat,
-                "aa": __dlinit,
-                "ca": __dlopen_js,
-                "ba": __dlsym_js,
+                "W": ___syscall_stat64,
+                "M": ___syscall_unlinkat,
+                "ba": __dlinit,
+                "da": __dlopen_js,
+                "ca": __dlsym_js,
                 "p": __emscripten_date_now,
-                "X": __emscripten_get_now_is_monotonic,
-                "H": __emscripten_throw_longjmp,
-                "Y": __localtime_js,
-                "Z": __mktime_js,
-                "P": __munmap_js,
-                "_": __tzset_js,
+                "Y": __emscripten_get_now_is_monotonic,
+                "I": __emscripten_throw_longjmp,
+                "Z": __localtime_js,
+                "_": __mktime_js,
+                "Q": __munmap_js,
+                "$": __tzset_js,
                 "q": _abort,
-                "J": _emscripten_get_heap_max,
+                "y": _emscripten_asm_const_int,
+                "K": _emscripten_get_heap_max,
                 "x": _emscripten_get_now,
-                "$": _emscripten_memcpy_big,
-                "I": _emscripten_resize_heap,
-                "ja": _emscripten_run_script,
-                "ha": _environ_get,
-                "ia": _environ_sizes_get,
+                "aa": _emscripten_memcpy_big,
+                "J": _emscripten_resize_heap,
+                "ka": _emscripten_run_script,
+                "ia": _environ_get,
+                "ja": _environ_sizes_get,
                 "l": _exit,
                 "m": _fd_close,
                 "t": _fd_fdstat_get,
                 "u": _fd_read,
-                "C": _fd_seek,
+                "D": _fd_seek,
                 "o": _fd_write,
                 "b": _getTempRet0,
                 "h": invoke_i,
@@ -5116,682 +5143,688 @@ var SWIPL = (() => {
                 "e": invoke_iiii,
                 "j": invoke_iiiii,
                 "i": invoke_iiiiii,
-                "y": invoke_iiiiiii,
+                "z": invoke_iiiiiii,
                 "r": invoke_iiiiiiii,
-                "z": invoke_iiiiiiiii,
-                "A": invoke_iiiiiiiiii,
-                "B": invoke_iiiiiiiiiii,
-                "la": invoke_iiiiiiiiiiii,
-                "F": invoke_iij,
-                "G": invoke_iiji,
-                "E": invoke_ij,
+                "A": invoke_iiiiiiiii,
+                "B": invoke_iiiiiiiiii,
+                "C": invoke_iiiiiiiiiii,
+                "ma": invoke_iiiiiiiiiiii,
+                "G": invoke_iij,
+                "H": invoke_iiji,
+                "F": invoke_ij,
                 "n": invoke_v,
                 "g": invoke_vi,
                 "f": invoke_vii,
-                "R": invoke_viii,
+                "S": invoke_viii,
                 "a": _setTempRet0,
-                "ka": _strftime
+                "la": _strftime
             };
             var asm = createWasm();
             var ___wasm_call_ctors = Module["___wasm_call_ctors"] = function() {
-                return (___wasm_call_ctors = Module["___wasm_call_ctors"] = Module["asm"]["na"]).apply(null, arguments)
+                return (___wasm_call_ctors = Module["___wasm_call_ctors"] = Module["asm"]["oa"]).apply(null, arguments)
             };
             var _malloc = Module["_malloc"] = function() {
-                return (_malloc = Module["_malloc"] = Module["asm"]["oa"]).apply(null, arguments)
+                return (_malloc = Module["_malloc"] = Module["asm"]["pa"]).apply(null, arguments)
             };
             var _PL_initialise = Module["_PL_initialise"] = function() {
-                return (_PL_initialise = Module["_PL_initialise"] = Module["asm"]["pa"]).apply(null, arguments)
+                return (_PL_initialise = Module["_PL_initialise"] = Module["asm"]["qa"]).apply(null, arguments)
             };
             var _PL_halt = Module["_PL_halt"] = function() {
-                return (_PL_halt = Module["_PL_halt"] = Module["asm"]["qa"]).apply(null, arguments)
+                return (_PL_halt = Module["_PL_halt"] = Module["asm"]["ra"]).apply(null, arguments)
             };
             var _PL_toplevel = Module["_PL_toplevel"] = function() {
-                return (_PL_toplevel = Module["_PL_toplevel"] = Module["asm"]["ra"]).apply(null, arguments)
+                return (_PL_toplevel = Module["_PL_toplevel"] = Module["asm"]["sa"]).apply(null, arguments)
             };
             var _PL_unregister_blob_type = Module["_PL_unregister_blob_type"] = function() {
-                return (_PL_unregister_blob_type = Module["_PL_unregister_blob_type"] = Module["asm"]["sa"]).apply(null, arguments)
+                return (_PL_unregister_blob_type = Module["_PL_unregister_blob_type"] = Module["asm"]["ta"]).apply(null, arguments)
             };
             var _PL_unregister_atom = Module["_PL_unregister_atom"] = function() {
-                return (_PL_unregister_atom = Module["_PL_unregister_atom"] = Module["asm"]["ta"]).apply(null, arguments)
+                return (_PL_unregister_atom = Module["_PL_unregister_atom"] = Module["asm"]["ua"]).apply(null, arguments)
             };
             var _PL_agc_hook = Module["_PL_agc_hook"] = function() {
-                return (_PL_agc_hook = Module["_PL_agc_hook"] = Module["asm"]["ua"]).apply(null, arguments)
+                return (_PL_agc_hook = Module["_PL_agc_hook"] = Module["asm"]["va"]).apply(null, arguments)
             };
             var _PL_register_atom = Module["_PL_register_atom"] = function() {
-                return (_PL_register_atom = Module["_PL_register_atom"] = Module["asm"]["va"]).apply(null, arguments)
+                return (_PL_register_atom = Module["_PL_register_atom"] = Module["asm"]["wa"]).apply(null, arguments)
             };
             var _PL_open_foreign_frame = Module["_PL_open_foreign_frame"] = function() {
-                return (_PL_open_foreign_frame = Module["_PL_open_foreign_frame"] = Module["asm"]["wa"]).apply(null, arguments)
+                return (_PL_open_foreign_frame = Module["_PL_open_foreign_frame"] = Module["asm"]["xa"]).apply(null, arguments)
             };
             var _PL_close_foreign_frame = Module["_PL_close_foreign_frame"] = function() {
-                return (_PL_close_foreign_frame = Module["_PL_close_foreign_frame"] = Module["asm"]["xa"]).apply(null, arguments)
+                return (_PL_close_foreign_frame = Module["_PL_close_foreign_frame"] = Module["asm"]["ya"]).apply(null, arguments)
             };
             var _PL_rewind_foreign_frame = Module["_PL_rewind_foreign_frame"] = function() {
-                return (_PL_rewind_foreign_frame = Module["_PL_rewind_foreign_frame"] = Module["asm"]["ya"]).apply(null, arguments)
+                return (_PL_rewind_foreign_frame = Module["_PL_rewind_foreign_frame"] = Module["asm"]["za"]).apply(null, arguments)
             };
             var _PL_discard_foreign_frame = Module["_PL_discard_foreign_frame"] = function() {
-                return (_PL_discard_foreign_frame = Module["_PL_discard_foreign_frame"] = Module["asm"]["za"]).apply(null, arguments)
+                return (_PL_discard_foreign_frame = Module["_PL_discard_foreign_frame"] = Module["asm"]["Aa"]).apply(null, arguments)
             };
             var _PL_open_query = Module["_PL_open_query"] = function() {
-                return (_PL_open_query = Module["_PL_open_query"] = Module["asm"]["Aa"]).apply(null, arguments)
+                return (_PL_open_query = Module["_PL_open_query"] = Module["asm"]["Ba"]).apply(null, arguments)
             };
             var _PL_exception = Module["_PL_exception"] = function() {
-                return (_PL_exception = Module["_PL_exception"] = Module["asm"]["Ba"]).apply(null, arguments)
+                return (_PL_exception = Module["_PL_exception"] = Module["asm"]["Ca"]).apply(null, arguments)
             };
             var _PL_cut_query = Module["_PL_cut_query"] = function() {
-                return (_PL_cut_query = Module["_PL_cut_query"] = Module["asm"]["Ca"]).apply(null, arguments)
+                return (_PL_cut_query = Module["_PL_cut_query"] = Module["asm"]["Da"]).apply(null, arguments)
             };
             var _PL_close_query = Module["_PL_close_query"] = function() {
-                return (_PL_close_query = Module["_PL_close_query"] = Module["asm"]["Da"]).apply(null, arguments)
+                return (_PL_close_query = Module["_PL_close_query"] = Module["asm"]["Ea"]).apply(null, arguments)
             };
             var _PL_current_query = Module["_PL_current_query"] = function() {
-                return (_PL_current_query = Module["_PL_current_query"] = Module["asm"]["Ea"]).apply(null, arguments)
+                return (_PL_current_query = Module["_PL_current_query"] = Module["asm"]["Fa"]).apply(null, arguments)
             };
             var _PL_next_solution = Module["_PL_next_solution"] = function() {
-                return (_PL_next_solution = Module["_PL_next_solution"] = Module["asm"]["Fa"]).apply(null, arguments)
+                return (_PL_next_solution = Module["_PL_next_solution"] = Module["asm"]["Ga"]).apply(null, arguments)
             };
             var _PL_instantiation_error = Module["_PL_instantiation_error"] = function() {
-                return (_PL_instantiation_error = Module["_PL_instantiation_error"] = Module["asm"]["Ga"]).apply(null, arguments)
+                return (_PL_instantiation_error = Module["_PL_instantiation_error"] = Module["asm"]["Ha"]).apply(null, arguments)
             };
             var _PL_uninstantiation_error = Module["_PL_uninstantiation_error"] = function() {
-                return (_PL_uninstantiation_error = Module["_PL_uninstantiation_error"] = Module["asm"]["Ha"]).apply(null, arguments)
+                return (_PL_uninstantiation_error = Module["_PL_uninstantiation_error"] = Module["asm"]["Ia"]).apply(null, arguments)
             };
             var _PL_representation_error = Module["_PL_representation_error"] = function() {
-                return (_PL_representation_error = Module["_PL_representation_error"] = Module["asm"]["Ia"]).apply(null, arguments)
+                return (_PL_representation_error = Module["_PL_representation_error"] = Module["asm"]["Ja"]).apply(null, arguments)
             };
             var _PL_type_error = Module["_PL_type_error"] = function() {
-                return (_PL_type_error = Module["_PL_type_error"] = Module["asm"]["Ja"]).apply(null, arguments)
+                return (_PL_type_error = Module["_PL_type_error"] = Module["asm"]["Ka"]).apply(null, arguments)
             };
             var _PL_domain_error = Module["_PL_domain_error"] = function() {
-                return (_PL_domain_error = Module["_PL_domain_error"] = Module["asm"]["Ka"]).apply(null, arguments)
+                return (_PL_domain_error = Module["_PL_domain_error"] = Module["asm"]["La"]).apply(null, arguments)
             };
             var _PL_existence_error = Module["_PL_existence_error"] = function() {
-                return (_PL_existence_error = Module["_PL_existence_error"] = Module["asm"]["La"]).apply(null, arguments)
+                return (_PL_existence_error = Module["_PL_existence_error"] = Module["asm"]["Ma"]).apply(null, arguments)
             };
             var _PL_permission_error = Module["_PL_permission_error"] = function() {
-                return (_PL_permission_error = Module["_PL_permission_error"] = Module["asm"]["Ma"]).apply(null, arguments)
+                return (_PL_permission_error = Module["_PL_permission_error"] = Module["asm"]["Na"]).apply(null, arguments)
             };
             var _PL_resource_error = Module["_PL_resource_error"] = function() {
-                return (_PL_resource_error = Module["_PL_resource_error"] = Module["asm"]["Na"]).apply(null, arguments)
+                return (_PL_resource_error = Module["_PL_resource_error"] = Module["asm"]["Oa"]).apply(null, arguments)
             };
             var _PL_syntax_error = Module["_PL_syntax_error"] = function() {
-                return (_PL_syntax_error = Module["_PL_syntax_error"] = Module["asm"]["Oa"]).apply(null, arguments)
+                return (_PL_syntax_error = Module["_PL_syntax_error"] = Module["asm"]["Pa"]).apply(null, arguments)
             };
             var _PL_get_atom_ex = Module["_PL_get_atom_ex"] = function() {
-                return (_PL_get_atom_ex = Module["_PL_get_atom_ex"] = Module["asm"]["Pa"]).apply(null, arguments)
+                return (_PL_get_atom_ex = Module["_PL_get_atom_ex"] = Module["asm"]["Qa"]).apply(null, arguments)
             };
             var _PL_get_integer_ex = Module["_PL_get_integer_ex"] = function() {
-                return (_PL_get_integer_ex = Module["_PL_get_integer_ex"] = Module["asm"]["Qa"]).apply(null, arguments)
+                return (_PL_get_integer_ex = Module["_PL_get_integer_ex"] = Module["asm"]["Ra"]).apply(null, arguments)
             };
             var _PL_get_long_ex = Module["_PL_get_long_ex"] = function() {
-                return (_PL_get_long_ex = Module["_PL_get_long_ex"] = Module["asm"]["Ra"]).apply(null, arguments)
+                return (_PL_get_long_ex = Module["_PL_get_long_ex"] = Module["asm"]["Sa"]).apply(null, arguments)
             };
             var _PL_get_int64_ex = Module["_PL_get_int64_ex"] = function() {
-                return (_PL_get_int64_ex = Module["_PL_get_int64_ex"] = Module["asm"]["Sa"]).apply(null, arguments)
+                return (_PL_get_int64_ex = Module["_PL_get_int64_ex"] = Module["asm"]["Ta"]).apply(null, arguments)
             };
             var _PL_get_intptr_ex = Module["_PL_get_intptr_ex"] = function() {
-                return (_PL_get_intptr_ex = Module["_PL_get_intptr_ex"] = Module["asm"]["Ta"]).apply(null, arguments)
+                return (_PL_get_intptr_ex = Module["_PL_get_intptr_ex"] = Module["asm"]["Ua"]).apply(null, arguments)
             };
             var _PL_get_size_ex = Module["_PL_get_size_ex"] = function() {
-                return (_PL_get_size_ex = Module["_PL_get_size_ex"] = Module["asm"]["Ua"]).apply(null, arguments)
+                return (_PL_get_size_ex = Module["_PL_get_size_ex"] = Module["asm"]["Va"]).apply(null, arguments)
             };
             var _PL_get_bool_ex = Module["_PL_get_bool_ex"] = function() {
-                return (_PL_get_bool_ex = Module["_PL_get_bool_ex"] = Module["asm"]["Va"]).apply(null, arguments)
+                return (_PL_get_bool_ex = Module["_PL_get_bool_ex"] = Module["asm"]["Wa"]).apply(null, arguments)
             };
             var _PL_get_float_ex = Module["_PL_get_float_ex"] = function() {
-                return (_PL_get_float_ex = Module["_PL_get_float_ex"] = Module["asm"]["Wa"]).apply(null, arguments)
+                return (_PL_get_float_ex = Module["_PL_get_float_ex"] = Module["asm"]["Xa"]).apply(null, arguments)
             };
             var _PL_get_char_ex = Module["_PL_get_char_ex"] = function() {
-                return (_PL_get_char_ex = Module["_PL_get_char_ex"] = Module["asm"]["Xa"]).apply(null, arguments)
+                return (_PL_get_char_ex = Module["_PL_get_char_ex"] = Module["asm"]["Ya"]).apply(null, arguments)
             };
             var _PL_get_pointer_ex = Module["_PL_get_pointer_ex"] = function() {
-                return (_PL_get_pointer_ex = Module["_PL_get_pointer_ex"] = Module["asm"]["Ya"]).apply(null, arguments)
+                return (_PL_get_pointer_ex = Module["_PL_get_pointer_ex"] = Module["asm"]["Za"]).apply(null, arguments)
             };
             var _PL_unify_list_ex = Module["_PL_unify_list_ex"] = function() {
-                return (_PL_unify_list_ex = Module["_PL_unify_list_ex"] = Module["asm"]["Za"]).apply(null, arguments)
+                return (_PL_unify_list_ex = Module["_PL_unify_list_ex"] = Module["asm"]["_a"]).apply(null, arguments)
             };
             var _PL_unify_nil_ex = Module["_PL_unify_nil_ex"] = function() {
-                return (_PL_unify_nil_ex = Module["_PL_unify_nil_ex"] = Module["asm"]["_a"]).apply(null, arguments)
+                return (_PL_unify_nil_ex = Module["_PL_unify_nil_ex"] = Module["asm"]["$a"]).apply(null, arguments)
             };
             var _PL_get_list_ex = Module["_PL_get_list_ex"] = function() {
-                return (_PL_get_list_ex = Module["_PL_get_list_ex"] = Module["asm"]["$a"]).apply(null, arguments)
+                return (_PL_get_list_ex = Module["_PL_get_list_ex"] = Module["asm"]["ab"]).apply(null, arguments)
             };
             var _PL_get_nil_ex = Module["_PL_get_nil_ex"] = function() {
-                return (_PL_get_nil_ex = Module["_PL_get_nil_ex"] = Module["asm"]["ab"]).apply(null, arguments)
+                return (_PL_get_nil_ex = Module["_PL_get_nil_ex"] = Module["asm"]["bb"]).apply(null, arguments)
             };
             var _PL_unify_bool_ex = Module["_PL_unify_bool_ex"] = function() {
-                return (_PL_unify_bool_ex = Module["_PL_unify_bool_ex"] = Module["asm"]["bb"]).apply(null, arguments)
+                return (_PL_unify_bool_ex = Module["_PL_unify_bool_ex"] = Module["asm"]["cb"]).apply(null, arguments)
             };
             var _PL_is_ground = Module["_PL_is_ground"] = function() {
-                return (_PL_is_ground = Module["_PL_is_ground"] = Module["asm"]["cb"]).apply(null, arguments)
+                return (_PL_is_ground = Module["_PL_is_ground"] = Module["asm"]["db"]).apply(null, arguments)
             };
             var _PL_is_acyclic = Module["_PL_is_acyclic"] = function() {
-                return (_PL_is_acyclic = Module["_PL_is_acyclic"] = Module["asm"]["db"]).apply(null, arguments)
+                return (_PL_is_acyclic = Module["_PL_is_acyclic"] = Module["asm"]["eb"]).apply(null, arguments)
             };
             var _PL_put_term_from_chars = Module["_PL_put_term_from_chars"] = function() {
-                return (_PL_put_term_from_chars = Module["_PL_put_term_from_chars"] = Module["asm"]["eb"]).apply(null, arguments)
+                return (_PL_put_term_from_chars = Module["_PL_put_term_from_chars"] = Module["asm"]["fb"]).apply(null, arguments)
             };
             var _PL_chars_to_term = Module["_PL_chars_to_term"] = function() {
-                return (_PL_chars_to_term = Module["_PL_chars_to_term"] = Module["asm"]["fb"]).apply(null, arguments)
+                return (_PL_chars_to_term = Module["_PL_chars_to_term"] = Module["asm"]["gb"]).apply(null, arguments)
             };
             var _PL_wchars_to_term = Module["_PL_wchars_to_term"] = function() {
-                return (_PL_wchars_to_term = Module["_PL_wchars_to_term"] = Module["asm"]["gb"]).apply(null, arguments)
+                return (_PL_wchars_to_term = Module["_PL_wchars_to_term"] = Module["asm"]["hb"]).apply(null, arguments)
             };
             var _PL_record_external = Module["_PL_record_external"] = function() {
-                return (_PL_record_external = Module["_PL_record_external"] = Module["asm"]["hb"]).apply(null, arguments)
+                return (_PL_record_external = Module["_PL_record_external"] = Module["asm"]["ib"]).apply(null, arguments)
             };
             var _PL_recorded_external = Module["_PL_recorded_external"] = function() {
-                return (_PL_recorded_external = Module["_PL_recorded_external"] = Module["asm"]["ib"]).apply(null, arguments)
+                return (_PL_recorded_external = Module["_PL_recorded_external"] = Module["asm"]["jb"]).apply(null, arguments)
             };
             var _PL_erase_external = Module["_PL_erase_external"] = function() {
-                return (_PL_erase_external = Module["_PL_erase_external"] = Module["asm"]["jb"]).apply(null, arguments)
+                return (_PL_erase_external = Module["_PL_erase_external"] = Module["asm"]["kb"]).apply(null, arguments)
             };
             var _PL_sigaction = Module["_PL_sigaction"] = function() {
-                return (_PL_sigaction = Module["_PL_sigaction"] = Module["asm"]["kb"]).apply(null, arguments)
+                return (_PL_sigaction = Module["_PL_sigaction"] = Module["asm"]["lb"]).apply(null, arguments)
             };
             var _PL_get_signum_ex = Module["_PL_get_signum_ex"] = function() {
-                return (_PL_get_signum_ex = Module["_PL_get_signum_ex"] = Module["asm"]["lb"]).apply(null, arguments)
+                return (_PL_get_signum_ex = Module["_PL_get_signum_ex"] = Module["asm"]["mb"]).apply(null, arguments)
             };
             var _PL_signal = Module["_PL_signal"] = function() {
-                return (_PL_signal = Module["_PL_signal"] = Module["asm"]["mb"]).apply(null, arguments)
+                return (_PL_signal = Module["_PL_signal"] = Module["asm"]["nb"]).apply(null, arguments)
             };
             var _PL_handle_signals = Module["_PL_handle_signals"] = function() {
-                return (_PL_handle_signals = Module["_PL_handle_signals"] = Module["asm"]["nb"]).apply(null, arguments)
+                return (_PL_handle_signals = Module["_PL_handle_signals"] = Module["asm"]["ob"]).apply(null, arguments)
             };
             var _PL_write_term = Module["_PL_write_term"] = function() {
-                return (_PL_write_term = Module["_PL_write_term"] = Module["asm"]["ob"]).apply(null, arguments)
+                return (_PL_write_term = Module["_PL_write_term"] = Module["asm"]["pb"]).apply(null, arguments)
             };
             var _PL_cleanup_fork = Module["_PL_cleanup_fork"] = function() {
-                return (_PL_cleanup_fork = Module["_PL_cleanup_fork"] = Module["asm"]["pb"]).apply(null, arguments)
+                return (_PL_cleanup_fork = Module["_PL_cleanup_fork"] = Module["asm"]["qb"]).apply(null, arguments)
             };
             var _PL_is_initialised = Module["_PL_is_initialised"] = function() {
-                return (_PL_is_initialised = Module["_PL_is_initialised"] = Module["asm"]["qb"]).apply(null, arguments)
+                return (_PL_is_initialised = Module["_PL_is_initialised"] = Module["asm"]["rb"]).apply(null, arguments)
             };
             var _free = Module["_free"] = function() {
-                return (_free = Module["_free"] = Module["asm"]["rb"]).apply(null, arguments)
+                return (_free = Module["_free"] = Module["asm"]["sb"]).apply(null, arguments)
             };
             var _PL_raise = Module["_PL_raise"] = function() {
-                return (_PL_raise = Module["_PL_raise"] = Module["asm"]["sb"]).apply(null, arguments)
+                return (_PL_raise = Module["_PL_raise"] = Module["asm"]["tb"]).apply(null, arguments)
             };
             var _PL_new_atom = Module["_PL_new_atom"] = function() {
-                return (_PL_new_atom = Module["_PL_new_atom"] = Module["asm"]["tb"]).apply(null, arguments)
+                return (_PL_new_atom = Module["_PL_new_atom"] = Module["asm"]["ub"]).apply(null, arguments)
             };
             var ___errno_location = Module["___errno_location"] = function() {
-                return (___errno_location = Module["___errno_location"] = Module["asm"]["ub"]).apply(null, arguments)
+                return (___errno_location = Module["___errno_location"] = Module["asm"]["vb"]).apply(null, arguments)
             };
             var _PL_put_atom_chars = Module["_PL_put_atom_chars"] = function() {
-                return (_PL_put_atom_chars = Module["_PL_put_atom_chars"] = Module["asm"]["vb"]).apply(null, arguments)
+                return (_PL_put_atom_chars = Module["_PL_put_atom_chars"] = Module["asm"]["wb"]).apply(null, arguments)
             };
             var _PL_throw = Module["_PL_throw"] = function() {
-                return (_PL_throw = Module["_PL_throw"] = Module["asm"]["wb"]).apply(null, arguments)
+                return (_PL_throw = Module["_PL_throw"] = Module["asm"]["xb"]).apply(null, arguments)
             };
             var _PL_raise_exception = Module["_PL_raise_exception"] = function() {
-                return (_PL_raise_exception = Module["_PL_raise_exception"] = Module["asm"]["xb"]).apply(null, arguments)
+                return (_PL_raise_exception = Module["_PL_raise_exception"] = Module["asm"]["yb"]).apply(null, arguments)
             };
             var _PL_clear_exception = Module["_PL_clear_exception"] = function() {
-                return (_PL_clear_exception = Module["_PL_clear_exception"] = Module["asm"]["yb"]).apply(null, arguments)
+                return (_PL_clear_exception = Module["_PL_clear_exception"] = Module["asm"]["zb"]).apply(null, arguments)
             };
             var _PL_put_nil = Module["_PL_put_nil"] = function() {
-                return (_PL_put_nil = Module["_PL_put_nil"] = Module["asm"]["zb"]).apply(null, arguments)
+                return (_PL_put_nil = Module["_PL_put_nil"] = Module["asm"]["Ab"]).apply(null, arguments)
             };
             var _PL_atom_nchars = Module["_PL_atom_nchars"] = function() {
-                return (_PL_atom_nchars = Module["_PL_atom_nchars"] = Module["asm"]["Ab"]).apply(null, arguments)
+                return (_PL_atom_nchars = Module["_PL_atom_nchars"] = Module["asm"]["Bb"]).apply(null, arguments)
             };
             var _PL_atom_wchars = Module["_PL_atom_wchars"] = function() {
-                return (_PL_atom_wchars = Module["_PL_atom_wchars"] = Module["asm"]["Bb"]).apply(null, arguments)
+                return (_PL_atom_wchars = Module["_PL_atom_wchars"] = Module["asm"]["Cb"]).apply(null, arguments)
             };
             var _PL_unify_nil = Module["_PL_unify_nil"] = function() {
-                return (_PL_unify_nil = Module["_PL_unify_nil"] = Module["asm"]["Cb"]).apply(null, arguments)
+                return (_PL_unify_nil = Module["_PL_unify_nil"] = Module["asm"]["Db"]).apply(null, arguments)
             };
             var _PL_cons_functor_v = Module["_PL_cons_functor_v"] = function() {
-                return (_PL_cons_functor_v = Module["_PL_cons_functor_v"] = Module["asm"]["Db"]).apply(null, arguments)
+                return (_PL_cons_functor_v = Module["_PL_cons_functor_v"] = Module["asm"]["Eb"]).apply(null, arguments)
             };
             var _PL_get_nil = Module["_PL_get_nil"] = function() {
-                return (_PL_get_nil = Module["_PL_get_nil"] = Module["asm"]["Eb"]).apply(null, arguments)
+                return (_PL_get_nil = Module["_PL_get_nil"] = Module["asm"]["Fb"]).apply(null, arguments)
             };
             var _PL_atom_chars = Module["_PL_atom_chars"] = function() {
-                return (_PL_atom_chars = Module["_PL_atom_chars"] = Module["asm"]["Fb"]).apply(null, arguments)
+                return (_PL_atom_chars = Module["_PL_atom_chars"] = Module["asm"]["Gb"]).apply(null, arguments)
             };
             var _PL_is_list = Module["_PL_is_list"] = function() {
-                return (_PL_is_list = Module["_PL_is_list"] = Module["asm"]["Gb"]).apply(null, arguments)
+                return (_PL_is_list = Module["_PL_is_list"] = Module["asm"]["Hb"]).apply(null, arguments)
             };
             var _PL_cons_functor = Module["_PL_cons_functor"] = function() {
-                return (_PL_cons_functor = Module["_PL_cons_functor"] = Module["asm"]["Hb"]).apply(null, arguments)
+                return (_PL_cons_functor = Module["_PL_cons_functor"] = Module["asm"]["Ib"]).apply(null, arguments)
             };
             var _PL_warning = Module["_PL_warning"] = function() {
-                return (_PL_warning = Module["_PL_warning"] = Module["asm"]["Ib"]).apply(null, arguments)
+                return (_PL_warning = Module["_PL_warning"] = Module["asm"]["Jb"]).apply(null, arguments)
             };
             var _PL_is_integer = Module["_PL_is_integer"] = function() {
-                return (_PL_is_integer = Module["_PL_is_integer"] = Module["asm"]["Jb"]).apply(null, arguments)
+                return (_PL_is_integer = Module["_PL_is_integer"] = Module["asm"]["Kb"]).apply(null, arguments)
             };
             var _PL_unify_chars = Module["_PL_unify_chars"] = function() {
-                return (_PL_unify_chars = Module["_PL_unify_chars"] = Module["asm"]["Lb"]).apply(null, arguments)
+                return (_PL_unify_chars = Module["_PL_unify_chars"] = Module["asm"]["Mb"]).apply(null, arguments)
             };
             var _PL_unify_float = Module["_PL_unify_float"] = function() {
-                return (_PL_unify_float = Module["_PL_unify_float"] = Module["asm"]["Mb"]).apply(null, arguments)
+                return (_PL_unify_float = Module["_PL_unify_float"] = Module["asm"]["Nb"]).apply(null, arguments)
             };
             var _PL_get_nchars = Module["_PL_get_nchars"] = function() {
-                return (_PL_get_nchars = Module["_PL_get_nchars"] = Module["asm"]["Nb"]).apply(null, arguments)
+                return (_PL_get_nchars = Module["_PL_get_nchars"] = Module["asm"]["Ob"]).apply(null, arguments)
             };
             var _PL_get_wchars = Module["_PL_get_wchars"] = function() {
-                return (_PL_get_wchars = Module["_PL_get_wchars"] = Module["asm"]["Ob"]).apply(null, arguments)
+                return (_PL_get_wchars = Module["_PL_get_wchars"] = Module["asm"]["Pb"]).apply(null, arguments)
             };
             var _PL_call_predicate = Module["_PL_call_predicate"] = function() {
-                return (_PL_call_predicate = Module["_PL_call_predicate"] = Module["asm"]["Pb"]).apply(null, arguments)
+                return (_PL_call_predicate = Module["_PL_call_predicate"] = Module["asm"]["Qb"]).apply(null, arguments)
             };
             var _PL_is_number = Module["_PL_is_number"] = function() {
-                return (_PL_is_number = Module["_PL_is_number"] = Module["asm"]["Qb"]).apply(null, arguments)
+                return (_PL_is_number = Module["_PL_is_number"] = Module["asm"]["Rb"]).apply(null, arguments)
             };
             var _PL_is_string = Module["_PL_is_string"] = function() {
-                return (_PL_is_string = Module["_PL_is_string"] = Module["asm"]["Rb"]).apply(null, arguments)
+                return (_PL_is_string = Module["_PL_is_string"] = Module["asm"]["Sb"]).apply(null, arguments)
             };
             var _PL_is_pair = Module["_PL_is_pair"] = function() {
-                return (_PL_is_pair = Module["_PL_is_pair"] = Module["asm"]["Sb"]).apply(null, arguments)
+                return (_PL_is_pair = Module["_PL_is_pair"] = Module["asm"]["Tb"]).apply(null, arguments)
             };
             var _PL_predicate = Module["_PL_predicate"] = function() {
-                return (_PL_predicate = Module["_PL_predicate"] = Module["asm"]["Tb"]).apply(null, arguments)
+                return (_PL_predicate = Module["_PL_predicate"] = Module["asm"]["Ub"]).apply(null, arguments)
             };
             var _PL_is_float = Module["_PL_is_float"] = function() {
-                return (_PL_is_float = Module["_PL_is_float"] = Module["asm"]["Ub"]).apply(null, arguments)
+                return (_PL_is_float = Module["_PL_is_float"] = Module["asm"]["Vb"]).apply(null, arguments)
             };
             var _PL_is_compound = Module["_PL_is_compound"] = function() {
-                return (_PL_is_compound = Module["_PL_is_compound"] = Module["asm"]["Vb"]).apply(null, arguments)
+                return (_PL_is_compound = Module["_PL_is_compound"] = Module["asm"]["Wb"]).apply(null, arguments)
             };
             var _PL_is_callable = Module["_PL_is_callable"] = function() {
-                return (_PL_is_callable = Module["_PL_is_callable"] = Module["asm"]["Wb"]).apply(null, arguments)
+                return (_PL_is_callable = Module["_PL_is_callable"] = Module["asm"]["Xb"]).apply(null, arguments)
             };
             var _PL_unify_compound = Module["_PL_unify_compound"] = function() {
-                return (_PL_unify_compound = Module["_PL_unify_compound"] = Module["asm"]["Xb"]).apply(null, arguments)
+                return (_PL_unify_compound = Module["_PL_unify_compound"] = Module["asm"]["Yb"]).apply(null, arguments)
             };
             var _PL_compare = Module["_PL_compare"] = function() {
-                return (_PL_compare = Module["_PL_compare"] = Module["asm"]["Yb"]).apply(null, arguments)
+                return (_PL_compare = Module["_PL_compare"] = Module["asm"]["Zb"]).apply(null, arguments)
             };
             var _PL_unify_uint64 = Module["_PL_unify_uint64"] = function() {
-                return (_PL_unify_uint64 = Module["_PL_unify_uint64"] = Module["asm"]["Zb"]).apply(null, arguments)
+                return (_PL_unify_uint64 = Module["_PL_unify_uint64"] = Module["asm"]["_b"]).apply(null, arguments)
             };
             var _PL_unify_atom_nchars = Module["_PL_unify_atom_nchars"] = function() {
-                return (_PL_unify_atom_nchars = Module["_PL_unify_atom_nchars"] = Module["asm"]["_b"]).apply(null, arguments)
+                return (_PL_unify_atom_nchars = Module["_PL_unify_atom_nchars"] = Module["asm"]["$b"]).apply(null, arguments)
             };
             var _PL_unify_wchars = Module["_PL_unify_wchars"] = function() {
-                return (_PL_unify_wchars = Module["_PL_unify_wchars"] = Module["asm"]["$b"]).apply(null, arguments)
+                return (_PL_unify_wchars = Module["_PL_unify_wchars"] = Module["asm"]["ac"]).apply(null, arguments)
             };
             var _PL_get_atom_chars = Module["_PL_get_atom_chars"] = function() {
-                return (_PL_get_atom_chars = Module["_PL_get_atom_chars"] = Module["asm"]["ac"]).apply(null, arguments)
+                return (_PL_get_atom_chars = Module["_PL_get_atom_chars"] = Module["asm"]["bc"]).apply(null, arguments)
             };
             var _PL_unify_bool = Module["_PL_unify_bool"] = function() {
-                return (_PL_unify_bool = Module["_PL_unify_bool"] = Module["asm"]["bc"]).apply(null, arguments)
+                return (_PL_unify_bool = Module["_PL_unify_bool"] = Module["asm"]["cc"]).apply(null, arguments)
             };
             var _PL_get_chars = Module["_PL_get_chars"] = function() {
-                return (_PL_get_chars = Module["_PL_get_chars"] = Module["asm"]["cc"]).apply(null, arguments)
+                return (_PL_get_chars = Module["_PL_get_chars"] = Module["asm"]["dc"]).apply(null, arguments)
             };
             var _PL_skip_list = Module["_PL_skip_list"] = function() {
-                return (_PL_skip_list = Module["_PL_skip_list"] = Module["asm"]["dc"]).apply(null, arguments)
+                return (_PL_skip_list = Module["_PL_skip_list"] = Module["asm"]["ec"]).apply(null, arguments)
             };
             var _PL_is_atom = Module["_PL_is_atom"] = function() {
-                return (_PL_is_atom = Module["_PL_is_atom"] = Module["asm"]["ec"]).apply(null, arguments)
+                return (_PL_is_atom = Module["_PL_is_atom"] = Module["asm"]["fc"]).apply(null, arguments)
             };
             var _PL_is_variable = Module["_PL_is_variable"] = function() {
-                return (_PL_is_variable = Module["_PL_is_variable"] = Module["asm"]["fc"]).apply(null, arguments)
+                return (_PL_is_variable = Module["_PL_is_variable"] = Module["asm"]["gc"]).apply(null, arguments)
             };
             var _PL_unify_atom = Module["_PL_unify_atom"] = function() {
-                return (_PL_unify_atom = Module["_PL_unify_atom"] = Module["asm"]["gc"]).apply(null, arguments)
+                return (_PL_unify_atom = Module["_PL_unify_atom"] = Module["asm"]["hc"]).apply(null, arguments)
             };
             var _PL_new_term_refs = Module["_PL_new_term_refs"] = function() {
-                return (_PL_new_term_refs = Module["_PL_new_term_refs"] = Module["asm"]["hc"]).apply(null, arguments)
+                return (_PL_new_term_refs = Module["_PL_new_term_refs"] = Module["asm"]["ic"]).apply(null, arguments)
             };
             var _PL_put_atom = Module["_PL_put_atom"] = function() {
-                return (_PL_put_atom = Module["_PL_put_atom"] = Module["asm"]["ic"]).apply(null, arguments)
+                return (_PL_put_atom = Module["_PL_put_atom"] = Module["asm"]["jc"]).apply(null, arguments)
             };
             var _PL_new_term_ref = Module["_PL_new_term_ref"] = function() {
-                return (_PL_new_term_ref = Module["_PL_new_term_ref"] = Module["asm"]["jc"]).apply(null, arguments)
+                return (_PL_new_term_ref = Module["_PL_new_term_ref"] = Module["asm"]["kc"]).apply(null, arguments)
             };
             var _PL_unify = Module["_PL_unify"] = function() {
-                return (_PL_unify = Module["_PL_unify"] = Module["asm"]["kc"]).apply(null, arguments)
+                return (_PL_unify = Module["_PL_unify"] = Module["asm"]["lc"]).apply(null, arguments)
             };
             var _PL_get_bool = Module["_PL_get_bool"] = function() {
-                return (_PL_get_bool = Module["_PL_get_bool"] = Module["asm"]["lc"]).apply(null, arguments)
+                return (_PL_get_bool = Module["_PL_get_bool"] = Module["asm"]["mc"]).apply(null, arguments)
             };
             var _PL_get_float = Module["_PL_get_float"] = function() {
-                return (_PL_get_float = Module["_PL_get_float"] = Module["asm"]["mc"]).apply(null, arguments)
+                return (_PL_get_float = Module["_PL_get_float"] = Module["asm"]["nc"]).apply(null, arguments)
             };
             var _PL_get_module = Module["_PL_get_module"] = function() {
-                return (_PL_get_module = Module["_PL_get_module"] = Module["asm"]["nc"]).apply(null, arguments)
+                return (_PL_get_module = Module["_PL_get_module"] = Module["asm"]["oc"]).apply(null, arguments)
             };
             var _PL_erase = Module["_PL_erase"] = function() {
-                return (_PL_erase = Module["_PL_erase"] = Module["asm"]["oc"]).apply(null, arguments)
+                return (_PL_erase = Module["_PL_erase"] = Module["asm"]["pc"]).apply(null, arguments)
             };
             var _PL_unify_string_nchars = Module["_PL_unify_string_nchars"] = function() {
-                return (_PL_unify_string_nchars = Module["_PL_unify_string_nchars"] = Module["asm"]["pc"]).apply(null, arguments)
+                return (_PL_unify_string_nchars = Module["_PL_unify_string_nchars"] = Module["asm"]["qc"]).apply(null, arguments)
             };
             var _PL_get_intptr = Module["_PL_get_intptr"] = function() {
-                return (_PL_get_intptr = Module["_PL_get_intptr"] = Module["asm"]["qc"]).apply(null, arguments)
+                return (_PL_get_intptr = Module["_PL_get_intptr"] = Module["asm"]["rc"]).apply(null, arguments)
             };
             var _PL_pred = Module["_PL_pred"] = function() {
-                return (_PL_pred = Module["_PL_pred"] = Module["asm"]["rc"]).apply(null, arguments)
+                return (_PL_pred = Module["_PL_pred"] = Module["asm"]["sc"]).apply(null, arguments)
             };
             var _PL_is_blob = Module["_PL_is_blob"] = function() {
-                return (_PL_is_blob = Module["_PL_is_blob"] = Module["asm"]["sc"]).apply(null, arguments)
+                return (_PL_is_blob = Module["_PL_is_blob"] = Module["asm"]["tc"]).apply(null, arguments)
             };
             var _PL_put_bool = Module["_PL_put_bool"] = function() {
-                return (_PL_put_bool = Module["_PL_put_bool"] = Module["asm"]["tc"]).apply(null, arguments)
+                return (_PL_put_bool = Module["_PL_put_bool"] = Module["asm"]["uc"]).apply(null, arguments)
             };
             var _PL_unify_atom_chars = Module["_PL_unify_atom_chars"] = function() {
-                return (_PL_unify_atom_chars = Module["_PL_unify_atom_chars"] = Module["asm"]["uc"]).apply(null, arguments)
+                return (_PL_unify_atom_chars = Module["_PL_unify_atom_chars"] = Module["asm"]["vc"]).apply(null, arguments)
             };
             var _PL_put_float = Module["_PL_put_float"] = function() {
-                return (_PL_put_float = Module["_PL_put_float"] = Module["asm"]["vc"]).apply(null, arguments)
+                return (_PL_put_float = Module["_PL_put_float"] = Module["asm"]["wc"]).apply(null, arguments)
             };
             var _PL_put_pointer = Module["_PL_put_pointer"] = function() {
-                return (_PL_put_pointer = Module["_PL_put_pointer"] = Module["asm"]["wc"]).apply(null, arguments)
+                return (_PL_put_pointer = Module["_PL_put_pointer"] = Module["asm"]["xc"]).apply(null, arguments)
             };
             var _PL_unify_int64 = Module["_PL_unify_int64"] = function() {
-                return (_PL_unify_int64 = Module["_PL_unify_int64"] = Module["asm"]["xc"]).apply(null, arguments)
+                return (_PL_unify_int64 = Module["_PL_unify_int64"] = Module["asm"]["yc"]).apply(null, arguments)
             };
             var _PL_get_atom = Module["_PL_get_atom"] = function() {
-                return (_PL_get_atom = Module["_PL_get_atom"] = Module["asm"]["yc"]).apply(null, arguments)
+                return (_PL_get_atom = Module["_PL_get_atom"] = Module["asm"]["zc"]).apply(null, arguments)
             };
             var _PL_copy_term_ref = Module["_PL_copy_term_ref"] = function() {
-                return (_PL_copy_term_ref = Module["_PL_copy_term_ref"] = Module["asm"]["zc"]).apply(null, arguments)
+                return (_PL_copy_term_ref = Module["_PL_copy_term_ref"] = Module["asm"]["Ac"]).apply(null, arguments)
             };
             var _PL_unify_integer = Module["_PL_unify_integer"] = function() {
-                return (_PL_unify_integer = Module["_PL_unify_integer"] = Module["asm"]["Ac"]).apply(null, arguments)
+                return (_PL_unify_integer = Module["_PL_unify_integer"] = Module["asm"]["Bc"]).apply(null, arguments)
             };
             var _PL_put_int64 = Module["_PL_put_int64"] = function() {
-                return (_PL_put_int64 = Module["_PL_put_int64"] = Module["asm"]["Bc"]).apply(null, arguments)
+                return (_PL_put_int64 = Module["_PL_put_int64"] = Module["asm"]["Cc"]).apply(null, arguments)
             };
             var _PL_set_prolog_flag = Module["_PL_set_prolog_flag"] = function() {
-                return (_PL_set_prolog_flag = Module["_PL_set_prolog_flag"] = Module["asm"]["Cc"]).apply(null, arguments)
+                return (_PL_set_prolog_flag = Module["_PL_set_prolog_flag"] = Module["asm"]["Dc"]).apply(null, arguments)
             };
             var _PL_get_file_name = Module["_PL_get_file_name"] = function() {
-                return (_PL_get_file_name = Module["_PL_get_file_name"] = Module["asm"]["Dc"]).apply(null, arguments)
+                return (_PL_get_file_name = Module["_PL_get_file_name"] = Module["asm"]["Ec"]).apply(null, arguments)
             };
             var _PL_unify_blob = Module["_PL_unify_blob"] = function() {
-                return (_PL_unify_blob = Module["_PL_unify_blob"] = Module["asm"]["Ec"]).apply(null, arguments)
+                return (_PL_unify_blob = Module["_PL_unify_blob"] = Module["asm"]["Fc"]).apply(null, arguments)
             };
             var _PL_get_blob = Module["_PL_get_blob"] = function() {
-                return (_PL_get_blob = Module["_PL_get_blob"] = Module["asm"]["Fc"]).apply(null, arguments)
+                return (_PL_get_blob = Module["_PL_get_blob"] = Module["asm"]["Gc"]).apply(null, arguments)
             };
             var _PL_blob_data = Module["_PL_blob_data"] = function() {
-                return (_PL_blob_data = Module["_PL_blob_data"] = Module["asm"]["Gc"]).apply(null, arguments)
+                return (_PL_blob_data = Module["_PL_blob_data"] = Module["asm"]["Hc"]).apply(null, arguments)
             };
             var _PL_new_module = Module["_PL_new_module"] = function() {
-                return (_PL_new_module = Module["_PL_new_module"] = Module["asm"]["Hc"]).apply(null, arguments)
+                return (_PL_new_module = Module["_PL_new_module"] = Module["asm"]["Ic"]).apply(null, arguments)
             };
             var _PL_put_string_chars = Module["_PL_put_string_chars"] = function() {
-                return (_PL_put_string_chars = Module["_PL_put_string_chars"] = Module["asm"]["Ic"]).apply(null, arguments)
+                return (_PL_put_string_chars = Module["_PL_put_string_chars"] = Module["asm"]["Jc"]).apply(null, arguments)
             };
             var _PL_set_resource_db_mem = Module["_PL_set_resource_db_mem"] = function() {
-                return (_PL_set_resource_db_mem = Module["_PL_set_resource_db_mem"] = Module["asm"]["Jc"]).apply(null, arguments)
+                return (_PL_set_resource_db_mem = Module["_PL_set_resource_db_mem"] = Module["asm"]["Kc"]).apply(null, arguments)
             };
             var _PL_on_halt = Module["_PL_on_halt"] = function() {
-                return (_PL_on_halt = Module["_PL_on_halt"] = Module["asm"]["Kc"]).apply(null, arguments)
+                return (_PL_on_halt = Module["_PL_on_halt"] = Module["asm"]["Lc"]).apply(null, arguments)
             };
             var _PL_exit_hook = Module["_PL_exit_hook"] = function() {
-                return (_PL_exit_hook = Module["_PL_exit_hook"] = Module["asm"]["Lc"]).apply(null, arguments)
+                return (_PL_exit_hook = Module["_PL_exit_hook"] = Module["asm"]["Mc"]).apply(null, arguments)
             };
             var _PL_cleanup = Module["_PL_cleanup"] = function() {
-                return (_PL_cleanup = Module["_PL_cleanup"] = Module["asm"]["Mc"]).apply(null, arguments)
+                return (_PL_cleanup = Module["_PL_cleanup"] = Module["asm"]["Nc"]).apply(null, arguments)
             };
             var _PL_unify_string_chars = Module["_PL_unify_string_chars"] = function() {
-                return (_PL_unify_string_chars = Module["_PL_unify_string_chars"] = Module["asm"]["Nc"]).apply(null, arguments)
+                return (_PL_unify_string_chars = Module["_PL_unify_string_chars"] = Module["asm"]["Oc"]).apply(null, arguments)
             };
             var _PL_put_variable = Module["_PL_put_variable"] = function() {
-                return (_PL_put_variable = Module["_PL_put_variable"] = Module["asm"]["Oc"]).apply(null, arguments)
+                return (_PL_put_variable = Module["_PL_put_variable"] = Module["asm"]["Pc"]).apply(null, arguments)
             };
             var _PL_is_atomic = Module["_PL_is_atomic"] = function() {
-                return (_PL_is_atomic = Module["_PL_is_atomic"] = Module["asm"]["Pc"]).apply(null, arguments)
+                return (_PL_is_atomic = Module["_PL_is_atomic"] = Module["asm"]["Qc"]).apply(null, arguments)
             };
             var _PL_recorded = Module["_PL_recorded"] = function() {
-                return (_PL_recorded = Module["_PL_recorded"] = Module["asm"]["Qc"]).apply(null, arguments)
+                return (_PL_recorded = Module["_PL_recorded"] = Module["asm"]["Rc"]).apply(null, arguments)
             };
             var _PL_record = Module["_PL_record"] = function() {
-                return (_PL_record = Module["_PL_record"] = Module["asm"]["Rc"]).apply(null, arguments)
+                return (_PL_record = Module["_PL_record"] = Module["asm"]["Sc"]).apply(null, arguments)
             };
             var _PL_put_functor = Module["_PL_put_functor"] = function() {
-                return (_PL_put_functor = Module["_PL_put_functor"] = Module["asm"]["Sc"]).apply(null, arguments)
+                return (_PL_put_functor = Module["_PL_put_functor"] = Module["asm"]["Tc"]).apply(null, arguments)
             };
             var _PL_strip_module = Module["_PL_strip_module"] = function() {
-                return (_PL_strip_module = Module["_PL_strip_module"] = Module["asm"]["Tc"]).apply(null, arguments)
+                return (_PL_strip_module = Module["_PL_strip_module"] = Module["asm"]["Uc"]).apply(null, arguments)
             };
             var _PL_unify_list = Module["_PL_unify_list"] = function() {
-                return (_PL_unify_list = Module["_PL_unify_list"] = Module["asm"]["Uc"]).apply(null, arguments)
+                return (_PL_unify_list = Module["_PL_unify_list"] = Module["asm"]["Vc"]).apply(null, arguments)
             };
             var _PL_register_foreign_in_module = Module["_PL_register_foreign_in_module"] = function() {
-                return (_PL_register_foreign_in_module = Module["_PL_register_foreign_in_module"] = Module["asm"]["Vc"]).apply(null, arguments)
+                return (_PL_register_foreign_in_module = Module["_PL_register_foreign_in_module"] = Module["asm"]["Wc"]).apply(null, arguments)
             };
             var _PL_foreign_control = Module["_PL_foreign_control"] = function() {
-                return (_PL_foreign_control = Module["_PL_foreign_control"] = Module["asm"]["Wc"]).apply(null, arguments)
+                return (_PL_foreign_control = Module["_PL_foreign_control"] = Module["asm"]["Xc"]).apply(null, arguments)
             };
             var _PL_foreign_context_address = Module["_PL_foreign_context_address"] = function() {
-                return (_PL_foreign_context_address = Module["_PL_foreign_context_address"] = Module["asm"]["Xc"]).apply(null, arguments)
+                return (_PL_foreign_context_address = Module["_PL_foreign_context_address"] = Module["asm"]["Yc"]).apply(null, arguments)
             };
             var _PL_reset_term_refs = Module["_PL_reset_term_refs"] = function() {
-                return (_PL_reset_term_refs = Module["_PL_reset_term_refs"] = Module["asm"]["Yc"]).apply(null, arguments)
+                return (_PL_reset_term_refs = Module["_PL_reset_term_refs"] = Module["asm"]["Zc"]).apply(null, arguments)
             };
             var _PL_new_atom_nchars = Module["_PL_new_atom_nchars"] = function() {
-                return (_PL_new_atom_nchars = Module["_PL_new_atom_nchars"] = Module["asm"]["Zc"]).apply(null, arguments)
+                return (_PL_new_atom_nchars = Module["_PL_new_atom_nchars"] = Module["asm"]["_c"]).apply(null, arguments)
             };
             var _PL_new_atom_mbchars = Module["_PL_new_atom_mbchars"] = function() {
-                return (_PL_new_atom_mbchars = Module["_PL_new_atom_mbchars"] = Module["asm"]["_c"]).apply(null, arguments)
+                return (_PL_new_atom_mbchars = Module["_PL_new_atom_mbchars"] = Module["asm"]["$c"]).apply(null, arguments)
             };
             var _PL_new_functor = Module["_PL_new_functor"] = function() {
-                return (_PL_new_functor = Module["_PL_new_functor"] = Module["asm"]["$c"]).apply(null, arguments)
+                return (_PL_new_functor = Module["_PL_new_functor"] = Module["asm"]["ad"]).apply(null, arguments)
             };
             var _PL_functor_name = Module["_PL_functor_name"] = function() {
-                return (_PL_functor_name = Module["_PL_functor_name"] = Module["asm"]["ad"]).apply(null, arguments)
+                return (_PL_functor_name = Module["_PL_functor_name"] = Module["asm"]["bd"]).apply(null, arguments)
             };
             var _PL_functor_arity = Module["_PL_functor_arity"] = function() {
-                return (_PL_functor_arity = Module["_PL_functor_arity"] = Module["asm"]["bd"]).apply(null, arguments)
+                return (_PL_functor_arity = Module["_PL_functor_arity"] = Module["asm"]["cd"]).apply(null, arguments)
             };
             var _PL_new_atom_wchars = Module["_PL_new_atom_wchars"] = function() {
-                return (_PL_new_atom_wchars = Module["_PL_new_atom_wchars"] = Module["asm"]["cd"]).apply(null, arguments)
+                return (_PL_new_atom_wchars = Module["_PL_new_atom_wchars"] = Module["asm"]["dd"]).apply(null, arguments)
             };
             var _PL_unify_wchars_diff = Module["_PL_unify_wchars_diff"] = function() {
-                return (_PL_unify_wchars_diff = Module["_PL_unify_wchars_diff"] = Module["asm"]["dd"]).apply(null, arguments)
+                return (_PL_unify_wchars_diff = Module["_PL_unify_wchars_diff"] = Module["asm"]["ed"]).apply(null, arguments)
             };
             var _PL_same_compound = Module["_PL_same_compound"] = function() {
-                return (_PL_same_compound = Module["_PL_same_compound"] = Module["asm"]["ed"]).apply(null, arguments)
+                return (_PL_same_compound = Module["_PL_same_compound"] = Module["asm"]["fd"]).apply(null, arguments)
             };
             var _PL_cons_list = Module["_PL_cons_list"] = function() {
-                return (_PL_cons_list = Module["_PL_cons_list"] = Module["asm"]["fd"]).apply(null, arguments)
+                return (_PL_cons_list = Module["_PL_cons_list"] = Module["asm"]["gd"]).apply(null, arguments)
             };
             var _PL_get_atom_nchars = Module["_PL_get_atom_nchars"] = function() {
-                return (_PL_get_atom_nchars = Module["_PL_get_atom_nchars"] = Module["asm"]["gd"]).apply(null, arguments)
+                return (_PL_get_atom_nchars = Module["_PL_get_atom_nchars"] = Module["asm"]["hd"]).apply(null, arguments)
             };
             var _PL_get_list_nchars = Module["_PL_get_list_nchars"] = function() {
-                return (_PL_get_list_nchars = Module["_PL_get_list_nchars"] = Module["asm"]["hd"]).apply(null, arguments)
+                return (_PL_get_list_nchars = Module["_PL_get_list_nchars"] = Module["asm"]["id"]).apply(null, arguments)
             };
             var _PL_get_list_chars = Module["_PL_get_list_chars"] = function() {
-                return (_PL_get_list_chars = Module["_PL_get_list_chars"] = Module["asm"]["id"]).apply(null, arguments)
+                return (_PL_get_list_chars = Module["_PL_get_list_chars"] = Module["asm"]["jd"]).apply(null, arguments)
             };
             var _PL_quote = Module["_PL_quote"] = function() {
-                return (_PL_quote = Module["_PL_quote"] = Module["asm"]["jd"]).apply(null, arguments)
+                return (_PL_quote = Module["_PL_quote"] = Module["asm"]["kd"]).apply(null, arguments)
             };
             var _PL_get_integer = Module["_PL_get_integer"] = function() {
-                return (_PL_get_integer = Module["_PL_get_integer"] = Module["asm"]["kd"]).apply(null, arguments)
+                return (_PL_get_integer = Module["_PL_get_integer"] = Module["asm"]["ld"]).apply(null, arguments)
             };
             var _PL_get_long = Module["_PL_get_long"] = function() {
-                return (_PL_get_long = Module["_PL_get_long"] = Module["asm"]["ld"]).apply(null, arguments)
+                return (_PL_get_long = Module["_PL_get_long"] = Module["asm"]["md"]).apply(null, arguments)
             };
             var _PL_get_int64 = Module["_PL_get_int64"] = function() {
-                return (_PL_get_int64 = Module["_PL_get_int64"] = Module["asm"]["md"]).apply(null, arguments)
+                return (_PL_get_int64 = Module["_PL_get_int64"] = Module["asm"]["nd"]).apply(null, arguments)
             };
             var _PL_get_pointer = Module["_PL_get_pointer"] = function() {
-                return (_PL_get_pointer = Module["_PL_get_pointer"] = Module["asm"]["nd"]).apply(null, arguments)
+                return (_PL_get_pointer = Module["_PL_get_pointer"] = Module["asm"]["od"]).apply(null, arguments)
             };
             var _PL_get_name_arity = Module["_PL_get_name_arity"] = function() {
-                return (_PL_get_name_arity = Module["_PL_get_name_arity"] = Module["asm"]["od"]).apply(null, arguments)
+                return (_PL_get_name_arity = Module["_PL_get_name_arity"] = Module["asm"]["pd"]).apply(null, arguments)
             };
             var _PL_get_compound_name_arity = Module["_PL_get_compound_name_arity"] = function() {
-                return (_PL_get_compound_name_arity = Module["_PL_get_compound_name_arity"] = Module["asm"]["pd"]).apply(null, arguments)
+                return (_PL_get_compound_name_arity = Module["_PL_get_compound_name_arity"] = Module["asm"]["qd"]).apply(null, arguments)
             };
             var _PL_get_functor = Module["_PL_get_functor"] = function() {
-                return (_PL_get_functor = Module["_PL_get_functor"] = Module["asm"]["qd"]).apply(null, arguments)
+                return (_PL_get_functor = Module["_PL_get_functor"] = Module["asm"]["rd"]).apply(null, arguments)
             };
             var _PL_get_arg = Module["_PL_get_arg"] = function() {
-                return (_PL_get_arg = Module["_PL_get_arg"] = Module["asm"]["rd"]).apply(null, arguments)
+                return (_PL_get_arg = Module["_PL_get_arg"] = Module["asm"]["sd"]).apply(null, arguments)
             };
             var _PL_get_list = Module["_PL_get_list"] = function() {
-                return (_PL_get_list = Module["_PL_get_list"] = Module["asm"]["sd"]).apply(null, arguments)
+                return (_PL_get_list = Module["_PL_get_list"] = Module["asm"]["td"]).apply(null, arguments)
             };
             var _PL_get_head = Module["_PL_get_head"] = function() {
-                return (_PL_get_head = Module["_PL_get_head"] = Module["asm"]["td"]).apply(null, arguments)
+                return (_PL_get_head = Module["_PL_get_head"] = Module["asm"]["ud"]).apply(null, arguments)
             };
             var _PL_get_tail = Module["_PL_get_tail"] = function() {
-                return (_PL_get_tail = Module["_PL_get_tail"] = Module["asm"]["ud"]).apply(null, arguments)
+                return (_PL_get_tail = Module["_PL_get_tail"] = Module["asm"]["vd"]).apply(null, arguments)
             };
             var _PL_is_functor = Module["_PL_is_functor"] = function() {
-                return (_PL_is_functor = Module["_PL_is_functor"] = Module["asm"]["vd"]).apply(null, arguments)
+                return (_PL_is_functor = Module["_PL_is_functor"] = Module["asm"]["wd"]).apply(null, arguments)
             };
             var _PL_put_atom_nchars = Module["_PL_put_atom_nchars"] = function() {
-                return (_PL_put_atom_nchars = Module["_PL_put_atom_nchars"] = Module["asm"]["wd"]).apply(null, arguments)
+                return (_PL_put_atom_nchars = Module["_PL_put_atom_nchars"] = Module["asm"]["xd"]).apply(null, arguments)
             };
             var _PL_put_string_nchars = Module["_PL_put_string_nchars"] = function() {
-                return (_PL_put_string_nchars = Module["_PL_put_string_nchars"] = Module["asm"]["xd"]).apply(null, arguments)
+                return (_PL_put_string_nchars = Module["_PL_put_string_nchars"] = Module["asm"]["yd"]).apply(null, arguments)
             };
             var _PL_put_chars = Module["_PL_put_chars"] = function() {
-                return (_PL_put_chars = Module["_PL_put_chars"] = Module["asm"]["yd"]).apply(null, arguments)
+                return (_PL_put_chars = Module["_PL_put_chars"] = Module["asm"]["zd"]).apply(null, arguments)
             };
             var _PL_put_list_ncodes = Module["_PL_put_list_ncodes"] = function() {
-                return (_PL_put_list_ncodes = Module["_PL_put_list_ncodes"] = Module["asm"]["zd"]).apply(null, arguments)
+                return (_PL_put_list_ncodes = Module["_PL_put_list_ncodes"] = Module["asm"]["Ad"]).apply(null, arguments)
             };
             var _PL_put_list_nchars = Module["_PL_put_list_nchars"] = function() {
-                return (_PL_put_list_nchars = Module["_PL_put_list_nchars"] = Module["asm"]["Ad"]).apply(null, arguments)
+                return (_PL_put_list_nchars = Module["_PL_put_list_nchars"] = Module["asm"]["Bd"]).apply(null, arguments)
             };
             var _PL_put_list_chars = Module["_PL_put_list_chars"] = function() {
-                return (_PL_put_list_chars = Module["_PL_put_list_chars"] = Module["asm"]["Bd"]).apply(null, arguments)
+                return (_PL_put_list_chars = Module["_PL_put_list_chars"] = Module["asm"]["Cd"]).apply(null, arguments)
             };
             var _PL_put_integer = Module["_PL_put_integer"] = function() {
-                return (_PL_put_integer = Module["_PL_put_integer"] = Module["asm"]["Cd"]).apply(null, arguments)
+                return (_PL_put_integer = Module["_PL_put_integer"] = Module["asm"]["Dd"]).apply(null, arguments)
             };
             var _PL_put_list = Module["_PL_put_list"] = function() {
-                return (_PL_put_list = Module["_PL_put_list"] = Module["asm"]["Dd"]).apply(null, arguments)
+                return (_PL_put_list = Module["_PL_put_list"] = Module["asm"]["Ed"]).apply(null, arguments)
             };
             var _PL_put_term = Module["_PL_put_term"] = function() {
-                return (_PL_put_term = Module["_PL_put_term"] = Module["asm"]["Ed"]).apply(null, arguments)
+                return (_PL_put_term = Module["_PL_put_term"] = Module["asm"]["Fd"]).apply(null, arguments)
             };
             var _PL_unify_functor = Module["_PL_unify_functor"] = function() {
-                return (_PL_unify_functor = Module["_PL_unify_functor"] = Module["asm"]["Fd"]).apply(null, arguments)
+                return (_PL_unify_functor = Module["_PL_unify_functor"] = Module["asm"]["Gd"]).apply(null, arguments)
             };
             var _PL_unify_list_ncodes = Module["_PL_unify_list_ncodes"] = function() {
-                return (_PL_unify_list_ncodes = Module["_PL_unify_list_ncodes"] = Module["asm"]["Gd"]).apply(null, arguments)
+                return (_PL_unify_list_ncodes = Module["_PL_unify_list_ncodes"] = Module["asm"]["Hd"]).apply(null, arguments)
             };
             var _PL_unify_list_nchars = Module["_PL_unify_list_nchars"] = function() {
-                return (_PL_unify_list_nchars = Module["_PL_unify_list_nchars"] = Module["asm"]["Hd"]).apply(null, arguments)
+                return (_PL_unify_list_nchars = Module["_PL_unify_list_nchars"] = Module["asm"]["Id"]).apply(null, arguments)
             };
             var _PL_unify_list_chars = Module["_PL_unify_list_chars"] = function() {
-                return (_PL_unify_list_chars = Module["_PL_unify_list_chars"] = Module["asm"]["Id"]).apply(null, arguments)
+                return (_PL_unify_list_chars = Module["_PL_unify_list_chars"] = Module["asm"]["Jd"]).apply(null, arguments)
             };
             var _PL_unify_pointer = Module["_PL_unify_pointer"] = function() {
-                return (_PL_unify_pointer = Module["_PL_unify_pointer"] = Module["asm"]["Jd"]).apply(null, arguments)
+                return (_PL_unify_pointer = Module["_PL_unify_pointer"] = Module["asm"]["Kd"]).apply(null, arguments)
             };
             var _PL_unify_arg = Module["_PL_unify_arg"] = function() {
-                return (_PL_unify_arg = Module["_PL_unify_arg"] = Module["asm"]["Kd"]).apply(null, arguments)
+                return (_PL_unify_arg = Module["_PL_unify_arg"] = Module["asm"]["Ld"]).apply(null, arguments)
             };
             var _PL_unify_term = Module["_PL_unify_term"] = function() {
-                return (_PL_unify_term = Module["_PL_unify_term"] = Module["asm"]["Ld"]).apply(null, arguments)
+                return (_PL_unify_term = Module["_PL_unify_term"] = Module["asm"]["Md"]).apply(null, arguments)
             };
             var _PL_put_blob = Module["_PL_put_blob"] = function() {
-                return (_PL_put_blob = Module["_PL_put_blob"] = Module["asm"]["Md"]).apply(null, arguments)
+                return (_PL_put_blob = Module["_PL_put_blob"] = Module["asm"]["Nd"]).apply(null, arguments)
             };
             var _PL_put_dict = Module["_PL_put_dict"] = function() {
-                return (_PL_put_dict = Module["_PL_put_dict"] = Module["asm"]["Nd"]).apply(null, arguments)
+                return (_PL_put_dict = Module["_PL_put_dict"] = Module["asm"]["Od"]).apply(null, arguments)
             };
             var _PL_term_type = Module["_PL_term_type"] = function() {
-                return (_PL_term_type = Module["_PL_term_type"] = Module["asm"]["Od"]).apply(null, arguments)
+                return (_PL_term_type = Module["_PL_term_type"] = Module["asm"]["Pd"]).apply(null, arguments)
             };
             var _PL_context = Module["_PL_context"] = function() {
-                return (_PL_context = Module["_PL_context"] = Module["asm"]["Pd"]).apply(null, arguments)
+                return (_PL_context = Module["_PL_context"] = Module["asm"]["Qd"]).apply(null, arguments)
             };
             var _PL_module_name = Module["_PL_module_name"] = function() {
-                return (_PL_module_name = Module["_PL_module_name"] = Module["asm"]["Qd"]).apply(null, arguments)
+                return (_PL_module_name = Module["_PL_module_name"] = Module["asm"]["Rd"]).apply(null, arguments)
             };
             var _PL_predicate_info = Module["_PL_predicate_info"] = function() {
-                return (_PL_predicate_info = Module["_PL_predicate_info"] = Module["asm"]["Rd"]).apply(null, arguments)
+                return (_PL_predicate_info = Module["_PL_predicate_info"] = Module["asm"]["Sd"]).apply(null, arguments)
             };
             var _PL_call = Module["_PL_call"] = function() {
-                return (_PL_call = Module["_PL_call"] = Module["asm"]["Sd"]).apply(null, arguments)
+                return (_PL_call = Module["_PL_call"] = Module["asm"]["Td"]).apply(null, arguments)
             };
             var _PL_foreign_context = Module["_PL_foreign_context"] = function() {
-                return (_PL_foreign_context = Module["_PL_foreign_context"] = Module["asm"]["Td"]).apply(null, arguments)
+                return (_PL_foreign_context = Module["_PL_foreign_context"] = Module["asm"]["Ud"]).apply(null, arguments)
             };
             var _PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = function() {
-                return (_PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = Module["asm"]["Ud"]).apply(null, arguments)
+                return (_PL_foreign_context_predicate = Module["_PL_foreign_context_predicate"] = Module["asm"]["Vd"]).apply(null, arguments)
             };
             var _PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = function() {
-                return (_PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = Module["asm"]["Vd"]).apply(null, arguments)
+                return (_PL_register_extensions_in_module = Module["_PL_register_extensions_in_module"] = Module["asm"]["Wd"]).apply(null, arguments)
             };
             var _PL_register_extensions = Module["_PL_register_extensions"] = function() {
-                return (_PL_register_extensions = Module["_PL_register_extensions"] = Module["asm"]["Wd"]).apply(null, arguments)
+                return (_PL_register_extensions = Module["_PL_register_extensions"] = Module["asm"]["Xd"]).apply(null, arguments)
             };
             var _PL_register_foreign = Module["_PL_register_foreign"] = function() {
-                return (_PL_register_foreign = Module["_PL_register_foreign"] = Module["asm"]["Xd"]).apply(null, arguments)
+                return (_PL_register_foreign = Module["_PL_register_foreign"] = Module["asm"]["Yd"]).apply(null, arguments)
             };
             var _PL_abort_hook = Module["_PL_abort_hook"] = function() {
-                return (_PL_abort_hook = Module["_PL_abort_hook"] = Module["asm"]["Yd"]).apply(null, arguments)
+                return (_PL_abort_hook = Module["_PL_abort_hook"] = Module["asm"]["Zd"]).apply(null, arguments)
             };
             var _PL_abort_unhook = Module["_PL_abort_unhook"] = function() {
-                return (_PL_abort_unhook = Module["_PL_abort_unhook"] = Module["asm"]["Zd"]).apply(null, arguments)
+                return (_PL_abort_unhook = Module["_PL_abort_unhook"] = Module["asm"]["_d"]).apply(null, arguments)
             };
             var _PL_dispatch_hook = Module["_PL_dispatch_hook"] = function() {
-                return (_PL_dispatch_hook = Module["_PL_dispatch_hook"] = Module["asm"]["_d"]).apply(null, arguments)
+                return (_PL_dispatch_hook = Module["_PL_dispatch_hook"] = Module["asm"]["$d"]).apply(null, arguments)
             };
             var _PL_duplicate_record = Module["_PL_duplicate_record"] = function() {
-                return (_PL_duplicate_record = Module["_PL_duplicate_record"] = Module["asm"]["$d"]).apply(null, arguments)
+                return (_PL_duplicate_record = Module["_PL_duplicate_record"] = Module["asm"]["ae"]).apply(null, arguments)
             };
             var _PL_action = Module["_PL_action"] = function() {
-                return (_PL_action = Module["_PL_action"] = Module["asm"]["ae"]).apply(null, arguments)
+                return (_PL_action = Module["_PL_action"] = Module["asm"]["be"]).apply(null, arguments)
             };
             var _PL_query = Module["_PL_query"] = function() {
-                return (_PL_query = Module["_PL_query"] = Module["asm"]["be"]).apply(null, arguments)
+                return (_PL_query = Module["_PL_query"] = Module["asm"]["ce"]).apply(null, arguments)
             };
             var __PL_streams = Module["__PL_streams"] = function() {
-                return (__PL_streams = Module["__PL_streams"] = Module["asm"]["ce"]).apply(null, arguments)
+                return (__PL_streams = Module["__PL_streams"] = Module["asm"]["de"]).apply(null, arguments)
             };
             var _PL_get_file_nameW = Module["_PL_get_file_nameW"] = function() {
-                return (_PL_get_file_nameW = Module["_PL_get_file_nameW"] = Module["asm"]["de"]).apply(null, arguments)
+                return (_PL_get_file_nameW = Module["_PL_get_file_nameW"] = Module["asm"]["ee"]).apply(null, arguments)
             };
             var _WASM_ttymode = Module["_WASM_ttymode"] = function() {
-                return (_WASM_ttymode = Module["_WASM_ttymode"] = Module["asm"]["ee"]).apply(null, arguments)
+                return (_WASM_ttymode = Module["_WASM_ttymode"] = Module["asm"]["fe"]).apply(null, arguments)
             };
             var _WASM_variable_id = Module["_WASM_variable_id"] = function() {
-                return (_WASM_variable_id = Module["_WASM_variable_id"] = Module["asm"]["fe"]).apply(null, arguments)
+                return (_WASM_variable_id = Module["_WASM_variable_id"] = Module["asm"]["ge"]).apply(null, arguments)
             };
             var _WASM_yield_request = Module["_WASM_yield_request"] = function() {
-                return (_WASM_yield_request = Module["_WASM_yield_request"] = Module["asm"]["ge"]).apply(null, arguments)
+                return (_WASM_yield_request = Module["_WASM_yield_request"] = Module["asm"]["he"]).apply(null, arguments)
             };
             var _WASM_set_yield_result = Module["_WASM_set_yield_result"] = function() {
-                return (_WASM_set_yield_result = Module["_WASM_set_yield_result"] = Module["asm"]["he"]).apply(null, arguments)
+                return (_WASM_set_yield_result = Module["_WASM_set_yield_result"] = Module["asm"]["ie"]).apply(null, arguments)
+            };
+            var _js_unify_obj = Module["_js_unify_obj"] = function() {
+                return (_js_unify_obj = Module["_js_unify_obj"] = Module["asm"]["je"]).apply(null, arguments)
+            };
+            var _js_get_obj = Module["_js_get_obj"] = function() {
+                return (_js_get_obj = Module["_js_get_obj"] = Module["asm"]["ke"]).apply(null, arguments)
             };
             var ___funcs_on_exit = Module["___funcs_on_exit"] = function() {
-                return (___funcs_on_exit = Module["___funcs_on_exit"] = Module["asm"]["ie"]).apply(null, arguments)
+                return (___funcs_on_exit = Module["___funcs_on_exit"] = Module["asm"]["le"]).apply(null, arguments)
             };
             var _fflush = Module["_fflush"] = function() {
-                return (_fflush = Module["_fflush"] = Module["asm"]["je"]).apply(null, arguments)
+                return (_fflush = Module["_fflush"] = Module["asm"]["me"]).apply(null, arguments)
             };
             var _emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = function() {
-                return (_emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = Module["asm"]["ke"]).apply(null, arguments)
+                return (_emscripten_builtin_memalign = Module["_emscripten_builtin_memalign"] = Module["asm"]["ne"]).apply(null, arguments)
             };
             var _setThrew = Module["_setThrew"] = function() {
-                return (_setThrew = Module["_setThrew"] = Module["asm"]["le"]).apply(null, arguments)
+                return (_setThrew = Module["_setThrew"] = Module["asm"]["oe"]).apply(null, arguments)
             };
             var stackSave = Module["stackSave"] = function() {
-                return (stackSave = Module["stackSave"] = Module["asm"]["me"]).apply(null, arguments)
+                return (stackSave = Module["stackSave"] = Module["asm"]["pe"]).apply(null, arguments)
             };
             var stackRestore = Module["stackRestore"] = function() {
-                return (stackRestore = Module["stackRestore"] = Module["asm"]["ne"]).apply(null, arguments)
+                return (stackRestore = Module["stackRestore"] = Module["asm"]["qe"]).apply(null, arguments)
             };
             var stackAlloc = Module["stackAlloc"] = function() {
-                return (stackAlloc = Module["stackAlloc"] = Module["asm"]["oe"]).apply(null, arguments)
+                return (stackAlloc = Module["stackAlloc"] = Module["asm"]["re"]).apply(null, arguments)
             };
             var dynCall_iiji = Module["dynCall_iiji"] = function() {
-                return (dynCall_iiji = Module["dynCall_iiji"] = Module["asm"]["pe"]).apply(null, arguments)
+                return (dynCall_iiji = Module["dynCall_iiji"] = Module["asm"]["se"]).apply(null, arguments)
             };
             var dynCall_iij = Module["dynCall_iij"] = function() {
-                return (dynCall_iij = Module["dynCall_iij"] = Module["asm"]["qe"]).apply(null, arguments)
+                return (dynCall_iij = Module["dynCall_iij"] = Module["asm"]["te"]).apply(null, arguments)
             };
             var dynCall_ij = Module["dynCall_ij"] = function() {
-                return (dynCall_ij = Module["dynCall_ij"] = Module["asm"]["re"]).apply(null, arguments)
+                return (dynCall_ij = Module["dynCall_ij"] = Module["asm"]["ue"]).apply(null, arguments)
             };
 
             function invoke_iii(index, a1, a2) {
@@ -6071,6 +6104,8 @@ var SWIPL = (() => {
                 this.args = args;
                 this.bindings = {};
                 this._bind();
+                this.objects = {};
+                this.next_object_id = 0;
                 this._initialise();
                 this.PL_VARIABLE = 1;
                 this.PL_ATOM = 2;
@@ -6193,20 +6228,25 @@ var SWIPL = (() => {
                 this.bindings.PL_cons_list = this.module.cwrap("PL_cons_list", "number", ["number", "number", "number"]);
                 this.bindings.PL_put_dict = this.module.cwrap("PL_put_dict", "number", ["number", "number", "number", "number", "number"]);
                 this.bindings.PL_put_term_from_chars = this.module.cwrap("PL_put_term_from_chars", "number", ["number", "number", "number", "string"]);
+                this.bindings.PL_put_term = this.module.cwrap("PL_put_term", "number", ["number", "number"]);
                 this.bindings.PL_write_term = this.module.cwrap("PL_write_term", "number", ["number", "number", "number", "number"]);
                 this.bindings.PL_call = this.module.cwrap("PL_call", "number", ["number", "number"]);
                 this.bindings.PL_unify_arg = this.module.cwrap("PL_unify_arg", "number", ["number", "number", "number"]);
                 this.bindings.PL_open_foreign_frame = this.module.cwrap("PL_open_foreign_frame", "number", []);
                 this.bindings.PL_close_foreign_frame = this.module.cwrap("PL_close_foreign_frame", "number", ["number"]);
+                this.bindings.PL_discard_foreign_frame = this.module.cwrap("PL_close_foreign_frame", "number", ["number"]);
                 this.bindings.PL_predicate = this.module.cwrap("PL_predicate", "number", ["number", "number", "number"]);
                 this.bindings.PL_open_query = this.module.cwrap("PL_open_query", "number", ["number", "number", "number", "number"]);
                 this.bindings.PL_next_solution = this.module.cwrap("PL_next_solution", "number", ["number"]);
                 this.bindings.PL_close_query = this.module.cwrap("PL_close_query", "number", ["number"]);
                 this.bindings.PL_cut_query = this.module.cwrap("PL_cut_query", "number", ["number"]);
+                this.bindings.PL_exception = this.module.cwrap("PL_exception", "number", ["number"]);
                 this.bindings.WASM_ttymode = this.module.cwrap("WASM_ttymode", "number", []);
                 this.bindings.WASM_yield_request = this.module.cwrap("WASM_yield_request", "number", []);
                 this.bindings.WASM_set_yield_result = this.module.cwrap("WASM_set_yield_result", "number", ["number"]);
-                this.bindings.WASM_variable_id = this.module.cwrap("WASM_variable_id", "number", ["number"])
+                this.bindings.WASM_variable_id = this.module.cwrap("WASM_variable_id", "number", ["number"]);
+                this.bindings.js_unify_obj = this.module.cwrap("js_unify_obj", "number", ["number", "number"]);
+                this.bindings.js_get_obj = this.module.cwrap("js_get_obj", "number", ["number"])
             };
             Prolog.prototype._initialise = function() {
                 this.functor_arg_names_ = {};
@@ -6239,11 +6279,12 @@ var SWIPL = (() => {
                     })
                 }
             };
-            Prolog.prototype.with_frame = function(f) {
+            Prolog.prototype.with_frame = function(f, persist) {
                 const fid = this.bindings.PL_open_foreign_frame();
                 if (fid) {
                     const rc = f.call(this);
-                    this.bindings.PL_close_foreign_frame(fid);
+                    if (persist === false) this.bindings.PL_discard_foreign_frame(fid);
+                    else this.bindings.PL_close_foreign_frame(fid);
                     return rc
                 }
                 return false
@@ -6300,11 +6341,27 @@ var SWIPL = (() => {
                 if (args.length == 1) return consult_one(args[0]);
                 else return Promise.all(args.map(url => consult_one(url)))
             };
+            Prolog.prototype.message_to_string = function(term) {
+                return this.with_frame(() => {
+                    const av = this.new_term_ref(2);
+                    this.bindings.PL_put_term(av + 0, term);
+                    const flags = this.PL_Q_NORMAL;
+                    const pred = this.predicate("message_to_string/2");
+                    const qid = this.bindings.PL_open_query(0, flags, pred, av);
+                    let msg;
+                    if (this.bindings.PL_next_solution(qid)) msg = this.get_chars(av + 1);
+                    else msg = "Unknown Prolog exception";
+                    this.bindings.PL_close_query(qid);
+                    return msg
+                }, false)
+            };
             class Query {
                 constructor(prolog, module, flags, pred, argv, map) {
                     module = module ? prolog.new_module(module) : 0;
                     if (typeof pred === "string") pred = prolog.predicate(pred);
                     flags |= prolog.PL_Q_EXT_STATUS;
+                    if (!(flags & (prolog.PL_Q_CATCH_EXCEPTION | prolog.PL_Q_PASS_EXCEPTION | prolog.PL_Q_NORMAL))) flags |= prolog.PL_Q_CATCH_EXCEPTION;
+                    this.flags = flags;
                     this.prolog = prolog;
                     this.map = map;
                     this.qid = prolog.bindings.PL_open_query(module, flags, pred, argv);
@@ -6320,11 +6377,24 @@ var SWIPL = (() => {
                     const prolog = this.prolog;
                     const argv = this.argv;
                     switch (prolog.bindings.PL_next_solution(this.qid)) {
-                        case prolog.PL_S_EXCEPTION:
-                            this.close();
-                            return {
-                                done: true, error: true
-                            };
+                        case prolog.PL_S_EXCEPTION: {
+                            if (this.flags & prolog.PL_Q_NORMAL) {
+                                this.close();
+                                return {
+                                    done: true,
+                                    error: true
+                                }
+                            } else {
+                                const msg = prolog.message_to_string(prolog.bindings.PL_exception(this.qid));
+                                console.log(msg);
+                                this.close();
+                                return {
+                                    done: true,
+                                    error: true,
+                                    message: msg
+                                }
+                            }
+                        }
                         case prolog.PL_S_FALSE:
                             this.close();
                             return {
@@ -6359,6 +6429,7 @@ var SWIPL = (() => {
                 close() {
                     if (this.open) {
                         this.prolog.bindings.PL_cut_query(this.qid);
+                        if (this.frame) this.prolog.bindings.PL_discard_foreign_frame(this.frame);
                         this.open = false
                     }
                 }
@@ -6368,8 +6439,10 @@ var SWIPL = (() => {
                     return new Query(this, module, flags, pred, argv, map)
                 } else if (typeof module === "string" && pred === undefined) {
                     const goal = module;
+                    const fid = this.bindings.PL_open_foreign_frame();
                     const av = this.new_term_ref(3);
                     const input = flags || {};
+                    this.frame = fid;
                     this.put_chars(av + 0, goal);
                     this.toProlog(input, av + 1);
                     return new Query(this, 0, this.PL_Q_NORMAL, "wasm_call_string/3", av, a => this.toJSON(a + 2))
@@ -6479,7 +6552,7 @@ var SWIPL = (() => {
             let lastyieldat = 0;
             Prolog.prototype.call_yieldable = function(term, module) {
                 var pred_call1;
-                const flags = this.PL_Q_NORMAL | this.PL_Q_ALLOW_YIELD | this.PL_Q_EXT_STATUS;
+                const flags = this.PL_Q_NORMAL | this.PL_Q_ALLOW_YIELD;
                 if (!pred_call1) pred_call1 = this.predicate("call", 1, "system");
                 const q = this.query(module, flags, pred_call1, term);
 
@@ -6538,24 +6611,28 @@ var SWIPL = (() => {
                 if (this.functor_arg_names_[name]) return this.functor_arg_names_[name][arity]
             };
 
-            function toJSON(prolog, term) {
+            function toJSON(prolog, term, options) {
                 switch (prolog.bindings.PL_term_type(term)) {
                     case prolog.PL_VARIABLE:
                         return {
                             $v: "v", v: prolog.bindings.WASM_variable_id(term)
                         };
+                    case prolog.PL_STRING:
+                        if (options.string !== "string") return {
+                            $t: "s",
+                            v: prolog.get_chars(term)
+                        };
                     case prolog.PL_ATOM:
                         return prolog.get_chars(term);
-                    case prolog.PL_STRING:
-                        return {
-                            $t: "s", v: prolog.get_chars(term)
-                        };
                     case prolog.PL_NIL:
                         return [];
-                    case prolog.PL_BLOB:
+                    case prolog.PL_BLOB: {
+                        const id = prolog.bindings.js_get_obj(term);
+                        if (id != -1) return prolog.objects[id];
                         return {
                             "$t": "b"
-                        };
+                        }
+                    }
                     case prolog.PL_INTEGER:
                         return prolog.get_integer(term);
                     case prolog.PL_RATIONAL: {
@@ -6584,7 +6661,7 @@ var SWIPL = (() => {
                             };
                             for (var i = 0; i < arity; i++) {
                                 prolog.get_arg(i + 1, term, a);
-                                result[map[i]] = toJSON(prolog, a)
+                                result[map[i]] = toJSON(prolog, a, options)
                             }
                             return result
                         } else {
@@ -6594,7 +6671,7 @@ var SWIPL = (() => {
                             };
                             for (var i = 1; i <= arity; i++) {
                                 prolog.get_arg(i, term, a);
-                                args.push(toJSON(prolog, a))
+                                args.push(toJSON(prolog, a, options))
                             }
                             result[name] = args;
                             return result
@@ -6605,25 +6682,25 @@ var SWIPL = (() => {
                         const h = prolog.bindings.PL_new_term_ref();
                         const t = prolog.bindings.PL_copy_term_ref(term);
                         while (prolog.bindings.PL_get_list(t, h, t)) {
-                            result.push(toJSON(prolog, h))
+                            result.push(toJSON(prolog, h, options))
                         }
                         if (prolog.bindings.PL_get_nil(t)) return result;
                         return {
                             "$t": "partial",
                             v: result,
-                            t: toJSON(prolog, t)
+                            t: toJSON(prolog, t, options)
                         }
                     }
                     case prolog.PL_DICT: {
                         let result = {};
                         let a = prolog.new_term_ref();
                         prolog.get_arg(1, term, a);
-                        if (!prolog.is_variable(a)) result["$tag"] = toJSON(prolog, a);
+                        if (!prolog.is_variable(a)) result["$tag"] = toJSON(prolog, a, options);
                         for (var i = 2;; i += 2) {
                             if (prolog.get_arg(i + 1, term, a)) {
-                                let key = toJSON(prolog, a);
+                                let key = toJSON(prolog, a, options);
                                 prolog.get_arg(i, term, a);
-                                result[key] = toJSON(prolog, a)
+                                result[key] = toJSON(prolog, a, options)
                             } else break
                         }
                         return result
@@ -6632,8 +6709,9 @@ var SWIPL = (() => {
                         return undefined
                 }
             }
-            Prolog.prototype.toJSON = function(term) {
-                return toJSON(this, term)
+            Prolog.prototype.toJSON = function(term, options) {
+                options = options || {};
+                return toJSON(this, term, options)
             };
 
             function toProlog(prolog, data, term, ctx) {
@@ -6650,11 +6728,12 @@ var SWIPL = (() => {
                     case "boolean":
                         rc = prolog.put_chars(term, data ? "true" : "false", prolog.PL_ATOM);
                         break;
+                    case "undefined":
+                        rc = prolog.put_chars(term, "undefined", prolog.PL_ATOM);
+                        break;
                     case "object":
                         if (data === null) {
                             rc = prolog.put_chars(term, "null", prolog.PL_ATOM)
-                        } else if (data === undefined) {
-                            rc = prolog.put_chars(term, "undefined", prolog.PL_ATOM)
                         } else if (Array.isArray(data)) {
                             let h = prolog.new_term_ref();
                             prolog.bindings.PL_put_nil(term);
@@ -6699,6 +6778,19 @@ var SWIPL = (() => {
                                     }
                                     break
                                 }
+                            }
+                        } else if (data.nodeType !== undefined) {
+                            let id = data.prologId;
+                            if (id === undefined) {
+                                id = prolog.next_object_id + 1;
+                                rc = prolog.bindings.js_unify_obj(term, id);
+                                if (rc) {
+                                    data.prologId = id;
+                                    prolog.objects[id] = data;
+                                    prolog.next_object_id = id
+                                }
+                            } else {
+                                rc = prolog.bindings.js_unify_obj(term, id)
                             }
                         } else {
                             const keys = Object.keys(data);
@@ -6766,6 +6858,95 @@ var SWIPL = (() => {
             };
             Module.onRuntimeInitialized = function() {
                 Module.prolog = new Prolog(Module, Module.arguments)
+            };
+
+            function prolog_js_call(request, result) {
+                const prolog = Module.prolog;
+
+                function eval_chain(ar, obj) {
+                    obj = obj || window;
+
+                    function eval_one(obj, fname, args) {
+                        if (args.length == 1) {
+                            switch (fname) {
+                                case "-":
+                                    return -args[0];
+                                case "!":
+                                    return !args[0]
+                            }
+                        } else if (args.length == 2) {
+                            switch (fname) {
+                                case "+":
+                                    return args[0] + args[1];
+                                case "-":
+                                    return args[0] - args[1];
+                                case "*":
+                                    return args[0] * args[1];
+                                case "/":
+                                    return args[0] / args[1];
+                                case "&":
+                                    return args[0] & args[1];
+                                case "|":
+                                    return args[0] | args[1]
+                            }
+                        }
+                        const func = obj[fname];
+                        if (func) return func.apply(obj, args);
+                        else console.log("ERROR: Function", fname, "is not defined on", obj)
+                    }
+                    for (let i = 0; i < ar.length; i++) {
+                        const next = ar[i];
+                        if (typeof next === "string") {
+                            obj = obj[next]
+                        } else if (next.v !== undefined) {
+                            obj = next.v
+                        } else {
+                            const args = next.args.map(v => eval_chain(v));
+                            obj = eval_one(obj, next.f, args)
+                        }
+                    }
+                    return obj
+                }
+                return prolog.with_frame(() => {
+                    const ar = prolog.toJSON(request, {
+                        string: "string"
+                    });
+                    let obj;
+                    if (ar.setter) {
+                        const target = eval_chain(ar.target);
+                        const value = eval_chain(ar.value);
+                        target[ar.setter] = value;
+                        obj = true
+                    } else {
+                        obj = eval_chain(ar)
+                    }
+                    return prolog.bindings.PL_unify(result, prolog.toProlog(obj))
+                }, false)
+            }
+
+            function release_registered_object(id) {
+                const prolog = Module.prolog;
+                const obj = prolog.object[id];
+                delete obj.prologId;
+                delete prolog.object[id]
+            }
+            window.js_add_script = function(text, opts) {
+                opts = opts || {};
+                let node;
+                if (opts.id) {
+                    if (node = document.getElementById(opts.id)) {
+                        node.textContent = text
+                    } else {
+                        node = document.createElement("script");
+                        node.id = opts.id;
+                        node.textContent = text;
+                        document.body.appendChild(node)
+                    }
+                } else {
+                    node = document.createElement("script");
+                    node.textContent = text;
+                    document.body.appendChild(node)
+                }
             };
 
 
