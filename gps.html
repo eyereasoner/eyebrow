@@ -64,7 +64,7 @@ body {
         <div class="console">
             <div id="output"></div>
             <form class="input" id="input">
-        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/gps', '.', 'http://josd.github.io/eye/reasoning/gps/gps-example1.n3', 'http://josd.github.io/eye/reasoning/gps/gps-plugin.n3', '--query', 'http://josd.github.io/eye/reasoning/gps/gps-query1.n3']).">
+        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://eyereasoner.github.io/eye/reasoning/gps', '.', 'http://eyereasoner.github.io/eye/reasoning/gps/gps-example1.n3', 'http://eyereasoner.github.io/eye/reasoning/gps/gps-plugin.n3', '--query', 'http://eyereasoner.github.io/eye/reasoning/gps/gps-query1.n3']).">
             </form>
         </div>
     </div>
@@ -203,10 +203,10 @@ async function fetchWrite(link, file) {
 }
 
 SWIPL(Module).then(async (module) => {
-    await fetchWrite('https://josd.github.io/eye/eye.pl', 'eye.pl');
-    await fetchWrite('https://josd.github.io/eye/reasoning/gps/gps-example1.n3', 'gps-example1.n3');
-    await fetchWrite('https://josd.github.io/eye/reasoning/gps/gps-plugin.n3', 'gps-plugin.n3');
-    await fetchWrite('https://josd.github.io/eye/reasoning/gps/gps-query1.n3', 'gps-query1.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/eye.pl', 'eye.pl');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/gps/gps-example1.n3', 'gps-example1.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/gps/gps-plugin.n3', 'gps-plugin.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/gps/gps-query1.n3', 'gps-query1.n3');
 
     pl("set_prolog_flag(tty_control, true)");
     pl("set_prolog_flag(debug_on_error, false)");

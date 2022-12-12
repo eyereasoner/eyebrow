@@ -64,7 +64,7 @@ body {
         <div class="console">
             <div id="output"></div>
             <form class="input" id="input">
-        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/blogic', '.', '--nope', '--blogic', 'http://josd.github.io/eye/reasoning/blogic/slide33.n3']).">
+        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://eyereasoner.github.io/eye/reasoning/blogic', '.', '--nope', '--blogic', 'http://eyereasoner.github.io/eye/reasoning/blogic/slide33.n3']).">
             </form>
         </div>
     </div>
@@ -203,8 +203,8 @@ async function fetchWrite(link, file) {
 }
 
 SWIPL(Module).then(async (module) => {
-    await fetchWrite('https://josd.github.io/eye/eye.pl', 'eye.pl');
-    await fetchWrite('https://josd.github.io/eye/reasoning/blogic/slide33.n3', 'slide33.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/eye.pl', 'eye.pl');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/blogic/slide33.n3', 'slide33.n3');
 
     pl("set_prolog_flag(tty_control, true)");
     pl("set_prolog_flag(debug_on_error, false)");
