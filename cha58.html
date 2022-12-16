@@ -64,7 +64,7 @@ body {
         <div class="console">
             <div id="output"></div>
             <form class="input" id="input">
-        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://josd.github.io/eye/reasoning/cha58', '.', '--nope', '--blogic', 'http://josd.github.io/eye/reasoning/cha58/cha58-data.n3', 'http://josd.github.io/eye/reasoning/cha58/cha58-blogic.n3']).">
+        <span class="prompt">?- </span><input type="text" name="query" id="query" value="main(['--wcache', 'http://eyereasoner.github.io/eye/reasoning/cha58', '.', '--nope', '--blogic', 'http://eyereasoner.github.io/eye/reasoning/cha58/cha58-data.n3', 'http://eyereasoner.github.io/eye/reasoning/cha58/cha58-blogic.n3']).">
             </form>
         </div>
     </div>
@@ -203,9 +203,9 @@ async function fetchWrite(link, file) {
 }
 
 SWIPL(Module).then(async (module) => {
-    await fetchWrite('https://josd.github.io/eye/eye.pl', 'eye.pl');
-    await fetchWrite('https://josd.github.io/eye/reasoning/cha58/cha58-data.n3', 'cha58-data.n3');
-    await fetchWrite('https://josd.github.io/eye/reasoning/cha58/cha58-blogic.n3', 'cha58-blogic.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/eye.pl', 'eye.pl');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/cha58/cha58-data.n3', 'cha58-data.n3');
+    await fetchWrite('https://eyereasoner.github.io/eye/reasoning/cha58/cha58-blogic.n3', 'cha58-blogic.n3');
 
     pl("set_prolog_flag(tty_control, true)");
     pl("set_prolog_flag(debug_on_error, false)");
